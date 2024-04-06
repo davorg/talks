@@ -60,6 +60,13 @@ __PACKAGE__->table("event");
   is_foreign_key: 1
   is_nullable: 0
 
+=head2 year_id
+
+  data_type: 'integer'
+  default_value: 2000
+  is_foreign_key: 1
+  is_nullable: 0
+
 =cut
 
 __PACKAGE__->add_columns(
@@ -75,6 +82,13 @@ __PACKAGE__->add_columns(
   { data_type => "integer", is_foreign_key => 1, is_nullable => 0 },
   "event_series_id",
   { data_type => "integer", is_foreign_key => 1, is_nullable => 0 },
+  "year_id",
+  {
+    data_type      => "integer",
+    default_value  => 2000,
+    is_foreign_key => 1,
+    is_nullable    => 0,
+  },
 );
 
 =head1 PRIMARY KEY
@@ -136,9 +150,24 @@ __PACKAGE__->belongs_to(
   { is_deferrable => 0, on_delete => "NO ACTION", on_update => "NO ACTION" },
 );
 
+=head2 year
 
-# Created by DBIx::Class::Schema::Loader v0.07051 @ 2024-01-25 20:33:55
-# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:DLR0U9YoymwUU8kc4oo6GA
+Type: belongs_to
+
+Related object: L<Talks::Schema::Result::Year>
+
+=cut
+
+__PACKAGE__->belongs_to(
+  "year",
+  "Talks::Schema::Result::Year",
+  { id => "year_id" },
+  { is_deferrable => 0, on_delete => "NO ACTION", on_update => "NO ACTION" },
+);
+
+
+# Created by DBIx::Class::Schema::Loader v0.07051 @ 2024-04-06 14:12:35
+# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:4C0oUJ5c8epLKXxU72LNKg
 
 
 # You can replace this text with custom code or comments, and it will be preserved on regeneration

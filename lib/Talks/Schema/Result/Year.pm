@@ -1,12 +1,12 @@
 use utf8;
-package Talks::Schema::Result::TalkType;
+package Talks::Schema::Result::Year;
 
 # Created by DBIx::Class::Schema::Loader
 # DO NOT MODIFY THE FIRST PART OF THIS FILE
 
 =head1 NAME
 
-Talks::Schema::Result::TalkType
+Talks::Schema::Result::Year
 
 =cut
 
@@ -18,11 +18,11 @@ use MooseX::NonMoose;
 use MooseX::MarkAsMethods autoclean => 1;
 extends 'DBIx::Class::Core';
 
-=head1 TABLE: C<talk_type>
+=head1 TABLE: C<year>
 
 =cut
 
-__PACKAGE__->table("talk_type");
+__PACKAGE__->table("year");
 
 =head1 ACCESSORS
 
@@ -32,19 +32,18 @@ __PACKAGE__->table("talk_type");
   is_auto_increment: 1
   is_nullable: 0
 
-=head2 type
+=head2 year
 
-  data_type: 'char'
+  data_type: 'integer'
   is_nullable: 0
-  size: 15
 
 =cut
 
 __PACKAGE__->add_columns(
   "id",
   { data_type => "integer", is_auto_increment => 1, is_nullable => 0 },
-  "type",
-  { data_type => "char", is_nullable => 0, size => 15 },
+  "year",
+  { data_type => "integer", is_nullable => 0 },
 );
 
 =head1 PRIMARY KEY
@@ -61,38 +60,38 @@ __PACKAGE__->set_primary_key("id");
 
 =head1 UNIQUE CONSTRAINTS
 
-=head2 C<type_unique>
+=head2 C<year_unique>
 
 =over 4
 
-=item * L</type>
+=item * L</year>
 
 =back
 
 =cut
 
-__PACKAGE__->add_unique_constraint("type_unique", ["type"]);
+__PACKAGE__->add_unique_constraint("year_unique", ["year"]);
 
 =head1 RELATIONS
 
-=head2 talks
+=head2 events
 
 Type: has_many
 
-Related object: L<Talks::Schema::Result::Talk>
+Related object: L<Talks::Schema::Result::Event>
 
 =cut
 
 __PACKAGE__->has_many(
-  "talks",
-  "Talks::Schema::Result::Talk",
-  { "foreign.talk_type_id" => "self.id" },
+  "events",
+  "Talks::Schema::Result::Event",
+  { "foreign.year_id" => "self.id" },
   { cascade_copy => 0, cascade_delete => 0 },
 );
 
 
-# Created by DBIx::Class::Schema::Loader v0.07051 @ 2024-04-04 17:38:22
-# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:gQQNgWcG1uYo8F2r8/ygAQ
+# Created by DBIx::Class::Schema::Loader v0.07051 @ 2024-04-06 14:12:35
+# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:k2nzWFwpKn3ctIt1goTxkQ
 
 
 # You can replace this text with custom code or comments, and it will be preserved on regeneration

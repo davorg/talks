@@ -47,12 +47,6 @@ __PACKAGE__->table("presentation");
   data_type: 'text'
   is_nullable: 1
 
-=head2 type_id
-
-  data_type: 'integer'
-  is_foreign_key: 1
-  is_nullable: 0
-
 =head2 talk_id
 
   data_type: 'integer'
@@ -76,8 +70,6 @@ __PACKAGE__->add_columns(
   { data_type => "text", is_nullable => 1 },
   "slide_url",
   { data_type => "text", is_nullable => 1 },
-  "type_id",
-  { data_type => "integer", is_foreign_key => 1, is_nullable => 0 },
   "talk_id",
   { data_type => "integer", is_foreign_key => 1, is_nullable => 0 },
   "event_id",
@@ -129,8 +121,8 @@ __PACKAGE__->belongs_to(
 );
 
 
-# Created by DBIx::Class::Schema::Loader v0.07051 @ 2024-01-25 20:33:55
-# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:QIam+1M46P/ECXzf5q+2Ow
+# Created by DBIx::Class::Schema::Loader v0.07051 @ 2024-04-04 17:38:22
+# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:4T245daFNx1QqN2H5S3JDA
 
 
 # You can replace this text with custom code or comments, and it will be preserved on regeneration

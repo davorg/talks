@@ -1,3 +1,8 @@
+create table year (
+  id integer not null primary key,
+  year integer unique not null
+);
+
 create table country (
   id integer not null primary key,
   name varchar(100) unique not null
@@ -26,7 +31,8 @@ create table event (
   start_date datetime not null,
   end_date datetime,
   venue_id integer not null references venue(id),
-  event_series_id integer not null references event_series(id)
+  event_series_id integer not null references event_series(id),
+  year_id integer not null references year(id)
 );
 
 create table talk_type (

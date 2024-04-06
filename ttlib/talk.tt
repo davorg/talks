@@ -1,0 +1,12 @@
+[% WRAPPER page.tt -%]
+      <h1 class="display-4 fst-italic">[% talk.title %]</h1>
+      <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
+      <p><span class="badge rounded-pill bg-primary">[% talk.talk_type.type %]</span></p>
+      <h2>Presentations</h2>
+      <ul>
+[% FOR p IN talk.presentations -%]
+        <li>[% p.event.description %] - [% p.datetime %]</li>
+[% END -%]
+      </ul>
+      <p class="lead mb-0"><a href="#" class="text-white fw-bold">Continue reading...</a></p>
+[% END -%]
