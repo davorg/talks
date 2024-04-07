@@ -1,0 +1,9 @@
+[% WRAPPER page.tt -%]
+      <h1 class="display-4 fst-italic">[% event.description %]</h1>
+      <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
+      <ul>
+[% FOR p IN event.presentations -%]
+        <li><a href="/talk/[% p.talk.slug %]">[% p.talk.title %]</a></li>
+[% END -%]
+      </ul>
+[% END -%]

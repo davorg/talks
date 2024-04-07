@@ -8,7 +8,8 @@ use base 'DBIx::Class::ResultSet';
 sub active {
   my $self = shift;
 
-  return grep { $_->events->count } $self->all;
+  return sort { $a->year <=> $b->year }
+    grep { $_->events->count } $self->all;
 }
 
 1;
