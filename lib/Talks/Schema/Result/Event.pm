@@ -172,7 +172,7 @@ __PACKAGE__->belongs_to(
 sub slug {
   my $self = shift;
   my $slug = lc $self->description;
-  $slug =~ s/\s+/-/g;
+  $slug =~ s/[-\s]+/-/g;
   $slug =~ s/[^a-z0-9-]//g;
   return $slug;
 }
