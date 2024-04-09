@@ -53,6 +53,12 @@ __PACKAGE__->table("talk");
   is_foreign_key: 1
   is_nullable: 0
 
+=head2 youtube_code
+
+  data_type: 'char'
+  is_nullable: 1
+  size: 20
+
 =cut
 
 __PACKAGE__->add_columns(
@@ -66,6 +72,8 @@ __PACKAGE__->add_columns(
   { data_type => "text", is_nullable => 1 },
   "talk_type_id",
   { data_type => "integer", is_foreign_key => 1, is_nullable => 0 },
+  "youtube_code",
+  { data_type => "char", is_nullable => 1, size => 20 },
 );
 
 =head1 PRIMARY KEY
@@ -113,8 +121,8 @@ __PACKAGE__->belongs_to(
 );
 
 
-# Created by DBIx::Class::Schema::Loader v0.07051 @ 2024-04-04 17:38:22
-# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:QhSrjeYPFsdVEtK4z1tCJw
+# Created by DBIx::Class::Schema::Loader v0.07051 @ 2024-04-09 11:45:15
+# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:leCdeJaG7jDMR8bzRn6k4w
 
 sub slug {
   my $self = shift;
@@ -122,6 +130,16 @@ sub slug {
   $slug =~ s/[-\s]+/-/g;
   $slug =~ s/[^a-z0-9-]//g;
   return $slug;
+}
+
+sub get_youtube_code {
+  my $self = shift;
+
+  for ($self->presentations) {
+    $_->youtube_code and return $_->youtube_code;
+  }
+
+  return;
 }
 
 # You can replace this text with custom code or comments, and it will be preserved on regeneration
