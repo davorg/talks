@@ -142,6 +142,20 @@ sub get_youtube_code {
   return;
 }
 
+sub get_google_docs_code {
+  my $self = shift;
+
+  for ($self->presentations) {
+    $_->google_docs_code and return $_->google_docs_code;
+  }
+}
+
+sub extras {
+  my $self = shift;
+
+  return ($self->get_youtube_code or $self->get_google_docs_code);
+}
+
 # You can replace this text with custom code or comments, and it will be preserved on regeneration
 __PACKAGE__->meta->make_immutable;
 1;

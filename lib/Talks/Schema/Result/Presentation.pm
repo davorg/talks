@@ -65,6 +65,11 @@ __PACKAGE__->table("presentation");
   is_nullable: 1
   size: 20
 
+=head2 google_docs_code
+
+  data_type: 'text'
+  is_nullable: 1
+
 =cut
 
 __PACKAGE__->add_columns(
@@ -82,6 +87,8 @@ __PACKAGE__->add_columns(
   { data_type => "integer", is_foreign_key => 1, is_nullable => 0 },
   "youtube_code",
   { data_type => "char", is_nullable => 1, size => 20 },
+  "google_docs_code",
+  { data_type => "text", is_nullable => 1 },
 );
 
 =head1 PRIMARY KEY
@@ -129,8 +136,8 @@ __PACKAGE__->belongs_to(
 );
 
 
-# Created by DBIx::Class::Schema::Loader v0.07051 @ 2024-04-09 11:45:15
-# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:+6mu5HBx5rn6tfvsivXoZg
+# Created by DBIx::Class::Schema::Loader v0.07051 @ 2024-04-09 17:29:04
+# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:p2ottPV8LyWcpDB7ezuwhQ
 
 
 # You can replace this text with custom code or comments, and it will be preserved on regeneration
