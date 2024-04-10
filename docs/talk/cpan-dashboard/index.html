@@ -103,14 +103,23 @@
       </ul>
       <nav>
         <div class="nav nav-tabs" id="nav-tab" role="tablist">
-          <button class="nav-link active" id="nav-video-tab"
+          <button class="nav-link active" id="nav-slides-tab"
+            data-bs-toggle="tab" data-bs-target="#nav-slides"
+            type="button" role="tab" aria-controls="nav-slides"
+            aria-selected="true">Slides</button>
+          <button class="nav-link" id="nav-video-tab"
             data-bs-toggle="tab" data-bs-target="#nav-video"
             type="button" role="tab" aria-controls="nav-video"
-            aria-selected="true">Video</button>
+            aria-selected="false">Video</button>
         </div>
       </nav>
       <div class="tab-content" id="nav-tabContent">
-        <div class="tab-pane fade show active" id="nav-video"
+        <div class="tab-pane fade show active" id="nav-slides"
+          role="tabpanel" aria-labelledby="nav-slides-tab">
+          <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRuKZ9_gjYvr46UVgfFuXSYlRCXPbuA7O7kWteBad4Ko8VcbJcgICzoF7d_EOOs7o98LyWrgDmtikE-/embed?start=false&loop=false&delayms=3000"
+            frameborder="0" width="100%" style="aspect-ratio: 16 / 9" allowfullscreen></iframe>
+        </div>
+        <div class="tab-pane fade" id="nav-video"
           role="tabpanel" aria-labelledby="nav-video-tab">
           <iframe width="100%" style="aspect-ratio: 16 / 9"
             src="https://www.youtube.com/embed/pIaZZqQOxC4"
