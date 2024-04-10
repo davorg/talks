@@ -111,3 +111,9 @@ iframe.extra {
   width: 100%;
   aspect-ratio: 16 / 9;
 }
+
+img.cc {
+  height:22px!important;
+  margin-left:3px;
+  vertical-align:text-bottom;
+}
