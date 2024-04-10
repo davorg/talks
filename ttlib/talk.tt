@@ -9,20 +9,20 @@
       </ul>
 [%   IF talk.extras -%]
       <nav>
-[%     IF talk.get_google_docs_code -%]
         <div class="nav nav-tabs" id="nav-tab" role="tablist">
+[%     IF talk.get_google_docs_code -%]
           <button class="nav-link active" id="nav-slides-tab"
             data-bs-toggle="tab" data-bs-target="#nav-slides"
             type="button" role="tab" aria-controls="nav-slides"
             aria-selected="true">Slides</button>
 [%     END # IF talk.get_google_docs_code -%]
 [%     IF talk.get_youtube_code -%]
-          <button class="nav-link" id="nav-video-tab"
+          <button class="nav-link[% IF ! talk.get_google_docs_code %] active[% END %]" id="nav-video-tab"
             data-bs-toggle="tab" data-bs-target="#nav-video"
             type="button" role="tab" aria-controls="nav-video"
-            aria-selected="false">Video</button>
-        </div>
+            aria-selected="[% IF talk.get_google_docs_code %]false[% ELSE %]true[% END %]">Video</button>
 [%     END # IF talk.get_youtube_code -%]
+        </div>
       </nav>
       <div class="tab-content" id="nav-tabContent">
 [%     IF talk.get_google_docs_code -%]
@@ -33,7 +33,7 @@
         </div>
 [%     END # IF talk.get_google_docs_code -%]
 [%     IF talk.get_youtube_code -%]
-        <div class="tab-pane fade" id="nav-video"
+        <div class="tab-pane fade[% IF ! talk.get_google_docs_code %] show active[% END %]" id="nav-video"
           role="tabpanel" aria-labelledby="nav-video-tab">
           <iframe width="100%" style="aspect-ratio: 16 / 9"
             src="https://www.youtube.com/embed/[% talk.get_youtube_code %]"
