@@ -28,16 +28,16 @@
 [%     IF talk.get_google_docs_code -%]
         <div class="tab-pane fade show active" id="nav-slides"
           role="tabpanel" aria-labelledby="nav-slides-tab">
-          <iframe src="https://docs.google.com/presentation/d/e/[% talk.get_google_docs_code %]/embed?start=false&loop=false&delayms=3000"
-            frameborder="0" width="100%" style="aspect-ratio: 16 / 9" allowfullscreen></iframe>
+          <iframe class="extra" src="https://docs.google.com/presentation/d/e/[% talk.get_google_docs_code %]/embed?start=false&loop=false&delayms=3000"
+            allowfullscreen></iframe>
         </div>
 [%     END # IF talk.get_google_docs_code -%]
 [%     IF talk.get_youtube_code -%]
         <div class="tab-pane fade[% IF ! talk.get_google_docs_code %] show active[% END %]" id="nav-video"
           role="tabpanel" aria-labelledby="nav-video-tab">
-          <iframe width="100%" style="aspect-ratio: 16 / 9"
+          <iframe class="extra"
             src="https://www.youtube.com/embed/[% talk.get_youtube_code %]"
-            title="[% talk.title %]" frameborder="0"
+            title="[% talk.title %]"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
 [%     END # IF talk.get_youtube_code -%]

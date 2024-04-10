@@ -1,7 +1,7 @@
 [% WRAPPER page.tt -%]
       <h1 class="display-4 fst-italic">Talk types</h1>
       <ul>
-[% FOR ty IN types.sort('title') -%]
+[% FOR ty IN types.sort('type') -%]
         <h2>[% ty.type.ucfirst %]</h2>
         <ul>
 [%   FOR t IN ty.talks -%]
