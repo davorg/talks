@@ -111,14 +111,22 @@ And what's the connection to "2001: A Space Odyssey"?</p>
       </ul>
       <nav>
         <div class="nav nav-tabs" id="nav-tab" role="tablist">
-          <button class="nav-link active" id="nav-video-tab"
+          <button class="nav-link active" id="nav-slides-tab"
+            data-bs-toggle="tab" data-bs-target="#nav-slides"
+            type="button" role="tab" aria-controls="nav-slides"
+            aria-selected="true">Slides</button>
+          <button class="nav-link" id="nav-video-tab"
             data-bs-toggle="tab" data-bs-target="#nav-video"
             type="button" role="tab" aria-controls="nav-video"
             aria-selected="true">Video</button>
         </div>
       </nav>
       <div class="tab-content" id="nav-tabContent">
-        <div class="tab-pane fade show active" id="nav-video"
+        <div class="tab-pane fade show active" id="nav-slides"
+          role="tabpanel" aria-labelledby="nav-slides-tab">
+          <iframe class="extra" src="https://cdn.davecross.co.uk/pdf/monoliths.pdf#view=fitW" allowfullscreen></iframe>
+        </div>
+        <div class="tab-pane fade" id="nav-video"
           role="tabpanel" aria-labelledby="nav-video-tab">
           <iframe class="extra"
             src="https://www.youtube.com/embed/m7cQtBzK6-4"

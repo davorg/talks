@@ -21,7 +21,7 @@
             aria-selected="true">Slides</button>
 [%     END # IF talk.get_google_docs_code -%]
 [%     IF talk.get_youtube_code -%]
-          <button class="nav-link[% IF ! talk.get_google_docs_code %] active[% END %]" id="nav-video-tab"
+          <button class="nav-link[% IF ! (talk.get_google_docs_code OR talk.get_pdf_url) %] active[% END %]" id="nav-video-tab"
             data-bs-toggle="tab" data-bs-target="#nav-video"
             type="button" role="tab" aria-controls="nav-video"
             aria-selected="[% IF talk.get_google_docs_code %]false[% ELSE %]true[% END %]">Video</button>
@@ -42,7 +42,7 @@
         </div>
 [%     END # IF talk.get_google_docs_code -%]
 [%     IF talk.get_youtube_code -%]
-        <div class="tab-pane fade[% IF ! talk.get_google_docs_code %] show active[% END %]" id="nav-video"
+        <div class="tab-pane fade[% IF ! (talk.get_google_docs_code OR talk.get_pdf_url) %] show active[% END %]" id="nav-video"
           role="tabpanel" aria-labelledby="nav-video-tab">
           <iframe class="extra"
             src="https://www.youtube.com/embed/[% talk.get_youtube_code %]"
