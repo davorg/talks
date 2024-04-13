@@ -1,6 +1,10 @@
 [% WRAPPER page.tt -%]
       <h1 class="display-4 fst-italic">[% talk.title %]</h1>
       <p><span class="badge rounded-pill bg-primary">[% talk.talk_type.type %]</span></p>
+[%   IF talk.description -%]
+      <h2>Description</h2>
+      [% talk.description | html_para %]
+[%   END -%]
       <h2>Presentations</h2>
       <ul>
 [%   FOR p IN talk.presentations -%]
@@ -10,7 +14,7 @@
 [%   IF talk.extras -%]
       <nav>
         <div class="nav nav-tabs" id="nav-tab" role="tablist">
-[%     IF talk.get_google_docs_code -%]
+[%     IF talk.get_google_docs_code OR talk.get_pdf_url -%]
           <button class="nav-link active" id="nav-slides-tab"
             data-bs-toggle="tab" data-bs-target="#nav-slides"
             type="button" role="tab" aria-controls="nav-slides"
@@ -30,6 +34,11 @@
           role="tabpanel" aria-labelledby="nav-slides-tab">
           <iframe class="extra" src="https://docs.google.com/presentation/d/e/[% talk.get_google_docs_code %]/embed?start=false&loop=false&delayms=3000"
             allowfullscreen></iframe>
+        </div>
+[%     ELSIF talk.get_pdf_url -%]
+        <div class="tab-pane fade show active" id="nav-slides"
+          role="tabpanel" aria-labelledby="nav-slides-tab">
+          <iframe class="extra" src="[% talk.get_pdf_url %]#view=fitW" allowfullscreen></iframe>
         </div>
 [%     END # IF talk.get_google_docs_code -%]
 [%     IF talk.get_youtube_code -%]

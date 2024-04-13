@@ -70,6 +70,11 @@ __PACKAGE__->table("presentation");
   data_type: 'text'
   is_nullable: 1
 
+=head2 pdf_url
+
+  data_type: 'text'
+  is_nullable: 1
+
 =cut
 
 __PACKAGE__->add_columns(
@@ -88,6 +93,8 @@ __PACKAGE__->add_columns(
   "youtube_code",
   { data_type => "char", is_nullable => 1, size => 20 },
   "google_docs_code",
+  { data_type => "text", is_nullable => 1 },
+  "pdf_url",
   { data_type => "text", is_nullable => 1 },
 );
 
@@ -136,8 +143,8 @@ __PACKAGE__->belongs_to(
 );
 
 
-# Created by DBIx::Class::Schema::Loader v0.07051 @ 2024-04-09 17:29:04
-# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:p2ottPV8LyWcpDB7ezuwhQ
+# Created by DBIx::Class::Schema::Loader v0.07051 @ 2024-04-13 12:12:18
+# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:Fo+U3EpMAMzphalG+R+eeQ
 
 
 # You can replace this text with custom code or comments, and it will be preserved on regeneration

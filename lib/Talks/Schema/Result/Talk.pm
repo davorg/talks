@@ -59,6 +59,21 @@ __PACKAGE__->table("talk");
   is_nullable: 1
   size: 20
 
+=head2 google_docs_code
+
+  data_type: 'text'
+  is_nullable: 1
+
+=head2 description
+
+  data_type: 'text'
+  is_nullable: 1
+
+=head2 summary
+
+  data_type: 'text'
+  is_nullable: 1
+
 =cut
 
 __PACKAGE__->add_columns(
@@ -74,6 +89,12 @@ __PACKAGE__->add_columns(
   { data_type => "integer", is_foreign_key => 1, is_nullable => 0 },
   "youtube_code",
   { data_type => "char", is_nullable => 1, size => 20 },
+  "google_docs_code",
+  { data_type => "text", is_nullable => 1 },
+  "description",
+  { data_type => "text", is_nullable => 1 },
+  "summary",
+  { data_type => "text", is_nullable => 1 },
 );
 
 =head1 PRIMARY KEY
@@ -121,8 +142,8 @@ __PACKAGE__->belongs_to(
 );
 
 
-# Created by DBIx::Class::Schema::Loader v0.07051 @ 2024-04-09 11:45:15
-# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:leCdeJaG7jDMR8bzRn6k4w
+# Created by DBIx::Class::Schema::Loader v0.07051 @ 2024-04-13 11:29:44
+# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:aJQccBm3jmyraBXLGgwbmA
 
 sub slug {
   my $self = shift;
@@ -148,12 +169,26 @@ sub get_google_docs_code {
   for ($self->presentations) {
     $_->google_docs_code and return $_->google_docs_code;
   }
+
+  return;
+}
+
+sub get_pdf_url {
+  my $self = shift;
+
+  for ($self->presentations) {
+    $_->pdf_url and return $_->pdf_url;
+  }
+
+  return;
 }
 
 sub extras {
   my $self = shift;
 
-  return ($self->get_youtube_code or $self->get_google_docs_code);
+  return ($self->get_youtube_code
+       or $self->get_google_docs_code
+       or $self->get_pdf_url);
 }
 
 # You can replace this text with custom code or comments, and it will be preserved on regeneration
