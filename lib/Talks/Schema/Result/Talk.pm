@@ -145,6 +145,8 @@ __PACKAGE__->belongs_to(
 # Created by DBIx::Class::Schema::Loader v0.07051 @ 2024-04-13 11:29:44
 # DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:aJQccBm3jmyraBXLGgwbmA
 
+use Pandoc;
+
 sub slug {
   my $self = shift;
   my $slug = lc $self->title;
@@ -189,6 +191,12 @@ sub extras {
   return ($self->get_youtube_code
        or $self->get_google_docs_code
        or $self->get_pdf_url);
+}
+
+sub summary_html {
+  my $self = shift;
+
+  return pandoc->convert(markdown => 'html', $self->summary);
 }
 
 # You can replace this text with custom code or comments, and it will be preserved on regeneration
