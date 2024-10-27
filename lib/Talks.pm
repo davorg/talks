@@ -82,6 +82,11 @@ class Talks {
     my $types = $schema->resultset('TalkType');
     $tt->process('types.tt', { types => [ $types->all ] }, 'type/index.html')
       or die $tt->error;
+    for my $type ($types->all) {
+      my $file = 'type/' . $type->slug . '/index.html';
+      $tt->process('type.tt', { type => $type }, $file)
+        or die $tt->error;
+    }
   }
 
   method build_talks() {

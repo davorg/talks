@@ -117,3 +117,12 @@ img.cc {
   margin-left:3px;
   vertical-align:text-bottom;
 }
+
+span.badge a {
+  color: white;
+  text-decoration: none;
+}
+
+span.badge a:hover {
+  text-decoration: underline;
+}

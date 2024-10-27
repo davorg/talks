@@ -2,12 +2,7 @@
       <h1 class="display-4 fst-italic">Talk types</h1>
       <ul>
 [% FOR ty IN types.sort('type') -%]
-        <h2>[% ty.type.ucfirst %]</h2>
-        <ul>
-[%   FOR t IN ty.talks -%]
-          <li><a href="/talk/[% t.slug %]">[% t.title %]</a></li>
-[%   END -%]
-        </ul>
+        <li><a href="/type/[% ty.slug %]">[% ty.type.ucfirst %]</a></li>
 [% END -%]
       </ul>
 [% END -%]
