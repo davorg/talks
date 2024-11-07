@@ -162,6 +162,8 @@ sub get_youtube_code {
     $_->youtube_code and return $_->youtube_code;
   }
 
+  return $self->youtube_code;
+
   return;
 }
 

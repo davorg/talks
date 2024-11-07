@@ -113,6 +113,14 @@ Five years ago, I was talking about proxy measures for code quality. Perl Diver 
             data-bs-toggle="tab" data-bs-target="#nav-slides"
             type="button" role="tab" aria-controls="nav-slides"
             aria-selected="true">Slides</button>
+          <button class="nav-link" id="nav-video-tab"
+            data-bs-toggle="tab" data-bs-target="#nav-video"
+            type="button" role="tab" aria-controls="nav-video"
+            aria-selected="false">Video</button>
+          <button class="nav-link" id="nav-summary-tab"
+            data-bs-toggle="tab" data-bs-target="#nav-summary"
+            type="button" role="tab" aria-controls="nav-summary"
+            aria-selected="false">Summary</button>
         </div>
       </nav>
       <div class="tab-content" id="nav-tabContent">
@@ -120,6 +128,107 @@ Five years ago, I was talking about proxy measures for code quality. Perl Diver 
           role="tabpanel" aria-labelledby="nav-slides-tab">
           <iframe class="extra" src="https://docs.google.com/presentation/d/e/2PACX-1vShkt1sZyGCqxeFBUb-18N3lemus0fAwtzuaywarvrKNiMaOOC9CHGwmrEzNw2aOvrga_ZtWpOj_dLB/embed?start=false&loop=false&delayms=3000"
             allowfullscreen></iframe>
+        </div>
+        <div class="tab-pane fade" id="nav-video"
+          role="tabpanel" aria-labelledby="nav-video-tab">
+          <iframe class="extra"
+            src="https://www.youtube.com/embed/mStgvceTQcg?si=Df4G9sVlNJRx7N9k"
+            title="Perl Diver"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="tab-pane fade" id="nav-summary" role="tabpanel" aria-labelledby="nav-summary-tab">
+        <h1 id="summary-of-perl-diver-talk-by-dave-cross">Summary of ‘Perl
+Diver’ Talk by Dave Cross</h1>
+<h2 id="overview">Overview</h2>
+<p>Dave Cross’s presentation at the London Perl Workshop introduces
+<strong>Perl Diver</strong>, a project designed to help developers
+measure and track the quality of their Perl code using modern tools. The
+talk explores the shift from older CI systems to using GitHub Actions
+and GitHub Pages to create automated and visual quality reporting
+systems.</p>
+<h2 id="background-and-context">Background and Context</h2>
+<ul>
+<li>The project stemmed from Cross’s earlier talks in 2019 on measuring
+code quality through proxies like cyclomatic complexity and code
+coverage.</li>
+<li>Cross emphasized that while code quality cannot be measured
+directly, these proxies can reflect improvements over time.</li>
+</ul>
+<h2 id="challenges-and-solutions">Challenges and Solutions</h2>
+<ul>
+<li>Legacy tools such as <em>Travis CI</em> (no longer free) and
+<em>Criticize</em> (shut down) posed challenges.</li>
+<li>Cross’s approach now uses <strong>GitHub Actions</strong> to
+automate testing and build reports that are deployed to <strong>GitHub
+Pages</strong> for easy viewing.</li>
+</ul>
+<h2 id="technical-walkthrough">Technical Walkthrough</h2>
+<h3 id="continuous-integration-ci-and-github-actions">Continuous
+Integration (CI) and GitHub Actions</h3>
+<ul>
+<li><strong>GitHub Actions</strong> is an embedded CI tool in GitHub,
+triggered by commits, pull requests, or schedules.</li>
+<li>It can execute various analyses and build processes using standard
+VMs or Docker containers.</li>
+</ul>
+<h3 id="perl-diver-architecture">Perl Diver Architecture</h3>
+<ul>
+<li>The project relies on a Docker container to execute test suites,
+<em>Perl Critic</em> for linting, and <em>Devel::Cover</em> for
+coverage.</li>
+<li>Results are stored in an SQLite database within the repository,
+enabling historical data tracking.</li>
+</ul>
+<h3 id="build-radiator-concept">Build Radiator Concept</h3>
+<ul>
+<li>Cross describes a “build radiator” as a display showing project
+health metrics that teams can monitor.</li>
+<li><strong>Perl Diver</strong> updates these metrics and deploys a
+static site that displays changes over time, aiding teams and managers
+in oversight.</li>
+</ul>
+<h3 id="output-and-plugins">Output and Plugins</h3>
+<ul>
+<li>Reports are published as static pages on <strong>GitHub
+Pages</strong>, making them easily accessible.</li>
+<li><strong>Perl Diver</strong> uses a plugin-based system for
+customisation, allowing developers to implement various quality
+checks.</li>
+</ul>
+<h2 id="implementation-details">Implementation Details</h2>
+<ul>
+<li>Developers must add a GitHub Actions workflow (YAML file) to their
+repo to use Perl Diver.</li>
+<li>The process involves running tests, updating the SQLite database,
+and deploying a report.</li>
+<li>The SQLite database is simple, ensuring ease of use without complex
+access requirements.</li>
+</ul>
+<h2 id="future-directions-and-considerations">Future Directions and
+Considerations</h2>
+<ul>
+<li>Cross plans for more customisation options and access controls for
+private projects.</li>
+<li>A potential cost model is being considered, with free options for
+open-source projects and paid plans for larger organisations.</li>
+</ul>
+<h2 id="conclusion">Conclusion</h2>
+<p>Measuring code quality is essential, and <strong>Perl Diver</strong>
+provides a modern solution for teams to track and improve their code
+over time. Built on <strong>GitHub Actions</strong> and
+<strong>Pages</strong>, it offers automation, ease of use, and
+adaptability.</p>
+<h2 id="qa-highlights">Q&amp;A Highlights</h2>
+<ul>
+<li><strong>Documentation and Setup</strong>: Guides will be provided
+for easy integration.</li>
+<li><strong>Access Control</strong>: Broader security measures are under
+consideration.</li>
+<li><strong>Availability</strong>: The project is still in development
+but will be live soon.</li>
+</ul>
+          <hr>
+          <small class="text-muted text-center">This summary has been generated by ChatGPT</small>
         </div>
       </div>
 
