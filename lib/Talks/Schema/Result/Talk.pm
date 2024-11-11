@@ -18,6 +18,18 @@ use MooseX::NonMoose;
 use MooseX::MarkAsMethods autoclean => 1;
 extends 'DBIx::Class::Core';
 
+=head1 COMPONENTS LOADED
+
+=over 4
+
+=item * L<DBIx::Class::InflateColumn::DateTime>
+
+=back
+
+=cut
+
+__PACKAGE__->load_components("InflateColumn::DateTime");
+
 =head1 TABLE: C<talk>
 
 =cut
@@ -142,8 +154,8 @@ __PACKAGE__->belongs_to(
 );
 
 
-# Created by DBIx::Class::Schema::Loader v0.07051 @ 2024-04-13 11:29:44
-# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:aJQccBm3jmyraBXLGgwbmA
+# Created by DBIx::Class::Schema::Loader v0.07051 @ 2024-11-11 16:01:15
+# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:LhewzT1hIK8rtB1dgWOlwA
 
 use Pandoc;
 

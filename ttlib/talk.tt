@@ -10,7 +10,7 @@
       <h2>Presentations</h2>
       <ul>
 [%   FOR p IN talk.presentations -%]
-        <li>[% p.event.description %] - [% p.datetime %]</li>
+        <li><a href="/event/[% p.event.slug %]">[% p.event.description %]</a> - [% p.datetime %]</li>
 [%   END # FOR -%]
       </ul>
 [%   IF talk.extras -%]

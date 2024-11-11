@@ -1,5 +1,9 @@
 [% WRAPPER page.tt -%]
       <h1 class="display-4 fst-italic">[% event.description %]</h1>
+      <p><b>Location:</b> [% event.venue.name %],
+                          [% event.venue.city.name %],
+                          [% event.venue.city.country.name %]</p>
+      <p><b>Date(s):</b> [% event.start_date.strftime('%a, %d %b %Y'); IF event.end_date; ' - '; event.end_date.strftime('%a, %d %b %Y'); END %]</p>
       <ul>
 [% FOR p IN event.presentations -%]
         <li><a href="/talk/[% p.talk.slug %]">[% p.talk.title %]</a></li>

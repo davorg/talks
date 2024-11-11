@@ -18,6 +18,18 @@ use MooseX::NonMoose;
 use MooseX::MarkAsMethods autoclean => 1;
 extends 'DBIx::Class::Core';
 
+=head1 COMPONENTS LOADED
+
+=over 4
+
+=item * L<DBIx::Class::InflateColumn::DateTime>
+
+=back
+
+=cut
+
+__PACKAGE__->load_components("InflateColumn::DateTime");
+
 =head1 TABLE: C<event>
 
 =cut
@@ -166,8 +178,8 @@ __PACKAGE__->belongs_to(
 );
 
 
-# Created by DBIx::Class::Schema::Loader v0.07051 @ 2024-04-06 14:12:35
-# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:4C0oUJ5c8epLKXxU72LNKg
+# Created by DBIx::Class::Schema::Loader v0.07051 @ 2024-11-11 16:01:15
+# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:iN86eahvBZoVC6Bu84T8ng
 
 sub slug {
   my $self = shift;

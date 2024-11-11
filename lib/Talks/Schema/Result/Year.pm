@@ -18,6 +18,18 @@ use MooseX::NonMoose;
 use MooseX::MarkAsMethods autoclean => 1;
 extends 'DBIx::Class::Core';
 
+=head1 COMPONENTS LOADED
+
+=over 4
+
+=item * L<DBIx::Class::InflateColumn::DateTime>
+
+=back
+
+=cut
+
+__PACKAGE__->load_components("InflateColumn::DateTime");
+
 =head1 TABLE: C<year>
 
 =cut
@@ -90,8 +102,8 @@ __PACKAGE__->has_many(
 );
 
 
-# Created by DBIx::Class::Schema::Loader v0.07051 @ 2024-04-06 14:12:35
-# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:k2nzWFwpKn3ctIt1goTxkQ
+# Created by DBIx::Class::Schema::Loader v0.07051 @ 2024-11-11 16:01:15
+# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:CSyZZvqwtad49OPXzV9K5A
 
 
 # You can replace this text with custom code or comments, and it will be preserved on regeneration
