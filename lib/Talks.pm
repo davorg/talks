@@ -61,56 +61,79 @@ class Talks {
   }
 
   method build_index() {
-    $tt->process('index.tt', {}, 'index.html')
-      or die $tt->error;
     push @urls, '/';
+    $tt->process('index.tt', {
+      canonical => $urls[-1],
+    }, 'index.html')
+      or die $tt->error;
   }
 
   method build_years() {
-    my $years = $schema->resultset('Year');
-    $tt->process('year.tt', { years => [ $years->active ] }, 'year/index.html')
-      or die $tt->error;
     push @urls, '/year/';
+    my $years = $schema->resultset('Year');
+    $tt->process('year.tt', {
+      years => [ $years->active ],
+      canonical => $urls[-1],
+    }, 'year/index.html')
+      or die $tt->error;
   }
 
   method build_events {
-    my $series = $schema->resultset('EventSeries');
-    $tt->process('events.tt', { series => [ $series->all ] }, 'event/index.html')
-      or die $tt->error;
     push @urls, '/event/';
+    my $series = $schema->resultset('EventSeries');
+    $tt->process('events.tt', {
+      series => [ $series->all ],
+      canonical => $urls[-1],
+    }, 'event/index.html')
+      or die $tt->error;
 
     my $events = $schema->resultset('Event');
     for my $event ($events->all) {
-      my $file = 'event/' . $event->slug . '/index.html';
-      $tt->process('event.tt', { event => $event }, $file)
-        or die $tt->error;
       push @urls, '/event/' . $event->slug . '/';
+      my $file = 'event/' . $event->slug . '/index.html';
+      $tt->process('event.tt', {
+        event => $event,
+        canonical => $urls[-1],
+      }, $file)
+        or die $tt->error;
     }
   }
 
   method build_types() {
     my $types = $schema->resultset('TalkType');
-    $tt->process('types.tt', { types => [ $types->all ] }, 'type/index.html')
-      or die $tt->error;
     push @urls, '/type/';
+    $tt->process('types.tt', {
+      types => [ $types->all ],
+      canonical => $urls[-1],
+    }, 'type/index.html')
+      or die $tt->error;
     for my $type ($types->all) {
-      my $file = 'type/' . $type->slug . '/index.html';
-      $tt->process('type.tt', { type => $type }, $file)
-        or die $tt->error;
       push @urls, '/type/' . $type->slug . '/';
+      my $file = 'type/' . $type->slug . '/index.html';
+      $tt->process('type.tt', {
+        type => $type,
+        canonical => $urls[-1],
+      }, $file)
+        or die $tt->error;
     }
   }
 
   method build_talks() {
-    my $talks = $schema->resultset('Talk');
-    $tt->process('talks.tt', { talks => [ $talks->sorted->all ] }, 'talk/index.html')
-      or die $tt->error;
     push @urls, '/talk/';
+    my $talks = $schema->resultset('Talk');
+    $tt->process('talks.tt', {
+      talks => [ $talks->sorted->all ],
+      canonical => $urls[-1],
+    }, 'talk/index.html')
+      or die $tt->error;
     for my $talk ($talks->all) {
-      my $file = 'talk/' . $talk->slug . '/index.html';
-      $tt->process('talk.tt', { talk => $talk }, $file)
-        or die $tt->error;
       push @urls, '/talk/' . $talk->slug . '/';
+      my $file = 'talk/' . $talk->slug . '/index.html';
+      $tt->process('talk.tt', {
+        talk => $talk,
+        canonical => $urls[-1],
+      }, $file)
+        or die $tt->error;
     }
   }
 
@@ -123,3 +146,5 @@ class Talks {
     $sm_builder->finish;
   }
 }
+
+1;
