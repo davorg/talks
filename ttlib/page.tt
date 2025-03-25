@@ -12,12 +12,17 @@
     </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
+    <meta name="description" content="[% object.description %]">
     <meta name="author" content="Dave Cross">
     <meta name="generator" content="Dave's talks site generator">
-    <title>[% object ? object.title : 'Talks by Dave Cross' %]</title>
+    <title>[% object.title OR 'Talks by Dave Cross' %]</title>
 
-    <link rel="canonical" href="https://talks.davecross.co.uk[% object ? object.url_path : canonical %]">
+    <meta property="og:title" content="[% object.title OR 'Talks by Dave Cross' %]" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://talks.davecross.co.uk[% object.url_path %]" />
+    <meta property="og:description" content="[% object.description %]">
+
+    <link rel="canonical" href="https://talks.davecross.co.uk[% object.url_path %]">
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet"
