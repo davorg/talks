@@ -114,6 +114,26 @@ sub slug {
   return $slug;
 }
 
+sub title {
+  my $self = shift;
+  return $self->type;
+}
+
+sub description {
+  my $self = shift;
+  return $self->type;
+}
+
+sub url_path {
+  my $self = shift;
+  return '/type/' . $self->slug . '/';
+}
+
+sub outfile {
+  my $self = shift;
+  return $self->url_path . 'index.html' =~ s|^/||r;
+}
+
 # You can replace this text with custom code or comments, and it will be preserved on regeneration
 __PACKAGE__->meta->make_immutable;
 1;

@@ -1,4 +1,5 @@
-[% WRAPPER page.tt -%]
+[% talk = object;
+   WRAPPER page.tt -%]
       <h1 class="display-4 fst-italic">[% talk.title %]</h1>
       <p>
         <span class="badge rounded-pill bg-primary"><a href="/type/[% talk.talk_type.type %]">[% talk.talk_type.type %]</a></span>
@@ -10,7 +11,7 @@
       <h2>Presentations</h2>
       <ul>
 [%   FOR p IN talk.presentations -%]
-        <li><a href="/event/[% p.event.slug %]">[% p.event.description %]</a> - [% p.datetime %]</li>
+        <li><a href="/event/[% p.event.slug %]">[% p.event.name_year %]</a> - [% p.datetime %]</li>
 [%   END # FOR -%]
       </ul>
 [%   IF talk.extras -%]

@@ -1,5 +1,6 @@
-[% WRAPPER page.tt -%]
-      <h1 class="display-4 fst-italic">[% event.description %]</h1>
+[% event = object;
+   WRAPPER page.tt -%]
+      <h1 class="display-4 fst-italic">[% event.name_year %]</h1>
       <p><b>Location:</b> [% event.venue.name %],
                           [% event.venue.city.name %],
                           [% event.venue.city.country.name %]</p>

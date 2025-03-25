@@ -11,6 +11,7 @@ class Talks {
   use JSON;
   use Web::Sitemap;
 
+  use Talks::IndexPage;
   use Talks::Schema;
 
   field $json = JSON->new;
@@ -61,78 +62,97 @@ class Talks {
   }
 
   method build_index() {
-    push @urls, '/';
+    my $index = Talks::IndexPage->new(
+      url_path => '/',
+      title => 'Talks by Dave Cross',
+      description => 'A collection of talks by Dave Cross',
+    );
+    push @urls, $index->url_path;
     $tt->process('index.tt', {
-      canonical => $urls[-1],
-    }, 'index.html')
+      object => $index,
+    }, $index->outfile)
       or die $tt->error;
   }
 
   method build_years() {
-    push @urls, '/year/';
+    my $index = Talks::IndexPage->new(
+      url_path => '/year/',
+      title => 'Talks by Dave Cross - by year',
+      description => 'A collection of talks by Dave Cross',
+    );
+    push @urls, $index->url_path;
     my $years = $schema->resultset('Year');
     $tt->process('year.tt', {
       years => [ $years->active ],
-      canonical => $urls[-1],
-    }, 'year/index.html')
+      object => $index,
+    }, $index->outfile)
       or die $tt->error;
   }
 
   method build_events {
-    push @urls, '/event/';
+    my $index = Talks::IndexPage->new(
+      url_path => '/event/',
+      title => 'Talks by Dave Cross - by event',
+      description => 'A collection of talks by Dave Cross',
+    );
+    push @urls, $index->url_path;
     my $series = $schema->resultset('EventSeries');
     $tt->process('events.tt', {
       series => [ $series->all ],
-      canonical => $urls[-1],
-    }, 'event/index.html')
+      object => $index,
+    }, $index->outfile)
       or die $tt->error;
 
     my $events = $schema->resultset('Event');
     for my $event ($events->all) {
-      push @urls, '/event/' . $event->slug . '/';
-      my $file = 'event/' . $event->slug . '/index.html';
+      push @urls, $event->url_path;
       $tt->process('event.tt', {
-        event => $event,
-        canonical => $urls[-1],
-      }, $file)
+        object => $event,
+      }, $event->outfile)
         or die $tt->error;
     }
   }
 
   method build_types() {
+    my $index = Talks::IndexPage->new(
+      url_path => '/type/',
+      title => 'Talks by Dave Cross - by type',
+      description => 'A collection of talks by Dave Cross',
+    );
     my $types = $schema->resultset('TalkType');
-    push @urls, '/type/';
+    push @urls, $index->url_path;
     $tt->process('types.tt', {
       types => [ $types->all ],
-      canonical => $urls[-1],
-    }, 'type/index.html')
+      object => $index
+    }, $index->outfile)
       or die $tt->error;
     for my $type ($types->all) {
-      push @urls, '/type/' . $type->slug . '/';
-      my $file = 'type/' . $type->slug . '/index.html';
+      push @urls, $type->url_path;
       $tt->process('type.tt', {
-        type => $type,
-        canonical => $urls[-1],
-      }, $file)
+        object => $type,
+      }, $type->outfile)
         or die $tt->error;
     }
   }
 
   method build_talks() {
-    push @urls, '/talk/';
+    my $index = Talks::IndexPage->new(
+      url_path => '/talk/',
+      title => 'Talks by Dave Cross - by talk',
+      description => 'A collection of talks by Dave Cross',
+    );
+    push @urls, $index->url_path;
     my $talks = $schema->resultset('Talk');
     $tt->process('talks.tt', {
       talks => [ $talks->sorted->all ],
-      canonical => $urls[-1],
-    }, 'talk/index.html')
+      object => $index,
+    }, $index->outfile)
       or die $tt->error;
     for my $talk ($talks->all) {
-      push @urls, '/talk/' . $talk->slug . '/';
-      my $file = 'talk/' . $talk->slug . '/index.html';
+      push @urls, $talk->url_path;
       $tt->process('talk.tt', {
-        talk => $talk,
-        canonical => $urls[-1],
-      }, $file)
+        object => $talk,
+      }, $talk->outfile)
         or die $tt->error;
     }
   }

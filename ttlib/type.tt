@@ -1,4 +1,5 @@
-[% WRAPPER page.tt -%]
+[% type = object;
+   WRAPPER page.tt -%]
       <h1 class="display-4 fst-italic">Talk type: [% type.type.ucfirst %]</h1>
       <ul>
 [%   FOR t IN type.talks -%]

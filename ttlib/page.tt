@@ -15,9 +15,9 @@
     <meta name="description" content="">
     <meta name="author" content="Dave Cross">
     <meta name="generator" content="Dave's talks site generator">
-    <title>Talks by Dave Cross</title>
+    <title>[% object ? object.title : 'Talks by Dave Cross' %]</title>
 
-    <link rel="canonical" href="https://talks.davecross.co.uk[% canonical %]">
+    <link rel="canonical" href="https://talks.davecross.co.uk[% object ? object.url_path : canonical %]">
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet"

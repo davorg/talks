@@ -213,6 +213,16 @@ sub summary_html {
   return pandoc->convert(markdown => 'html', $self->summary);
 }
 
+sub url_path {
+  my $self = shift;
+  return '/talk/' . $self->slug . '/';
+}
+
+sub outfile {
+  my $self = shift;
+  return $self->url_path . 'index.html' =~ s|^/||r;
+}
+
 # You can replace this text with custom code or comments, and it will be preserved on regeneration
 __PACKAGE__->meta->make_immutable;
 1;

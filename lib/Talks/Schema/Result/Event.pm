@@ -44,7 +44,7 @@ __PACKAGE__->table("event");
   is_auto_increment: 1
   is_nullable: 0
 
-=head2 description
+=head2 name
 
   data_type: 'varchar'
   is_nullable: 1
@@ -84,7 +84,7 @@ __PACKAGE__->table("event");
 __PACKAGE__->add_columns(
   "id",
   { data_type => "integer", is_auto_increment => 1, is_nullable => 0 },
-  "description",
+  "name",
   { data_type => "varchar", is_nullable => 1, size => 300 },
   "start_date",
   { data_type => "datetime", is_nullable => 0 },
@@ -178,15 +178,40 @@ __PACKAGE__->belongs_to(
 );
 
 
-# Created by DBIx::Class::Schema::Loader v0.07051 @ 2024-11-11 16:01:15
-# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:iN86eahvBZoVC6Bu84T8ng
+# Created by DBIx::Class::Schema::Loader v0.07052 @ 2025-03-25 11:12:44
+# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:LFiImYQkhcUd2LqXyd4sMQ
 
 sub slug {
   my $self = shift;
-  my $slug = lc $self->description;
+  my $slug = lc $self->name_year;
   $slug =~ s/[-\s]+/-/g;
   $slug =~ s/[^a-z0-9-]//g;
   return $slug;
+}
+
+sub name_year {
+  my $self = shift;
+  return $self->name . ' (' . $self->year->year . ')';
+}
+
+sub title {
+  my $self = shift;
+  return $self->name_year;
+}
+
+sub description {
+  my $self = shift;
+  return $self->name_year . ' - ' . $self->venue->name;
+}
+
+sub url_path {
+  my $self = shift;
+  return '/event/' . $self->slug . '/';
+}
+
+sub outfile {
+  my $self = shift;
+  return $self->url_path . 'index.html' =~ s|^/||r;
 }
 
 # You can replace this text with custom code or comments, and it will be preserved on regeneration
