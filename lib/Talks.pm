@@ -9,7 +9,7 @@ class Talks {
   use Path::Tiny;
   use Template;
   use JSON;
-  use Web::Sitemap;
+  use WWW::Sitemap::Simple;
 
   use Talks::IndexPage;
   use Talks::Schema;
@@ -158,12 +158,9 @@ class Talks {
   }
 
   method build_sitemap {
-    my $sm_builder = Web::Sitemap->new(
-      ($domain ? (loc_prefix => $domain) : ()),
-      output_dir => $output_path,
-    );
-    $sm_builder->add([ grep { m[/$] } @urls ]);
-    $sm_builder->finish;
+    my $sm_builder = WWW::Sitemap::Simple->new(indent => '  ');
+    $sm_builder->add("$domain$_") for grep { m[/$] } @urls;
+    $sm_builder->write("$output_path/sitemap.xml");
   }
 }
 

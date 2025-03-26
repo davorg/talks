@@ -6,3 +6,4 @@ requires 'MooseX::NonMoose';
 requires 'Path::Tiny';
 requires 'Template';
 requires 'DBIx::Class::ResultSet';
+requires 'WWW::Sitemap::Simple';
