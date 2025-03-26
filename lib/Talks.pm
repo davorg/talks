@@ -1,9 +1,8 @@
 use strict;
 use warnings;
 
-use Feature::Compat::Class;
-use feature 'signatures';
-no warnings 'experimental::signatures';
+use feature qw[signatures class];
+no warnings 'experimental::class';
 
 class Talks {
   use Path::Tiny;
