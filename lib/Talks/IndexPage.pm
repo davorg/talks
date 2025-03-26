@@ -1,3 +1,4 @@
+use v5.36;
 use feature 'class';
 no warnings 'experimental::class';
 

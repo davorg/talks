@@ -1,5 +1,4 @@
-use strict;
-use warnings;
+use v5.36;
 
 use feature qw[signatures class];
 no warnings 'experimental::class';
