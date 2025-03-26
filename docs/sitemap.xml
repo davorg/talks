@@ -31,6 +31,9 @@
     <loc>https://talks.davecross.co.uk/event/the-perl-conference-2018/</loc>
   </url>
   <url>
+    <loc>https://talks.davecross.co.uk/event/yapc-europe-2016/</loc>
+  </url>
+  <url>
     <loc>https://talks.davecross.co.uk/talk/</loc>
   </url>
   <url>
@@ -58,7 +61,13 @@
     <loc>https://talks.davecross.co.uk/talk/measuring-the-quality-of-your-perl-code/</loc>
   </url>
   <url>
+    <loc>https://talks.davecross.co.uk/talk/medium-perl/</loc>
+  </url>
+  <url>
     <loc>https://talks.davecross.co.uk/talk/modern-perl-catch-up/</loc>
+  </url>
+  <url>
+    <loc>https://talks.davecross.co.uk/talk/modern-web-development-with-perl-and-dancer/</loc>
   </url>
   <url>
     <loc>https://talks.davecross.co.uk/talk/monoliths-balls-of-mud-and-silver-bullets/</loc>
