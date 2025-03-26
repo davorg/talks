@@ -7,6 +7,9 @@
     <loc>https://talks.davecross.co.uk/event/</loc>
   </url>
   <url>
+    <loc>https://talks.davecross.co.uk/event/london-perl-workshop-2016/</loc>
+  </url>
+  <url>
     <loc>https://talks.davecross.co.uk/event/london-perl-workshop-2017/</loc>
   </url>
   <url>
@@ -40,6 +43,9 @@
     <loc>https://talks.davecross.co.uk/talk/cpan-dashboard/</loc>
   </url>
   <url>
+    <loc>https://talks.davecross.co.uk/talk/errors-free-programming/</loc>
+  </url>
+  <url>
     <loc>https://talks.davecross.co.uk/talk/github-actions-for-perl-development/</loc>
   </url>
   <url>
@@ -50,6 +56,9 @@
   </url>
   <url>
     <loc>https://talks.davecross.co.uk/talk/measuring-the-quality-of-your-perl-code/</loc>
+  </url>
+  <url>
+    <loc>https://talks.davecross.co.uk/talk/modern-perl-catch-up/</loc>
   </url>
   <url>
     <loc>https://talks.davecross.co.uk/talk/monoliths-balls-of-mud-and-silver-bullets/</loc>
