@@ -3,7 +3,7 @@
       <h1 class="display-4 fst-italic">Talk type: [% type.type.ucfirst %]</h1>
       <ul>
 [%   FOR t IN type.talks -%]
-        <li><a href="/talk/[% t.slug %]">[% t.title %]</a></li>
+        <li><a href="[% t.url_path %]">[% t.title %]</a></li>
 [%   END -%]
       </ul>
 [% END -%]

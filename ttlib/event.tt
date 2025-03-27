@@ -7,7 +7,7 @@
       <p><b>Date(s):</b> [% event.start_date.strftime('%a, %d %b %Y'); IF event.end_date; ' - '; event.end_date.strftime('%a, %d %b %Y'); END %]</p>
       <ul>
 [% FOR p IN event.presentations -%]
-        <li><a href="/talk/[% p.talk.slug %]">[% p.talk.title %]</a></li>
+        <li><a href="[% p.talk.url_path %]">[% p.talk.title %]</a></li>
 [% END -%]
       </ul>
 [% END -%]

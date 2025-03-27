@@ -11,7 +11,7 @@
       <h2>Presentations</h2>
       <ul>
 [%   FOR p IN talk.presentations -%]
-        <li><a href="/event/[% p.event.slug %]">[% p.event.name_year %]</a> - [% p.datetime %]</li>
+        <li><a href="[% p.event.url_path %]">[% p.event.name_year %]</a> - [% p.datetime %]</li>
 [%   END # FOR -%]
       </ul>
 [%   IF talk.extras -%]

@@ -4,7 +4,7 @@
         <h2>[% s.name %]</h2>
         <ul>
 [%   FOR e IN s.events.sort('start_date') -%]
-          <li><a href="/event/[% e.slug %]">[% e.name_year %], [% e.venue.city.name %], [% e.venue.city.country.name %]</a></li>
+          <li><a href="[% e.url_path %]">[% e.name_year %], [% e.venue.city.name %], [% e.venue.city.country.name %]</a></li>
 [%   END -%]
         </ul>
 [% END -%]
