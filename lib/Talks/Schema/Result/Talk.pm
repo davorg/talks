@@ -86,6 +86,11 @@ __PACKAGE__->table("talk");
   data_type: 'text'
   is_nullable: 1
 
+=head2 pdf_url
+
+  data_type: 'text'
+  is_nullable: 1
+
 =cut
 
 __PACKAGE__->add_columns(
@@ -106,6 +111,8 @@ __PACKAGE__->add_columns(
   "description",
   { data_type => "text", is_nullable => 1 },
   "summary",
+  { data_type => "text", is_nullable => 1 },
+  "pdf_url",
   { data_type => "text", is_nullable => 1 },
 );
 
@@ -154,8 +161,8 @@ __PACKAGE__->belongs_to(
 );
 
 
-# Created by DBIx::Class::Schema::Loader v0.07051 @ 2024-11-11 16:01:15
-# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:LhewzT1hIK8rtB1dgWOlwA
+# Created by DBIx::Class::Schema::Loader v0.07052 @ 2025-03-28 14:40:42
+# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:6p9UW8auOcB7HxNOI7mWAg
 
 use Pandoc;
 
@@ -167,36 +174,35 @@ sub slug {
   return $slug;
 }
 
+sub get_a_thing {
+  my $self = shift;
+  my ($thing) = @_;
+
+  return $self->$thing if $self->$thing;
+
+  for ($self->presentations) {
+    $_->$thing and return $_->$thing;
+  }
+
+  return;
+}
+
 sub get_youtube_code {
   my $self = shift;
 
-  for ($self->presentations) {
-    $_->youtube_code and return $_->youtube_code;
-  }
-
-  return $self->youtube_code;
-
-  return;
+  return $self->get_a_thing('youtube_code');
 }
 
 sub get_google_docs_code {
   my $self = shift;
 
-  for ($self->presentations) {
-    $_->google_docs_code and return $_->google_docs_code;
-  }
-
-  return;
+  return $self->get_a_thing('google_docs_code');
 }
 
 sub get_pdf_url {
   my $self = shift;
 
-  for ($self->presentations) {
-    $_->pdf_url and return $_->pdf_url;
-  }
-
-  return;
+  return $self->get_a_thing('pdf_url');
 }
 
 sub extras {
