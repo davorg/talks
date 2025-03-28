@@ -3,7 +3,7 @@ package Talks::Schema::ResultSet::Year;
 use strict;
 use warnings;
 
-use base 'DBIx::Class::ResultSet';
+use parent 'DBIx::Class::ResultSet';
 
 sub active {
   my $self = shift;

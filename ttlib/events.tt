@@ -3,8 +3,8 @@
 [% FOR s IN series -%]
         <h2>[% s.name %]</h2>
         <ul>
-[%   FOR e IN s.events.sort('start_date') -%]
-          <li><a href="[% e.url_path %]">[% e.name_year %], [% e.venue.city.name %], [% e.venue.city.country.name %]</a></li>
+[%   FOREACH e IN s.sorted_events -%]
+          <li><a href="[% e.url_path %]">[% e.name_year %], [% e.location %]</a></li>
 [%   END -%]
         </ul>
 [% END -%]

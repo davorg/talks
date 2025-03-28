@@ -5,7 +5,7 @@
         <h2>[% y.year %]</h2>
         <ul>
 [%   FOR e IN y.events -%]
-          <li><a href="[% e.url_path %]">[% e.name_year %], [% e.venue.city.name %], [% e.venue.city.country.name %]</a></li>
+          <li><a href="[% e.url_path %]">[% e.name_year %], [% e.location %]</a></li>
 [%   END -%]
         </ul>
 [% END -%]

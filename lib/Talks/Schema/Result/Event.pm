@@ -64,7 +64,7 @@ __PACKAGE__->table("event");
 
   data_type: 'integer'
   is_foreign_key: 1
-  is_nullable: 0
+  is_nullable: 1
 
 =head2 event_series_id
 
@@ -79,6 +79,12 @@ __PACKAGE__->table("event");
   is_foreign_key: 1
   is_nullable: 0
 
+=head2 is_online
+
+  data_type: 'boolean'
+  default_value: false
+  is_nullable: 1
+
 =cut
 
 __PACKAGE__->add_columns(
@@ -91,7 +97,7 @@ __PACKAGE__->add_columns(
   "end_date",
   { data_type => "datetime", is_nullable => 1 },
   "venue_id",
-  { data_type => "integer", is_foreign_key => 1, is_nullable => 0 },
+  { data_type => "integer", is_foreign_key => 1, is_nullable => 1 },
   "event_series_id",
   { data_type => "integer", is_foreign_key => 1, is_nullable => 0 },
   "year_id",
@@ -101,6 +107,8 @@ __PACKAGE__->add_columns(
     is_foreign_key => 1,
     is_nullable    => 0,
   },
+  "is_online",
+  { data_type => "boolean", default_value => \"false", is_nullable => 1 },
 );
 
 =head1 PRIMARY KEY
@@ -159,7 +167,12 @@ __PACKAGE__->belongs_to(
   "venue",
   "Talks::Schema::Result::Venue",
   { id => "venue_id" },
-  { is_deferrable => 0, on_delete => "NO ACTION", on_update => "NO ACTION" },
+  {
+    is_deferrable => 0,
+    join_type     => "LEFT",
+    on_delete     => "NO ACTION",
+    on_update     => "NO ACTION",
+  },
 );
 
 =head2 year
@@ -178,8 +191,8 @@ __PACKAGE__->belongs_to(
 );
 
 
-# Created by DBIx::Class::Schema::Loader v0.07052 @ 2025-03-25 11:12:44
-# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:LFiImYQkhcUd2LqXyd4sMQ
+# Created by DBIx::Class::Schema::Loader v0.07052 @ 2025-03-28 09:42:51
+# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:1cCDd8NtBV6fk2qa0HZp9w
 
 sub slug {
   my $self = shift;
@@ -201,7 +214,11 @@ sub title {
 
 sub description {
   my $self = shift;
-  return $self->name_year . ' - ' . $self->venue->name;
+  if ($self->is_online) {
+    return $self->name_year . '(Online)';
+  } else {
+    return $self->name_year . ' - ' . $self->venue->name;
+  }
 }
 
 sub url_path {
@@ -212,6 +229,16 @@ sub url_path {
 sub outfile {
   my $self = shift;
   return $self->url_path . 'index.html' =~ s|^/||r;
+}
+
+sub location {
+  my $self = shift;
+
+  if ($self->is_online) {
+    return 'Online';
+  } else {
+    return $self->venue->location;
+  }
 }
 
 # You can replace this text with custom code or comments, and it will be preserved on regeneration

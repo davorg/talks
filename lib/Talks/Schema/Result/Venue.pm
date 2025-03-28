@@ -129,6 +129,17 @@ __PACKAGE__->has_many(
 # Created by DBIx::Class::Schema::Loader v0.07051 @ 2024-11-11 16:01:15
 # DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:ayPRJMZsctkq5AU8BChZqg
 
+sub city_country {
+  my $self = shift;
+
+  return $self->city->name . ', ' . $self->city->country->name;
+}
+
+sub location {
+  my $self = shift;
+
+  return $self->name . ', ' . $self->city_country;
+}
 
 # You can replace this text with custom code or comments, and it will be preserved on regeneration
 __PACKAGE__->meta->make_immutable;

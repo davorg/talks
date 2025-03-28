@@ -106,6 +106,13 @@ __PACKAGE__->has_many(
 # Created by DBIx::Class::Schema::Loader v0.07051 @ 2024-11-11 16:01:15
 # DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:J7pKwgfcgh8r89UgNHuAag
 
+sub sorted_events {
+  my $self = shift;
+
+  return $self->events->search(undef, {
+    order_by => { -asc => 'start_date' },
+  });
+}
 
 # You can replace this text with custom code or comments, and it will be preserved on regeneration
 __PACKAGE__->meta->make_immutable;

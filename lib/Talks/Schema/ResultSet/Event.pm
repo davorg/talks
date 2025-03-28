@@ -1,4 +1,4 @@
-package Talks::Schema::ResultSet::Talk;
+package Talks::Schema::ResultSet::Event;
 
 use strict;
 use warnings;
@@ -9,7 +9,7 @@ sub sorted {
   my $self = shift;
 
   return $self->search(undef, {
-    order_by => { -asc => 'title' },
+    order_by => { -asc => 'start_date' },
   });
 }
 
