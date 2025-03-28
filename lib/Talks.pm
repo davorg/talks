@@ -69,7 +69,7 @@ class Talks {
     my $recent_presentations = $schema->resultset('Presentation')->search(
       {},
       {
-        order_by => { -desc => 'date' },
+        order_by => { -desc => 'datetime' },
         rows     => 3,
       }
     );
