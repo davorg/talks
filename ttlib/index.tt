@@ -7,12 +7,12 @@
 
       <h2>Recent Talks</h2>
       <div class="row mb-2">
-[% FOREACH talk IN recent_talks -%]
+[% FOREACH pres IN recent_presentations -%]
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
             <div class="card-body">
-              <h5 class="card-title">[% talk.title %]</h5>
-              <a href="[% talk.url_path %]" class="btn btn-primary">Read more</a>
+              <h5 class="card-title">[% pres.talk.title %]</h5>
+              <a href="[% pres.talk.url_path %]" class="btn btn-primary">Read more</a>
             </div>
           </div>
         </div>

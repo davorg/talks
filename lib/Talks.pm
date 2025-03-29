@@ -66,17 +66,12 @@ class Talks {
       description => 'A collection of talks by Dave Cross',
     );
     push @urls, $index->url_path;
-    my $recent_presentations = $schema->resultset('Presentation')->search(
-      {},
-      {
-        order_by => { -desc => 'datetime' },
-        rows     => 3,
-      }
-    );
-    my @recent_talks = map { $_->talk } $recent_presentations->all;
+
+    my @recent_presentations = $schema->resultset('Presentation')->most_recent_presentations();
+
     $tt->process('index.tt', {
       object => $index,
-      recent_talks => \@recent_talks,
+      recent_presentations => \@recent_presentations,
     }, $index->outfile)
       or die $tt->error;
   }
