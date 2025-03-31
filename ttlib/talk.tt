@@ -2,7 +2,7 @@
    WRAPPER page.tt -%]
       <h1 class="display-4 fst-italic">[% talk.title %]</h1>
       <p>
-        <span class="badge rounded-pill bg-primary"><a href="/type/[% talk.talk_type.type %]/">[% talk.talk_type.type %]</a></span>
+        <span class="badge rounded-pill bg-primary"><a href="[% talk.talk_type.url_path %]">[% talk.talk_type.type %]</a></span>
       </p>
 [%   IF talk.description -%]
       <h2>Description</h2>

@@ -116,12 +116,12 @@ sub slug {
 
 sub title {
   my $self = shift;
-  return $self->type;
+  return ucfirst $self->type;
 }
 
 sub description {
   my $self = shift;
-  return $self->type;
+  return ucfirst $self->type;
 }
 
 sub url_path {
