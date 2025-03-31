@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://talks.davecross.co.uk/sitemap.xml
+
