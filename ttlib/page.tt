@@ -17,9 +17,9 @@
     <meta name="generator" content="Dave's talks site generator">
     <title>[% object.title OR 'Talks by Dave Cross' %]</title>
 
-    <meta property="og:title" content="[% object.title OR 'Talks by Dave Cross' %]" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://talks.davecross.co.uk[% object.url_path %]" />
+    <meta property="og:title" content="[% object.title OR 'Talks by Dave Cross' %]">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://talks.davecross.co.uk[% object.url_path %]">
     <meta property="og:description" content="[% object.description | xml %]">
 
     <link rel="canonical" href="https://talks.davecross.co.uk[% object.url_path %]">
