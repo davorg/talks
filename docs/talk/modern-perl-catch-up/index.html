@@ -126,12 +126,23 @@ Give me two hours of your time and I'll give you an overview of everything you n
             data-bs-toggle="tab" data-bs-target="#nav-slides"
             type="button" role="tab" aria-controls="nav-slides"
             aria-selected="true">Slides</button>
+          <button class="nav-link" id="nav-video-tab"
+            data-bs-toggle="tab" data-bs-target="#nav-video"
+            type="button" role="tab" aria-controls="nav-video"
+            aria-selected="false">Video</button>
         </div>
       </nav>
       <div class="tab-content" id="nav-tabContent">
         <div class="tab-pane fade show active" id="nav-slides"
           role="tabpanel" aria-labelledby="nav-slides-tab">
           <iframe class="extra" src="https://cdn.davecross.co.uk/pdf/modern.pdf#view=fitW" allowfullscreen></iframe>
+        </div>
+        <div class="tab-pane fade" id="nav-video"
+          role="tabpanel" aria-labelledby="nav-video-tab">
+          <iframe class="extra"
+            src="https://www.youtube.com/embed/ruqHq2F4Ik4"
+            title="Modern Perl Catch-Up"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
       </div>
 
