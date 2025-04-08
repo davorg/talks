@@ -80,7 +80,7 @@ class Talks {
     my $index = Talks::IndexPage->new(
       url_path => '/year/',
       title => 'Talks by Dave Cross - by year',
-      description => 'A collection of talks by Dave Cross',
+      description => 'A collection of talks by Dave Cross - by year',
     );
     push @urls, $index->url_path;
     my $years = $schema->resultset('Year');
@@ -95,7 +95,7 @@ class Talks {
     my $index = Talks::IndexPage->new(
       url_path => '/event/',
       title => 'Talks by Dave Cross - by event',
-      description => 'A collection of talks by Dave Cross',
+      description => 'A collection of talks by Dave Cross - by event',
     );
     push @urls, $index->url_path;
     my $series = $schema->resultset('EventSeries');
@@ -119,7 +119,7 @@ class Talks {
     my $index = Talks::IndexPage->new(
       url_path => '/type/',
       title => 'Talks by Dave Cross - by type',
-      description => 'A collection of talks by Dave Cross',
+      description => 'A collection of talks by Dave Cross - by talk type',
     );
     my $types = $schema->resultset('TalkType');
     push @urls, $index->url_path;
@@ -141,7 +141,7 @@ class Talks {
     my $index = Talks::IndexPage->new(
       url_path => '/talk/',
       title => 'Talks by Dave Cross - by talk',
-      description => 'A collection of talks by Dave Cross',
+      description => 'A collection of talks by Dave Cross - by talk title',
     );
     push @urls, $index->url_path;
     my $talks = $schema->resultset('Talk');
