@@ -1,5 +1,5 @@
 [% WRAPPER page.tt -%]
-      <h1 class="display-4 fst-italic">Talks</h1>
+      <h1 class="display-4 fst-italic">Talks by Title</h1>
         <ul>
 [% FOR t IN talks -%]
           <li><a href="[% t.url_path %]">[% t.title %]</a></li>

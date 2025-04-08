@@ -1,5 +1,5 @@
 [% WRAPPER page.tt -%]
-      <h1 class="display-4 fst-italic">Events</h1>
+      <h1 class="display-4 fst-italic">Talks by Event</h1>
 [% FOR s IN series -%]
         <h2>[% s.name %]</h2>
         <ul>

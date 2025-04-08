@@ -84,7 +84,7 @@ class Talks {
     );
     push @urls, $index->url_path;
     my $years = $schema->resultset('Year');
-    $tt->process('year.tt', {
+    $tt->process('years.tt', {
       years => [ $years->active ],
       object => $index,
     }, $index->outfile)

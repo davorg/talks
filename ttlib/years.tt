@@ -1,5 +1,5 @@
 [% WRAPPER page.tt -%]
-      <h1 class="display-4 fst-italic">Years</h1>
+      <h1 class="display-4 fst-italic">Talks by Year</h1>
       <ul>
 [% FOR y IN years -%]
         <h2>[% y.year %]</h2>
