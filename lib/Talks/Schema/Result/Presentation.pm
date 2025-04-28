@@ -87,6 +87,11 @@ __PACKAGE__->table("presentation");
   data_type: 'text'
   is_nullable: 1
 
+=head2 has_image
+
+  data_type: 'boolean'
+  is_nullable: 1
+
 =cut
 
 __PACKAGE__->add_columns(
@@ -108,6 +113,8 @@ __PACKAGE__->add_columns(
   { data_type => "text", is_nullable => 1 },
   "pdf_url",
   { data_type => "text", is_nullable => 1 },
+  "has_image",
+  { data_type => "boolean", is_nullable => 1 },
 );
 
 =head1 PRIMARY KEY
@@ -155,8 +162,8 @@ __PACKAGE__->belongs_to(
 );
 
 
-# Created by DBIx::Class::Schema::Loader v0.07051 @ 2024-11-11 16:01:15
-# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:LAJOdnZbed5HGfWa518xEA
+# Created by DBIx::Class::Schema::Loader v0.07053 @ 2025-04-28 15:33:22
+# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:fdvg94ih68JP/SzCoZ9CXw
 
 
 # You can replace this text with custom code or comments, and it will be preserved on regeneration

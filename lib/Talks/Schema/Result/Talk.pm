@@ -91,6 +91,11 @@ __PACKAGE__->table("talk");
   data_type: 'text'
   is_nullable: 1
 
+=head2 has_image
+
+  data_type: 'boolean'
+  is_nullable: 1
+
 =cut
 
 __PACKAGE__->add_columns(
@@ -114,6 +119,8 @@ __PACKAGE__->add_columns(
   { data_type => "text", is_nullable => 1 },
   "pdf_url",
   { data_type => "text", is_nullable => 1 },
+  "has_image",
+  { data_type => "boolean", is_nullable => 1 },
 );
 
 =head1 PRIMARY KEY
@@ -161,8 +168,8 @@ __PACKAGE__->belongs_to(
 );
 
 
-# Created by DBIx::Class::Schema::Loader v0.07052 @ 2025-03-28 14:40:42
-# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:6p9UW8auOcB7HxNOI7mWAg
+# Created by DBIx::Class::Schema::Loader v0.07053 @ 2025-04-28 15:33:22
+# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:nU+19n94bUInV3rNtfxEZA
 
 use Pandoc;
 
