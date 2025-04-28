@@ -51,9 +51,18 @@ class Talks {
   }
 
   method copy_static(){
-    my @files = grep { $_->is_file } path($static_path)->children;
+    my @files = path($static_path)->children;
+    push @files, path("$static_path/images")->children;
 
     for (@files) {
+      if ($_->is_dir) {
+        say "Mkdir: $_";
+        my $new = path($_->stringify =~ s/^$static_path/$output_path/r);
+        $new->mkdir if ! $new->exists;
+        next;
+      }
+      next unless $_->is_file;
+      say "Copy: $_";
       $_->copy(s/^$static_path/$output_path/r);
       push @urls, $_->stringify =~ s/^$static_path//r;
     }
