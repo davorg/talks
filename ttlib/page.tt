@@ -21,6 +21,11 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://talks.davecross.co.uk[% object.url_path %]">
     <meta property="og:description" content="[% object.description | xml %]">
+[% IF object.has_image -%]
+    <meta property="og:image" content="https://talks.davecross.co.uk/images/[% object.slug %].png">
+[% ELSE -%]
+    <meta property="og:image" content="https://talks.davecross.co.uk/images/default_og.png">
+[% END -%]
 
     <link rel="canonical" href="https://talks.davecross.co.uk[% object.url_path %]">
 
