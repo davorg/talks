@@ -53,6 +53,7 @@ class Talks {
   method copy_static(){
     my @files = path($static_path)->children;
     push @files, path("$static_path/images")->children;
+    push @files, path("$static_path/pdf")->children;
 
     for (@files) {
       if ($_->is_dir) {
