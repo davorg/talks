@@ -19,6 +19,23 @@
 [% END -%]
       </div>
 
+[% IF recent_additions.size -%]
+      <h2>Recently Added Talks</h2>
+      <p>Adding talks back to around 2000 will take a while. Here are
+        some talks from the archive that have been added recently.</p>
+      <div class="row mb-2">
+[%   FOREACH talk IN recent_additions -%]
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">[% talk.title %]</h5>
+              <a href="[% talk.url_path %]" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+[%   END -%]
+     </div>
+[% END -%]
       <h2>Finding talks</h2>
       <p>You can currently find talks by:</p>
       <ul>

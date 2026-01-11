@@ -78,10 +78,12 @@ class Talks {
     push @urls, $index->url_path;
 
     my @recent_presentations = $schema->resultset('Presentation')->most_recent_presentations();
+    my @recent_additions = $schema->resultset('Talk')->recent_additions;
 
     $tt->process('index.tt', {
       object => $index,
       recent_presentations => \@recent_presentations,
+      recent_additions => \@recent_additions,
     }, $index->outfile)
       or die $tt->error;
   }
