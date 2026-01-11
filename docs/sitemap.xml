@@ -22,6 +22,9 @@
     <loc>https://talks.davecross.co.uk/event/london-perl-workshop-2024/</loc>
   </url>
   <url>
+    <loc>https://talks.davecross.co.uk/event/perl-whirl-04-2004/</loc>
+  </url>
+  <url>
     <loc>https://talks.davecross.co.uk/event/perlcon-2019/</loc>
   </url>
   <url>
@@ -56,6 +59,9 @@
   </url>
   <url>
     <loc>https://talks.davecross.co.uk/talk/github-actions-for-perl-development/</loc>
+  </url>
+  <url>
+    <loc>https://talks.davecross.co.uk/talk/idiomatic-perl/</loc>
   </url>
   <url>
     <loc>https://talks.davecross.co.uk/talk/im-a-former-londonpm-leader-ask-me-anything/</loc>
@@ -95,6 +101,9 @@
   </url>
   <url>
     <loc>https://talks.davecross.co.uk/talk/the-professional-programmer/</loc>
+  </url>
+  <url>
+    <loc>https://talks.davecross.co.uk/talk/tieing-and-overloading-objects-in-perl/</loc>
   </url>
   <url>
     <loc>https://talks.davecross.co.uk/talk/web-site-tune-up-improve-your-googlejuice/</loc>
