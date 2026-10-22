@@ -242,3 +242,10 @@ span.badge a:hover {
   text-decoration:underline;
 }
 
+.reference-link {
+  text-decoration: none;
+}
+
+.reference-link:hover {
+  text-decoration: underline;
+}
