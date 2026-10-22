@@ -152,6 +152,21 @@ __PACKAGE__->has_many(
   { cascade_copy => 0, cascade_delete => 0 },
 );
 
+=head2 talk_links
+
+Type: has_many
+
+Related object: L<Talks::Schema::Result::TalkLink>
+
+=cut
+
+__PACKAGE__->has_many(
+  "talk_links",
+  "Talks::Schema::Result::TalkLink",
+  { "foreign.talk_id" => "self.id" },
+  { cascade_copy => 0, cascade_delete => 0 },
+);
+
 =head2 talk_type
 
 Type: belongs_to

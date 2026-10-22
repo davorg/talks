@@ -56,3 +56,11 @@ create table presentation (
   talk_id integer not null references talk(id),
   event_id integer not null references event(id)
 );
+
+create table talk_link (
+  id integer not null primary key,
+  link text not null,
+  type char(15) not null check (type in ('article', 'website', 'code')),
+  title text,
+  talk_id integer not null references talk(id)
+);
