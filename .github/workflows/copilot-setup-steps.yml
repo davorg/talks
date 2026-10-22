@@ -19,5 +19,5 @@ jobs:
       - uses: shogo82148/actions-setup-perl@8b574cdc2dffdae49f803204a4f2b716a2fa1db7 # v1.44.2
         with:
           perl-version: "5.40"
-      - name: Install Perl dependencies
-        run: cpanm --installdeps .
+          install-modules-with: cpanm
+          install-modules-args: --notest
