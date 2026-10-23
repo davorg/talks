@@ -14,7 +14,7 @@
         <li><a href="[% p.event.url_path %]">[% p.event.name_year %]</a> - [% p.datetime %]</li>
 [%   END # FOR -%]
       </ul>
-[%   IF talk.extras OR talk.talk_links.count -%]
+[%   IF talk.extras OR talk.talk_links.size -%]
       <nav>
         <div class="nav nav-tabs" id="nav-tab" role="tablist">
 [%     IF talk.get_google_docs_code OR talk.get_pdf_url -%]
@@ -35,12 +35,12 @@
             type="button" role="tab" aria-controls="nav-summary"
             aria-selected="false">Summary</button>
 [%     END # IF talk.summary -%]
-[%     IF talk.talk_links.count -%]
+[%     IF talk.talk_links.size -%]
           <button class="nav-link[% IF ! (talk.extras OR talk.summary) %] active[% END %]" id="nav-references-tab"
             data-bs-toggle="tab" data-bs-target="#nav-references"
             type="button" role="tab" aria-controls="nav-references"
             aria-selected="[% IF talk.extras OR talk.summary %]false[% ELSE %]true[% END %]">References</button>
-[%     END # IF talk.talk_links.count -%]
+[%     END # IF talk.talk_links.size -%]
         </div>
       </nav>
       <div class="tab-content" id="nav-tabContent">
@@ -72,7 +72,7 @@
         [% talk.summary_html %]
         </div>
 [%     END # talk.summary -%]
-[%     IF talk.talk_links.count -%]
+[%     IF talk.talk_links.size -%]
         <div class="tab-pane fade[% IF ! (talk.extras OR talk.summary) %] show active[% END %]" id="nav-references" role="tabpanel" aria-labelledby="nav-references-tab">
           <ul class="list-unstyled fs-5">
 [%       FOR link IN talk.talk_links -%]
@@ -90,7 +90,7 @@
 [%       END # FOR link -%]
           </ul>
         </div>
-[%     END # IF talk.talk_links.count -%]
+[%     END # IF talk.talk_links.size -%]
       </div>
-[%   END # IF talk.extras -%]
+[%   END # IF talk.extras OR talk.talk_links.size -%]
 [% END # WRAPPER -%]
