@@ -63,11 +63,11 @@
     <!-- Custom styles for this template -->
     <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href="/style.css" rel="stylesheet">
+    <link href="/style.css[% IF stylesheet_version %]?v=[% stylesheet_version %][% END %]" rel="stylesheet">
   </head>
   <body>
     <div class="container">
-      <header class="blog-header py-3">
+      <header class="blog-header py-3 text-center">
         <a class="blog-header-logo site-title text-dark" href="/">Talks by Dave Cross</a>
 [% IF archive_stats -%]
         <p class="site-subtitle">[% archive_stats.presentations %] presentation[% IF archive_stats.presentations != 1 %]s[% END %] of [% archive_stats.talks %] talk[% IF archive_stats.talks != 1 %]s[% END %] over [% archive_stats.years %] year[% IF archive_stats.years != 1 %]s[% END %]</p>

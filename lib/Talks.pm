@@ -8,6 +8,7 @@ class Talks {
   use Template;
   use JSON;
   use WWW::Sitemap::Simple;
+  use Digest::SHA qw(sha256_hex);
 
   use Talks::IndexPage;
   use Talks::Schema;
@@ -42,6 +43,8 @@ class Talks {
 
   method build() {
     $tt->context->stash->set('archive_stats', $schema->archive_statistics);
+    $tt->context->stash->set('stylesheet_version',
+      substr(sha256_hex(path("$static_path/style.css")->slurp_raw), 0, 12));
     $self->copy_static;
     $self->build_index;
     $self->build_years;
