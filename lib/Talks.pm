@@ -162,7 +162,10 @@ class Talks {
       object => $index,
     }, $index->outfile)
       or die $tt->error;
+    my %outfiles;
     for my $talk ($talks->all) {
+      die 'Duplicate talk output path: ' . $talk->outfile . "\n"
+        if $outfiles{$talk->outfile}++;
       push @urls, $talk->url_path;
       $tt->process('talk.tt', {
         object => $talk,

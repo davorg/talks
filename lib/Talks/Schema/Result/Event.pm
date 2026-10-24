@@ -85,6 +85,11 @@ __PACKAGE__->table("event");
   default_value: false
   is_nullable: 1
 
+=head2 location_text
+
+  data_type: 'text'
+  is_nullable: 1
+
 =cut
 
 __PACKAGE__->add_columns(
@@ -109,6 +114,8 @@ __PACKAGE__->add_columns(
   },
   "is_online",
   { data_type => "boolean", default_value => \"false", is_nullable => 1 },
+  "location_text",
+  { data_type => "text", is_nullable => 1 },
 );
 
 =head1 PRIMARY KEY
@@ -191,8 +198,8 @@ __PACKAGE__->belongs_to(
 );
 
 
-# Created by DBIx::Class::Schema::Loader v0.07052 @ 2025-03-28 09:42:51
-# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:1cCDd8NtBV6fk2qa0HZp9w
+# Created by DBIx::Class::Schema::Loader v0.07053 @ 2026-10-24 11:17:28
+# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:ghDGzjnOA3FqYeIHUAo4aQ
 
 sub slug {
   my $self = shift;
@@ -217,7 +224,9 @@ sub description {
   if ($self->is_online) {
     return $self->name_year . '(Online)';
   } else {
-    return $self->name_year . ' - ' . $self->venue->name;
+    my $location = $self->location_text
+      || (defined $self->venue_id ? $self->venue->name : 'Venue not recorded');
+    return $self->name_year . ' - ' . $location;
   }
 }
 
@@ -236,8 +245,12 @@ sub location {
 
   if ($self->is_online) {
     return 'Online';
-  } else {
+  } elsif ($self->location_text) {
+    return $self->location_text;
+  } elsif (defined $self->venue_id) {
     return $self->venue->location;
+  } else {
+    return 'Venue not recorded';
   }
 }
 

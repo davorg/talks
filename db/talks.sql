@@ -28,6 +28,7 @@ create table event_series (
 create table event (
   id integer not null primary key,
   description varchar(300),
+  location_text text,
   start_date datetime not null,
   end_date datetime,
   venue_id integer not null references venue(id),
@@ -43,6 +44,7 @@ create table talk_type (
 create table talk (
   id integer not null primary key,
   title text not null,
+  url_slug text,
   video_url text,
   slide_url text
 );
@@ -51,6 +53,7 @@ create table presentation (
   id integer not null primary key,
   datetime datetime,
   title text,
+  date_label text,
   video_url text,
   slide_url text,
   type_id integer not null references type(id),
@@ -64,4 +67,13 @@ create table talk_link (
   type char(15) not null check (type in ('article', 'website', 'code')),
   title text,
   talk_id integer not null references talk(id)
+);
+
+create table backfill_source (
+  batch text not null,
+  source_id text not null,
+  presentation_id integer not null references presentation(id),
+  record_json text not null,
+  primary key (batch, source_id),
+  unique (batch, presentation_id)
 );

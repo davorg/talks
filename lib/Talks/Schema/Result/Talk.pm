@@ -96,6 +96,11 @@ __PACKAGE__->table("talk");
   data_type: 'boolean'
   is_nullable: 1
 
+=head2 url_slug
+
+  data_type: 'text'
+  is_nullable: 1
+
 =cut
 
 __PACKAGE__->add_columns(
@@ -121,6 +126,8 @@ __PACKAGE__->add_columns(
   { data_type => "text", is_nullable => 1 },
   "has_image",
   { data_type => "boolean", is_nullable => 1 },
+  "url_slug",
+  { data_type => "text", is_nullable => 1 },
 );
 
 =head1 PRIMARY KEY
@@ -183,12 +190,18 @@ __PACKAGE__->belongs_to(
 );
 
 
-# Created by DBIx::Class::Schema::Loader v0.07053 @ 2025-04-28 15:33:22
-# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:nU+19n94bUInV3rNtfxEZA
+# Created by DBIx::Class::Schema::Loader v0.07053 @ 2026-10-24 11:17:28
+# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:1/eOydJmRRpSye5rtxl7kw
 
 use Pandoc;
 
 sub slug {
+  my $self = shift;
+  return $self->url_slug if defined $self->url_slug && length $self->url_slug;
+  return $self->image_slug;
+}
+
+sub image_slug {
   my $self = shift;
   my $slug = lc $self->title;
   $slug =~ s/[-\s]+/-/g;

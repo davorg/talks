@@ -1,0 +1,424 @@
+#!/usr/bin/env python3
+"""Import the reviewed 2026 talk catalogue; defaults to a dry run."""
+import argparse
+import collections
+import datetime as dt
+import json
+import pathlib
+import re
+import sqlite3
+from urllib.parse import parse_qs, urlparse
+
+ROOT = pathlib.Path(__file__).resolve().parent.parent
+BATCH = 'talk-backfill-2026-10-23'
+TYPE_PRIORITY = {'lightning': 1, 'discussion': 2, 'talk': 3, 'tutorial': 4}
+COURSES = {
+    'T044': 'Introduction to Perl', 'T045': 'Introduction to Perl',
+    'T060': 'Modern Web Programming in Perl', 'T061': 'Modern Web Programming in Perl',
+    'T081': 'Perl in the Internet of Things', 'T082': 'Perl in the Internet of Things',
+}
+# Recovered conference bounds, including the listed pre-conference courses.
+BOUNDS = {
+    'O\'Reilly Perl Conference / OSCON 2001': ('2001-07-23', '2001-07-27'),
+    'YAPC Europe 2003': ('2003-07-23', '2003-07-25'),
+    'German Perl Workshop 4.0 (2002)': ('2002-02-13', '2002-02-15'),
+    'FOSDEM 2004': ('2004-02-21', '2004-02-22'),
+    'YAPC Europe 2006': ('2006-08-30', '2006-09-01'),
+    'YAPC Europe 2008': ('2008-08-12', '2008-08-15'),
+    'YAPC Europe 2009': ('2009-08-01', '2009-08-05'),
+    'YAPC Europe 2011': ('2011-08-14', '2011-08-17'),
+    'YAPC Europe 2013': ('2013-08-12', '2013-08-14'),
+    'YAPC Europe 2015': ('2015-09-01', '2015-09-04'),
+    'UKUUG Spring Conference 2008': ('2008-03-31', '2008-04-02'),
+}
+
+
+def normal(title):
+    return re.sub(r'[^a-z0-9]', '', title.lower())
+
+
+def slug(title):
+    return re.sub(r'[^a-z0-9-]', '', re.sub(r'[-\s]+', '-', title.lower()))
+
+
+def add_schema(db):
+    for table, column in [('talk', 'url_slug'), ('event', 'location_text'),
+                          ('presentation', 'date_label')]:
+        columns = {r['name'] for r in db.execute(f'PRAGMA table_info({table})')}
+        if column not in columns:
+            db.execute(f'ALTER TABLE {table} ADD COLUMN {column} TEXT')
+    if 'title' not in {r['name'] for r in db.execute('PRAGMA table_info(presentation)')}:
+        raise ValueError('Apply bin/migrate-presentation-title before importing')
+    db.execute('''CREATE TABLE IF NOT EXISTS backfill_source (
+        batch TEXT NOT NULL, source_id TEXT NOT NULL,
+        presentation_id INTEGER NOT NULL REFERENCES presentation(id),
+        record_json TEXT NOT NULL, PRIMARY KEY (batch, source_id),
+        UNIQUE (batch, presentation_id))''')
+
+
+def counts(db):
+    return {table: db.execute(f'SELECT count(*) FROM {table}').fetchone()[0]
+            for table in ['talk', 'presentation', 'event', 'venue', 'city', 'country']}
+
+
+def ensure(db, table, fields):
+    where = ' AND '.join(f'{key} = ?' for key in fields)
+    row = db.execute(f'SELECT id FROM {table} WHERE {where}', list(fields.values())).fetchone()
+    if row:
+        return row['id']
+    keys = ', '.join(fields)
+    placeholders = ', '.join('?' for _ in fields)
+    return db.execute(f'INSERT INTO {table} ({keys}) VALUES ({placeholders})',
+                      list(fields.values())).lastrowid
+
+
+def pretty_date(value):
+    if len(value) == 7:
+        return dt.date.fromisoformat(value + '-01').strftime('%B %Y')
+    if len(value) == 4:
+        return value
+    return dt.date.fromisoformat(value).strftime('%-d %B %Y')
+
+
+def delivery_date(record):
+    if record['date_precision'] != 'day':
+        label = pretty_date(record['date'])
+        if record['end_date']:
+            label += ' – ' + pretty_date(record['end_date'])
+        return None, label + ' (exact day not recorded)'
+    value = record['date']
+    label = pretty_date(value)
+    # These two sources give the meeting start, not the speaker's slot.
+    time = '' if record['id'] in {'T019', 'T040'} else record['time_local']
+    if time:
+        value += ' ' + time + ':00'
+        label += ', ' + time
+    return value, label
+
+
+def media(record):
+    result = {}
+    for url in record['media_urls']:
+        parsed = urlparse(url)
+        host = parsed.netloc.lower().removeprefix('www.')
+        if host in {'youtube.com', 'youtu.be', 'vimeo.com'}:
+            result.setdefault('video_url', url)
+            code = (parse_qs(parsed.query).get('v', [''])[0]
+                    if host == 'youtube.com' else parsed.path.strip('/') if host == 'youtu.be' else '')
+            if code and re.fullmatch(r'[\w-]{11}', code):
+                result.setdefault('youtube_code', code)
+        else:
+            result.setdefault('slide_url', url)
+            if parsed.path.lower().endswith('.pdf'):
+                result.setdefault('pdf_url', url)
+    return result
+
+
+def event_details(record):
+    event = record['event']
+    if event.startswith('YAPC Europe'):
+        return 'YAPC Europe', 'YAPC/TPC/TPRC'
+    if event.startswith('London Perl Workshop'):
+        return 'London Perl Workshop', 'London Perl Workshop'
+    if 'Perl Mongers technical meeting' in event:
+        name = event.replace(' technical meeting', '')
+        return name + ' - ' + dt.date.fromisoformat(record['date']).strftime('%-d %B'), 'Perl Mongers'
+    if event == 'Perl School public course':
+        return 'Perl School - ' + dt.date.fromisoformat(record['date']).strftime('%-d %B'), 'Perl School'
+    names = {
+        "O'Reilly Perl Conference / OSCON 2001": ('OSCON', 'OSCON'),
+        'German Perl Workshop 4.0 (2002)': ('German Perl Workshop', 'German Perl Workshop'),
+        'FOSDEM 2004': ('FOSDEM', 'FOSDEM'),
+        'Italian Code Jam 2004': ('Italian Code Jam', 'Italian Code Jam'),
+        'LinuxWorld Expo 2005': ('LinuxWorld Expo', 'LinuxWorld Expo'),
+        'OSCON Europe 2005': ('OSCON Europe', 'OSCON'),
+        'Greater London Linux User Group meeting': ('Greater London Linux User Group', 'Linux user groups'),
+        'Belgian Perl Workshop 2007': ('Belgian Perl Workshop', 'Belgian Perl Workshop'),
+        'UKUUG Spring Conference 2008': ('UKUUG Spring Conference', 'UKUUG'),
+        'South London Geek Night 1': ('South London Geek Night 1', 'South London Geek Night'),
+        'OpenTech 2010': ('OpenTech', 'OpenTech'),
+        'OpenTech 2011': ('OpenTech', 'OpenTech'),
+        'OpenTech 2015': ('OpenTech', 'OpenTech'),
+    }
+    return names[event]
+
+
+def venue(db, location):
+    # Only create named venues from actual location evidence. City-only or
+    # country-only descriptions are retained on the event, without fake venues.
+    city_only = {
+        'London, UK', 'Birmingham, UK', 'Milton Keynes, UK', 'Belgium',
+        'Copenhagen, Denmark', 'Lisbon, Portugal', 'Pisa, Italy', 'Riga, Latvia',
+        'Kyiv, Ukraine', 'Granada, Spain', 'Amsterdam, Netherlands', 'San Diego, USA',
+        'Richmond, London, UK',
+    }
+    if location in city_only or len(location.split(', ')) == 2:
+        return None
+    if location.startswith('Fachhochschule Bonn-Rhein-Sieg'):
+        name, city, country = 'Fachhochschule Bonn-Rhein-Sieg', 'Sankt Augustin', 'Germany'
+    elif location.startswith('QPC, Leonard House'):
+        name, city, country = 'QPC, Leonard House, Bradford Street', 'Birmingham', 'UK'
+    elif location.startswith('BT Customer Events Room'):
+        name, city, country = 'BT Customer Events Room, BT Tower', 'Belfast', 'UK'
+    elif location == 'ULB, Brussels, Belgium':
+        name, city, country = 'ULB', 'Brussels', 'Belgium'
+    else:
+        parts = location.rsplit(', ', 2)
+        if len(parts) != 3:
+            raise ValueError('Unrecognised venue: ' + location)
+        name, city, country = parts
+    country_id = ensure(db, 'country', {'name': country})
+    city_id = ensure(db, 'city', {'name': city, 'country_id': country_id})
+    return ensure(db, 'venue', {'name': name, 'city_id': city_id})
+
+
+def import_catalogue(db, catalogue):
+    records = catalogue['records']
+    if len({r['id'] for r in records}) != len(records):
+        raise ValueError('Duplicate research IDs')
+    if any(r['review'] != 'confirmed' for r in records):
+        raise ValueError('Every imported record must be confirmed')
+    report = {'before': counts(db), 'created_talks': [], 'created_events': [],
+              'created_presentations': [], 'existing_matches': [], 'date_corrections': [],
+              'url_overrides': [], 'mappings': [], 'already_imported': [],
+              'event_date_policy': {
+                  'known_conference_bounds': BOUNDS,
+                  'other_events': 'Use the recovered delivery dates as known event coverage; a single day is not a claim that a multi-day conference lasted only one day.',
+                  'additional_oscon_2001_source': 'https://yapc.org/old-events.html',
+              },
+              'decisions': [
+                  'Keep all 90 reviewed delivery entries, including split tutorial slots.',
+                  'Modern Perl and Modern PERL are different talks, as Dave confirmed.',
+                  'Use approved groups and otherwise match full titles, ignoring trivial punctuation/case; preserve Modern PERL separately.',
+                  'Keep different Teaching Perl/Perl Training and provisional Writing Books titles separate pending stronger identity evidence.',
+                  'Retain all research notes, source URLs, precision and original titles in backfill_source.record_json.',
+                  'Keep both legacy Googlejuice talk records; disambiguate their URLs without deleting either.',
+              ]}
+    add_schema(db)
+    rows_by_id = {r['id']: r for r in records}
+    groups = {g['id']: g for g in catalogue['talk_groups']}
+    aliases = {}
+    for g in groups.values():
+        for id in g['presentation_ids']:
+            aliases[normal(rows_by_id[id]['title'])] = g['id']
+    types = {r['type']: r['id'] for r in db.execute('SELECT * FROM talk_type')}
+    used_slugs = {}
+
+    def allocate_slug(talk_id, title, year):
+        base = slug(title)
+        chosen = base
+        if chosen in used_slugs and used_slugs[chosen] != talk_id:
+            chosen = base + '-' + str(year)
+            if chosen in used_slugs:
+                chosen = base + '-' + str(talk_id)
+        if chosen in used_slugs and used_slugs[chosen] != talk_id:
+            raise ValueError('Cannot allocate a unique talk URL: ' + chosen)
+        used_slugs[chosen] = talk_id
+        return chosen
+
+    existing_titles = collections.defaultdict(list)
+    for talk in db.execute('SELECT * FROM talk ORDER BY id').fetchall():
+        existing_titles[normal(talk['title'])].append(talk['id'])
+        old_slug = talk['url_slug'] or slug(talk['title'])
+        if old_slug in used_slugs:
+            year = db.execute('''SELECT min(y.year) FROM presentation p
+                JOIN event e ON e.id = p.event_id JOIN year y ON y.id = e.year_id
+                WHERE p.talk_id = ?''', (talk['id'],)).fetchone()[0]
+            chosen = allocate_slug(talk['id'], talk['title'], year or talk['id'])
+            db.execute('UPDATE talk SET url_slug = ? WHERE id = ?', (chosen, talk['id']))
+            report['url_overrides'].append({'talk_id': talk['id'], 'title': talk['title'], 'slug': chosen})
+        else:
+            used_slugs[old_slug] = talk['id']
+
+    new = [r for r in records if not r['existing_presentation_ids']]
+    event_records = collections.defaultdict(list)
+    for r in new:
+        event_records[(r['event'], r['date'][:4])].append(r)
+    events = {}
+    for key, members in event_records.items():
+        sample = members[0]
+        name, series = event_details(sample)
+        year = int(key[1])
+        # Local groups and Perl School can have multiple meetings in a year.
+        # Use their distinct event names as the key instead of the group label.
+        for member in members:
+            member_name, _ = event_details(member)
+            event_key = (member_name, year)
+            if event_key in events:
+                continue
+            matched = [r for r in members if event_details(r)[0] == member_name]
+            year_id = ensure(db, 'year', {'year': year})
+            existing = db.execute('SELECT id FROM event WHERE name = ? AND year_id = ?',
+                                  (member_name, year_id)).fetchone()
+            if existing:
+                events[event_key] = existing['id']
+                continue
+            series_id = ensure(db, 'event_series', {'name': series})
+            dates = [r['date'] for r in matched] + [r['end_date'] for r in matched if r['end_date']]
+            start, end = BOUNDS.get(sample['event'], (min(dates), max(dates)))
+            dt.date.fromisoformat(start)
+            dt.date.fromisoformat(end)
+            location = member['location']
+            venue_id = None
+            for candidate in matched:
+                candidate_venue = venue(db, candidate['location'])
+                if candidate_venue is not None:
+                    venue_id = candidate_venue
+                    location = candidate['location']
+                    break
+            event_id = db.execute('''INSERT INTO event
+                (name, start_date, end_date, venue_id, event_series_id, year_id, is_online, location_text)
+                VALUES (?, ?, ?, ?, ?, ?, 0, ?)''',
+                (member_name, start, end if start != end else None, venue_id, series_id,
+                 year_id, location if venue_id is None else None)).lastrowid
+            events[event_key] = event_id
+            report['created_events'].append({'id': event_id, 'name': member_name,
+                'start_date': start, 'end_date': end, 'location': location})
+
+    talk_keys = {}
+    new_talk_ids = set()
+    for r in records:
+        saved = db.execute('SELECT * FROM backfill_source WHERE batch = ? AND source_id = ?',
+                            (BATCH, r['id'])).fetchone()
+        encoded = json.dumps(r, ensure_ascii=False, sort_keys=True)
+        if saved:
+            if saved['record_json'] != encoded:
+                raise ValueError('Research record changed after import: ' + r['id'])
+            presentation = db.execute('SELECT * FROM presentation WHERE id = ?',
+                                      (saved['presentation_id'],)).fetchone()
+            if not presentation:
+                raise ValueError('Previously imported presentation is missing: ' + r['id'])
+            report['already_imported'].append(r['id'])
+            report['mappings'].append({'source_id': r['id'], 'presentation_id': presentation['id'],
+                                       'talk_id': presentation['talk_id'], 'event_id': presentation['event_id']})
+            continue
+        if r['existing_presentation_ids']:
+            if len(r['existing_presentation_ids']) != 1:
+                raise ValueError('Ambiguous existing presentation: ' + r['id'])
+            presentation_id = r['existing_presentation_ids'][0]
+            presentation = db.execute('SELECT * FROM presentation WHERE id = ?', (presentation_id,)).fetchone()
+            if not presentation or presentation['talk_id'] not in r['existing_talk_ids']:
+                raise ValueError('Existing presentation match has changed: ' + r['id'])
+            talk_id, event_id = presentation['talk_id'], presentation['event_id']
+            canonical = db.execute('SELECT title FROM talk WHERE id = ?', (talk_id,)).fetchone()[0]
+            if r['title'] != canonical:
+                db.execute('UPDATE presentation SET title = ? WHERE id = ?', (r['title'], presentation_id))
+            if r['id'] == 'T093':
+                value, label = delivery_date(r)
+                if presentation['datetime'] != value:
+                    report['date_corrections'].append({'source_id': r['id'], 'presentation_id': presentation_id,
+                        'before': presentation['datetime'], 'after': value})
+                db.execute('UPDATE presentation SET datetime = ?, date_label = ? WHERE id = ?',
+                           (value, label, presentation_id))
+            report['existing_matches'].append(r['id'])
+        else:
+            public_title = 'Writing Books' if r['id'] == 'T085' else r['title']
+            group_id = r.get('talk_group_id') or aliases.get(normal(public_title))
+            if r['id'] == 'T087':
+                key, canonical = 'modern-PERL-distinct', 'Modern PERL'
+            elif group_id:
+                key, canonical = group_id, groups[group_id]['proposed_title']
+            elif r['id'] in COURSES:
+                key, canonical = normal(COURSES[r['id']]), COURSES[r['id']]
+            else:
+                key, canonical = normal(public_title), public_title
+            kind = 'discussion' if r['kind'] == 'panel' else r['kind']
+            if r['existing_talk_ids']:
+                if len(r['existing_talk_ids']) != 1:
+                    raise ValueError('Ambiguous talk match: ' + r['id'])
+                talk_id = r['existing_talk_ids'][0]
+            elif key in talk_keys:
+                talk_id = talk_keys[key]
+            elif len(existing_titles[normal(canonical)]) == 1 and r['id'] != 'T087':
+                talk_id = existing_titles[normal(canonical)][0]
+            else:
+                talk_id = db.execute('INSERT INTO talk (title, talk_type_id) VALUES (?, ?)',
+                                     (canonical, types[kind])).lastrowid
+                chosen_slug = allocate_slug(talk_id, canonical, r['date'][:4])
+                if chosen_slug != slug(canonical):
+                    db.execute('UPDATE talk SET url_slug = ? WHERE id = ?', (chosen_slug, talk_id))
+                    report['url_overrides'].append({'talk_id': talk_id, 'title': canonical, 'slug': chosen_slug})
+                new_talk_ids.add(talk_id)
+                report['created_talks'].append({'id': talk_id, 'title': canonical, 'url': '/talk/' + chosen_slug + '/'})
+            talk_keys[key] = talk_id
+            talk = db.execute('SELECT * FROM talk WHERE id = ?', (talk_id,)).fetchone()
+            if talk_id in new_talk_ids:
+                current_kind = next(name for name, id in types.items() if id == talk['talk_type_id'])
+                if TYPE_PRIORITY[kind] > TYPE_PRIORITY[current_kind]:
+                    db.execute('UPDATE talk SET talk_type_id = ? WHERE id = ?', (types[kind], talk_id))
+            event_name, _ = event_details(r)
+            event_id = events[(event_name, int(r['date'][:4]))]
+            value, label = delivery_date(r)
+            display_title = 'Idiomatic Perl (extract)' if r['id'] in {'T010', 'T011'} else public_title
+            fields = dict(talk_id=talk_id, event_id=event_id, datetime=value, date_label=label,
+                          title=display_title if display_title != talk['title'] else None, **media(r))
+            columns = ', '.join(fields)
+            placeholders = ', '.join('?' for _ in fields)
+            presentation_id = db.execute(f'INSERT INTO presentation ({columns}) VALUES ({placeholders})',
+                                         list(fields.values())).lastrowid
+            report['created_presentations'].append({'source_id': r['id'], 'presentation_id': presentation_id,
+                'talk_id': talk_id, 'event_id': event_id, 'title': display_title,
+                'datetime': value, 'date_label': label})
+        db.execute('INSERT INTO backfill_source VALUES (?, ?, ?, ?)',
+                   (BATCH, r['id'], presentation_id, encoded))
+        report['mappings'].append({'source_id': r['id'], 'presentation_id': presentation_id,
+                                   'talk_id': talk_id, 'event_id': event_id})
+    paths = [r['url_slug'] or slug(r['title']) for r in db.execute('SELECT * FROM talk')]
+    if len(paths) != len(set(paths)):
+        raise ValueError('Duplicate talk URLs after import')
+    if db.execute('PRAGMA foreign_key_check').fetchall():
+        raise ValueError('Foreign-key check failed')
+    if db.execute('PRAGMA integrity_check').fetchone()[0] != 'ok':
+        raise ValueError('SQLite integrity check failed')
+    report['after'] = counts(db)
+    return report
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--database', type=pathlib.Path, default=ROOT / 'db/talks.db')
+    parser.add_argument('--catalogue', type=pathlib.Path,
+                        default=ROOT / 'research' / BATCH / 'catalogue.json')
+    parser.add_argument('--apply', action='store_true', help='apply instead of running in memory')
+    parser.add_argument('--backup', type=pathlib.Path, help='backup path when applying (must not exist)')
+    parser.add_argument('--report', type=pathlib.Path, help='write the JSON report here')
+    args = parser.parse_args()
+    if args.report and not args.report.parent.is_dir():
+        parser.error('Report directory does not exist: ' + str(args.report.parent))
+    catalogue = json.loads(args.catalogue.read_text())
+    source = sqlite3.connect(args.database.resolve().as_uri() +
+                             ('?mode=rw' if args.apply else '?mode=ro'), uri=True)
+    backup_path = None
+    if args.apply:
+        backup_path = args.backup or args.database.with_name(args.database.name +
+            '.before-backfill-' + dt.datetime.now(dt.timezone.utc).strftime('%Y%m%dT%H%M%S%fZ') + '.bak')
+        if backup_path.exists():
+            raise ValueError('Refusing to overwrite backup: ' + str(backup_path))
+        backup = sqlite3.connect(backup_path)
+        source.backup(backup)
+        backup.close()
+        db = source
+    else:
+        db = sqlite3.connect(':memory:')
+        source.backup(db)
+        source.close()
+    db.row_factory = sqlite3.Row
+    db.execute('PRAGMA foreign_keys = ON')
+    try:
+        db.execute('BEGIN IMMEDIATE')
+        report = import_catalogue(db, catalogue)
+        db.commit()
+    except BaseException:
+        db.rollback()
+        raise
+    finally:
+        db.close()
+    report.update(applied=args.apply, backup=str(backup_path) if backup_path else None)
+    encoded = json.dumps(report, ensure_ascii=False, indent=2) + '\n'
+    if args.report:
+        args.report.write_text(encoded)
+    print(json.dumps({k: report[k] for k in ['applied', 'before', 'after', 'backup']}, indent=2))
+
+
+if __name__ == '__main__':
+    main()

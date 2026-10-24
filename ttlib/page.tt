@@ -15,14 +15,14 @@
     <meta name="description" content="[% object.description | xml %]">
     <meta name="author" content="Dave Cross">
     <meta name="generator" content="Dave's talks site generator">
-    <title>[% object.title OR 'Talks by Dave Cross' %]</title>
+    <title>[% (object.title OR 'Talks by Dave Cross') | html %]</title>
 
-    <meta property="og:title" content="[% object.title OR 'Talks by Dave Cross' %]">
+    <meta property="og:title" content="[% (object.title OR 'Talks by Dave Cross') | html %]">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://talks.davecross.co.uk[% object.url_path %]">
     <meta property="og:description" content="[% object.description | xml %]">
 [% IF object.has_image -%]
-    <meta property="og:image" content="https://talks.davecross.co.uk/images/[% object.slug %].png">
+    <meta property="og:image" content="https://talks.davecross.co.uk/images/[% object.image_slug OR object.slug %].png">
 [% ELSE -%]
     <meta property="og:image" content="https://talks.davecross.co.uk/images/default_og.png">
 [% END -%]

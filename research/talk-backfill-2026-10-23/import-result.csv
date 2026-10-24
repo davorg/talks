@@ -1,0 +1,107 @@
+source_id,talk_id,presentation_id,event_id,action,title,canonical_title,datetime,date_label,source_precision
+T001,24,26,14,new presentation,Data Munging with Perl,Data Munging with Perl,,22 September 2000 – 24 September 2000 (exact day not recorded),event_range
+T002,25,27,14,new presentation,Symbol::Approx::Sub,Symbol::Approx::Sub,,22 September 2000 – 24 September 2000 (exact day not recorded),event_range
+T003,26,28,15,new presentation,Perl For The People,Perl For The People,2001-06-21,21 June 2001,day
+T004,26,29,17,new presentation,Increasing Perl Use,Perl For The People,,July 2001 (exact day not recorded),month
+T005,27,30,17,new presentation,Why Perl Advocacy is a Bad Idea,Why Perl Advocacy is a Bad Idea,,July 2001 (exact day not recorded),month
+T006,26,31,18,new presentation,Perl for the People: A Modest Proposal for Increasing Perl Usage Using a Combination of Legal and Technological Means,Perl For The People,,2 August 2001 – 4 August 2001 (exact day not recorded),event_range
+T007,27,32,18,new presentation,Why Perl Advocacy Is a Bad Idea,Why Perl Advocacy is a Bad Idea,,2 August 2001 – 4 August 2001 (exact day not recorded),event_range
+T008,28,33,16,new presentation,NMS,NMS,2001-11-22,22 November 2001,day
+T009,29,34,19,new presentation,Idiotic Perl,Idiotic Perl,2002-01-24,24 January 2002,day
+T105,29,35,22,new presentation,Idiotic Perl,Idiotic Perl,2002-02-14 14:00:00,"14 February 2002, 14:00",day
+T106,21,36,22,new presentation,Idiomatic Perl,Idiomatic Perl,2002-02-15 09:00:00,"15 February 2002, 09:00",day
+T010,21,37,20,new presentation,Idiomatic Perl (extract),Idiomatic Perl,2002-05-16,16 May 2002,day
+T011,21,38,21,new presentation,Idiomatic Perl (extract),Idiomatic Perl,2002-07-18,18 July 2002,day
+T013,30,39,23,new presentation,Overload.pm,Overloading in Perl,2003-01-23,23 January 2003,day
+T014,30,40,25,new presentation,Overloading in Perl,Overloading in Perl,2003-02-26,26 February 2003,day
+T015,26,41,25,new presentation,Perl For The People,Perl For The People,2003-02-26,26 February 2003,day
+T016,22,42,26,new presentation,Tieing and Overloading Objects in Perl,Tieing and Overloading Objects in Perl,2003-07-23 14:15:00,"23 July 2003, 14:15",day
+T018,31,43,24,new presentation,Writing a Book Using The Template Toolkit,Writing a Book Using The Template Toolkit,2003-09-18,18 September 2003,day
+T019,32,44,27,new presentation,Tieing,Tieing,2003-11-17,17 November 2003,day
+T020,33,45,28,new presentation,Perl,Perl,2004-02-22 15:00:00,"22 February 2004, 15:00",day
+T021,34,46,29,new presentation,Introduction to the Template Toolkit,Introduction to the Template Toolkit,2004-10-09,9 October 2004,day
+T107,21,23,12,existing match,Idiomatic Perl,Idiomatic Perl,2004-10-13 13:00,,event_range
+T108,22,24,12,existing match,Tieing and Overloading Objects in Perl,Tieing and Overloading Objects in Perl,2004-10-15 08:30,,event_range
+T022,35,47,30,new presentation,OO Perl,OO Perl,2004-12-11,11 December 2004,day
+T023,36,48,31,new presentation,Enterprise Perl,Enterprise Perl,2005-10-06,6 October 2005,day
+T024,37,49,32,new presentation,The Perl Mongers Census,The Perl Mongers Census,2005-10-18,18 October 2005,day
+T025,38,50,33,new presentation,Databases and Perl,Databases and Perl,2005-11-26,26 November 2005,day
+T026,38,51,34,new presentation,Databases and Perl,Databases and Perl,2006-03-14,14 March 2006,day
+T027,39,52,35,new presentation,What's Wrong With ORM?,What's Wrong With ORM?,2006-03-23,23 March 2006,day
+T028,39,53,36,new presentation,What's Wrong with ORM,What's Wrong With ORM?,2006-06-24,24 June 2006,day
+T029,40,54,37,new presentation,Advanced Databases for Beginners,Advanced Databases for Beginners,2006-08-30 14:00:00,"30 August 2006, 14:00",day
+T030,39,55,37,new presentation,What's Wrong With ORM,What's Wrong With ORM?,2006-08-31 11:45:00,"31 August 2006, 11:45",day
+T031,41,56,37,new presentation,Programming Languages and Perl,Programming Languages and Perl,2006-08-31 17:35:00,"31 August 2006, 17:35",day
+T032,42,57,38,new presentation,Teach-In Extract - OO Perl,Teach-In Extract - OO Perl,2007-10-27 09:30:00,"27 October 2007, 09:30",day
+T033,34,58,39,new presentation,An Introduction to the Template Toolkit,Introduction to the Template Toolkit,2007-11-15,15 November 2007,day
+T034,43,59,40,new presentation,Beginners Perl Tutorial,Beginners Perl Tutorial,2007-12-01 10:30:00,"1 December 2007, 10:30",day
+T035,44,60,41,new presentation,Perl Teach-In,Perl Teach-In,2008-03-31 10:30:00,"31 March 2008, 10:30",day
+T036,44,61,42,new presentation,Perl Teach-In,Perl Teach-In,2008-08-12 10:00:00,"12 August 2008, 10:00",day
+T037,45,62,42,new presentation,Proud to Use Perl,Proud to Use Perl,2008-08-15 09:40:00,"15 August 2008, 09:40",day
+T038,46,63,42,new presentation,Perl in RPM-Land,Perl in RPM-Land,2008-08-15 11:20:00,"15 August 2008, 11:20",day
+T039,47,64,42,new presentation,Ye Compleat History of Ye Perle Mongers of Olde London Towne (Part 1),The Complete History of the Perle Mongers of Olde London Towne (Parte One),2008-08-15 13:30:00,"15 August 2008, 13:30",day
+T040,46,65,43,new presentation,Perl in RPM Land,Perl in RPM-Land,2008-09-08,8 September 2008,day
+T041,47,66,44,new presentation,The Complete History of the Perle Mongers of Olde London Towne (Parte One),The Complete History of the Perle Mongers of Olde London Towne (Parte One),2008-11-29 09:10:00,"29 November 2008, 09:10",day
+T042,48,67,44,new presentation,Web Programming,Web Programming,2008-11-29,29 November 2008,day
+T043,49,68,45,new presentation,Why do so many companies re-invent well-known CPAN modules badly and end up writing far too much code?,Why do so many companies re-invent well-known CPAN modules badly and end up writing far too much code?,2009-07-30,30 July 2009,day
+T044,50,69,46,new presentation,Introduction to Perl (day 1),Introduction to Perl,2009-08-01 09:30:00,"1 August 2009, 09:30",day
+T045,50,70,46,new presentation,Introduction to Perl (day 2),Introduction to Perl,2009-08-02 09:30:00,"2 August 2009, 09:30",day
+T046,49,71,46,new presentation,Why do so many companies re-invent well-known CPAN modules badly ... ?,Why do so many companies re-invent well-known CPAN modules badly and end up writing far too much code?,2009-08-04 16:00:00,"4 August 2009, 16:00",day
+T047,51,72,46,new presentation,The Planetarium,The Planetarium,2009-08-05 15:15:00,"5 August 2009, 15:15",day
+T048,52,73,47,new presentation,How I Maintain my CPAN Modules,How I Maintain my CPAN Modules,2009-10-15,15 October 2009,day
+T049,53,74,47,new presentation,"Teaching Perl - Experiences, Anecdotes and Vague Conclusions","Teaching Perl - Experiences, Anecdotes and Vague Conclusions",2009-10-15,15 October 2009,day
+T050,54,75,48,new presentation,"The ""M"" Word","The ""M"" Word",2009-12-05 09:30:00,"5 December 2009, 09:30",day
+T051,55,76,48,new presentation,Skills in the Workplace,Skills in the Workplace,2009-12-05,5 December 2009,day
+T052,8,77,48,new presentation,The Professional Programmer,The Professional Programmer,2009-12-05,5 December 2009,day
+T053,56,78,49,new presentation,Battersea Election Candidates at the General Election,Battersea Election Candidates at the General Election,2010-04-29,29 April 2010,day
+T054,57,79,11,new presentation,Introducing Modern Perl,Introducing Modern Perl,2010-08-02 09:00:00,"2 August 2010, 09:00",day
+T055,58,80,11,new presentation,Things I Learned From Having Users,Things I Learned From Having Users,2010-08-04 11:00:00,"4 August 2010, 11:00",day
+T056,20,22,11,existing match,Perl Vogue,Perl Vogue,2010-08-04 17:00,,event_range
+T057,59,81,11,new presentation,The Perl Community,The Perl Community,2010-08-06 14:00:00,"6 August 2010, 14:00",day
+T058,60,82,50,new presentation,Modern Perl,Modern Perl,2010-09-11,11 September 2010,day
+T059,61,83,51,new presentation,Evolving Software with Moose,Evolving Software with Moose,2010-10-12,12 October 2010,day
+T060,62,84,52,new presentation,Modern Web Programming in Perl - Part One,Modern Web Programming in Perl,2010-12-04 10:05:00,"4 December 2010, 10:05",day
+T061,62,85,52,new presentation,Modern Web Programming in Perl - Part Two,Modern Web Programming in Perl,2010-12-04 11:15:00,"4 December 2010, 11:15",day
+T062,61,86,52,new presentation,Evolving Software with Moose,Evolving Software with Moose,2010-12-04 12:50:00,"4 December 2010, 12:50",day
+T063,63,87,53,new presentation,Watching the Press,Watching the Press,2011-05-21,21 May 2011,day
+T064,57,88,54,new presentation,Introducing Modern Perl,Introducing Modern Perl,2011-08-14 10:00:00,"14 August 2011, 10:00",day
+T065,26,89,54,new presentation,The Perl Community - A Modest Proposal,Perl For The People,,15 August 2011 – 17 August 2011 (exact day not recorded),event_range
+T066,64,90,54,new presentation,Perl Training,Perl Training,2011-08-17 12:05:00,"17 August 2011, 12:05",day
+T067,65,91,55,new presentation,Modern Core Perl,Modern Core Perl,2011-11-12 09:30:00,"12 November 2011, 09:30",day
+T068,26,92,55,new presentation,The Perl Community - A Modest Proposal,Perl For The People,2011-11-12,12 November 2011,day
+T069,66,93,56,new presentation,Modern Perl for Non-Perl Programmers,Modern Perl for Non-Perl Programmers,2012-08-04,4 August 2012,day
+T070,66,94,57,new presentation,Modern Perl for Non-Perl Programmers,Modern Perl for Non-Perl Programmers,2012-10-06,6 October 2012,day
+T071,67,95,58,new presentation,Introduction to OO Perl with Moose,Introduction to OO Perl with Moose,2012-11-24 09:50:00,"24 November 2012, 09:50",day
+T072,68,96,58,new presentation,Twenty Five Years of Perl in Twenty Five (ish) Minutes,25 Years of Perl in (about) 25 Minutes,2012-11-24 15:10:00,"24 November 2012, 15:10",day
+T073,69,97,58,new presentation,Matt's PSGI Archive,Matt's PSGI Archive,2012-11-24,24 November 2012,day
+T074,69,98,59,new presentation,Matt's PSGI Archive,Matt's PSGI Archive,2013-05-20,20 May 2013,day
+T075,68,99,60,new presentation,25 Years of Perl in (about) 25 Minutes,25 Years of Perl in (about) 25 Minutes,2013-08-12 11:50:00,"12 August 2013, 11:50",day
+T076,70,100,60,new presentation,The Kingdom of the Blind,The Kingdom of the Blind,2013-08-12,12 August 2013,day
+T077,69,101,60,new presentation,Matt's PSGI Archive,Matt's PSGI Archive,2013-08-13 12:50:00,"13 August 2013, 12:50",day
+T078,66,102,61,new presentation,Modern Perl for Non-Perl Programmers,Modern Perl for Non-Perl Programmers,2013-11-30 14:00:00,"30 November 2013, 14:00",day
+T079,70,103,61,new presentation,The Kingdom of the Blind,The Kingdom of the Blind,2013-11-30,30 November 2013,day
+T080,71,104,62,new presentation,"Github, Travis-CI and Perl","Github, Travis-CI and Perl",2014-07-24,24 July 2014,day
+T081,72,105,63,new presentation,Perl in the Internet of Things (Part One),Perl in the Internet of Things,2014-11-08 09:10:00,"8 November 2014, 09:10",day
+T082,72,106,63,new presentation,Perl in the Internet of Things (Part Two),Perl in the Internet of Things,2014-11-08 11:30:00,"8 November 2014, 11:30",day
+T083,73,107,63,new presentation,Return to the Kingdom of the Blind,Return to the Kingdom of the Blind,2014-11-08,8 November 2014,day
+T084,74,108,64,new presentation,TwittElection,TwittElection,2015-06-13,13 June 2015,day
+T085,75,109,65,new presentation,Writing Books,Writing Books,2015-08-13,13 August 2015,day
+T086,76,110,66,new presentation,Database Development with Perl and DBIx::Class,Database Development with Perl and DBIx::Class,2015-09-01,1 September 2015,day
+T087,77,111,66,new presentation,Modern PERL,Modern PERL,,2 September 2015 – 4 September 2015 (exact day not recorded),event_range
+T088,78,112,66,new presentation,Conference Driven Publishing,Conference Driven Publishing,2015-09-03 15:00:00,"3 September 2015, 15:00",day
+T089,79,113,67,new presentation,Modern Perl Web Development,Modern Perl Web Development,2015-12-12 09:10:00,"12 December 2015, 09:10",day
+T090,78,114,67,new presentation,Conference Driven Publishing,Conference Driven Publishing,2015-12-12 15:00:00,"12 December 2015, 15:00",day
+T091,80,115,67,new presentation,Improving Dev Assistant,Improving Dev Assistant,2015-12-12,12 December 2015,day
+T092,17,19,9,existing match,Medium Perl,Medium Perl,2016-08-24 18:00,,event_range
+T093,16,18,9,existing match,Error(s) Free Programming,Error(s) Free Programming,2016-08-25 15:05:00,"25 August 2016, 15:05",day
+T094,15,16,8,existing match,Modern Perl Catch-Up,Modern Perl Catch-Up,2016-12-03 09:10,,day
+T095,16,17,8,existing match,Error(s) Free Programming,Error(s) Free Programming,2016-12-03 17:15,,day
+T096,13,14,7,existing match,Web Site Tune-Up - Improve Your Googlejuice,Web Site Tune-Up - Improve Your Googlejuice,2017-11-25 09:00,,day
+T097,14,15,7,existing match,Adventures Beyond the Echo Chamber,Adventures Beyond the Echo Chamber,2017-11-25 17:30,,day
+T098,7,8,5,existing match,Web Site Tune-Up - Improve Your Googlejuice,Web Site Tune-Up - Improve Your Googlejuice,2018-08-14 09:30,,day
+T099,8,9,5,existing match,The Professional Programmer,The Professional Programmer,2018-08-14 14:00,,day
+T100,9,10,5,existing match,Now We Are 20,Now We Are 20,2018-08-15 16:30,,event_range
+T101,10,11,5,existing match,"I'm a Republican, Honest!","I'm a Republican, Honest!",2018-08-16 16:20,,day
+T102,3,3,2,existing match,Measuring the Quality of your Perl Code,Measuring the Quality of Your Perl Code,2019-10-19 10:10,,day
+T103,11,12,6,existing match,Perl Diver,Perl Diver,2024-10-26 09:30,,day
+T104,12,13,6,existing match,Perl School Catch-up,Perl School Update,2024-10-26 16:20,,day

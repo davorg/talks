@@ -11,7 +11,7 @@
       <h2>Presentations</h2>
       <ul>
 [%   FOR p IN talk.presentations -%]
-        <li><a href="[% p.event.url_path %]">[% p.event.name_year %]</a> - [% p.datetime %][% IF p.display_title != talk.title %] — [% p.display_title | html %][% END %]</li>
+        <li><a href="[% p.event.url_path %]">[% p.event.name_year %]</a>[% IF p.display_datetime %] - [% p.display_datetime | html %][% END %][% IF p.display_title != talk.title %] — [% p.display_title | html %][% END %][% IF p.slide_url %] (<a href="[% p.slide_url | html %]">Slides</a>)[% END %][% IF p.video_url %] (<a href="[% p.video_url | html %]">Video</a>)[% END %]</li>
 [%   END # FOR -%]
       </ul>
 [%   IF talk.extras OR talk.talk_links.size -%]

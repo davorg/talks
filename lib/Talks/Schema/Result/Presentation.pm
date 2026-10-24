@@ -97,6 +97,11 @@ __PACKAGE__->table("presentation");
   data_type: 'text'
   is_nullable: 1
 
+=head2 date_label
+
+  data_type: 'text'
+  is_nullable: 1
+
 =cut
 
 __PACKAGE__->add_columns(
@@ -122,6 +127,8 @@ __PACKAGE__->add_columns(
   { data_type => "boolean", is_nullable => 1 },
   "title",
   { data_type => "text", is_nullable => 1 },
+  "date_label",
+  { data_type => "text", is_nullable => 1 },
 );
 
 =head1 PRIMARY KEY
@@ -137,6 +144,21 @@ __PACKAGE__->add_columns(
 __PACKAGE__->set_primary_key("id");
 
 =head1 RELATIONS
+
+=head2 backfill_sources
+
+Type: has_many
+
+Related object: L<Talks::Schema::Result::BackfillSource>
+
+=cut
+
+__PACKAGE__->has_many(
+  "backfill_sources",
+  "Talks::Schema::Result::BackfillSource",
+  { "foreign.presentation_id" => "self.id" },
+  { cascade_copy => 0, cascade_delete => 0 },
+);
 
 =head2 event
 
@@ -169,8 +191,8 @@ __PACKAGE__->belongs_to(
 );
 
 
-# Created by DBIx::Class::Schema::Loader v0.07053 @ 2026-10-24 10:49:42
-# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:OwjHFIGDrCmglngVcVXWJA
+# Created by DBIx::Class::Schema::Loader v0.07053 @ 2026-10-24 11:17:28
+# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:JdKn7vTxpPQ3oVkCn9X98A
 
 
 sub display_title {
@@ -179,6 +201,12 @@ sub display_title {
 
   return $title if defined $title && $title =~ /\S/;
   return $self->talk->title;
+}
+
+sub display_datetime {
+  my $self = shift;
+  return $self->date_label if defined $self->date_label && length $self->date_label;
+  return $self->datetime // '';
 }
 
 __PACKAGE__->meta->make_immutable;

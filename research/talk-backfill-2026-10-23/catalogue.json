@@ -1,0 +1,3548 @@
+{
+  "research_date": "2026-10-23",
+  "baseline_commit": "141542a0f81c79111058165c8ae1f3af36c76882",
+  "records": [
+    {
+      "id": "T001",
+      "review": "confirmed",
+      "title": "Data Munging with Perl",
+      "date": "2000-09-22",
+      "end_date": "2000-09-24",
+      "date_precision": "event_range",
+      "time_local": "",
+      "duration_minutes": "",
+      "event": "YAPC Europe 2000",
+      "location": "London, UK",
+      "kind": "talk",
+      "evidence": "delivered_report",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://perlhacks.com/2024/04/collecting-talks/"
+        },
+        {
+          "label": "Contemporary report",
+          "url": "https://www.perl.com/pub/2000/10/yapc-europe.html/"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "Topic/title reconstructed from the author's retrospective; the contemporary report places the data-munging talk on Saturday 23 September. Confirm exact advertised title and day."
+      ],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T002",
+      "review": "confirmed",
+      "title": "Symbol::Approx::Sub",
+      "date": "2000-09-22",
+      "end_date": "2000-09-24",
+      "date_precision": "event_range",
+      "time_local": "",
+      "duration_minutes": 5,
+      "event": "YAPC Europe 2000",
+      "location": "London, UK",
+      "kind": "lightning",
+      "evidence": "delivered_report",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://perlhacks.com/2024/04/collecting-talks/"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "Author explicitly recalls giving this lightning talk at his first conference; exact day and advertised title remain unverified."
+      ],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T003",
+      "review": "confirmed",
+      "title": "Perl For The People",
+      "date": "2001-06-21",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "",
+      "duration_minutes": "",
+      "event": "London Perl Mongers technical meeting",
+      "location": "State51, London, UK",
+      "kind": "talk",
+      "evidence": "delivered_report",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://web.archive.org/web/20060502010406/http://london.pm.org/tech_talks/index.html"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "Dave’s review, 24 October 2026: 95% sure T003, T004 and T006 are the same talk under slightly different names (group G001). Possible slide variations remain unverified. Together with the later confirmed revival T068, group G001 now proposes one talk with four separate deliveries; retain each advertised title. Delivery is confirmed by the completed checklist review; the original three-way grouping remains probable and qualified dates are unchanged."
+      ],
+      "talk_group_id": "G001",
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T004",
+      "review": "confirmed",
+      "title": "Increasing Perl Use",
+      "date": "2001-07",
+      "end_date": "",
+      "date_precision": "month",
+      "time_local": "",
+      "duration_minutes": "",
+      "event": "O'Reilly Perl Conference / OSCON 2001",
+      "location": "San Diego, USA",
+      "kind": "talk",
+      "evidence": "announcement",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://www.mail-archive.com/london-pm%40lists.dircon.co.uk/msg04715.html"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "Contemporary London.pm summary lists Dave and this title among the conference speakers. Exact day remains unverified.",
+        "Dave’s review, 24 October 2026: 95% sure T003, T004 and T006 are the same talk under slightly different names (group G001). Possible slide variations remain unverified. Together with the later confirmed revival T068, group G001 now proposes one talk with four separate deliveries; retain each advertised title. Delivery is confirmed by the completed checklist review; the original three-way grouping remains probable and qualified dates are unchanged."
+      ],
+      "talk_group_id": "G001",
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T005",
+      "review": "confirmed",
+      "title": "Why Perl Advocacy is a Bad Idea",
+      "date": "2001-07",
+      "end_date": "",
+      "date_precision": "month",
+      "time_local": "",
+      "duration_minutes": 5,
+      "event": "O'Reilly Perl Conference / OSCON 2001",
+      "location": "San Diego, USA",
+      "kind": "lightning",
+      "evidence": "delivered_report",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://plover.com/~mjd/perl/lt/tpc2001.html"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "Listed by the lightning-talk organiser, with approximate start time 4:59 (session timing, not a recovered datetime). Exact day not established."
+      ],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T006",
+      "review": "confirmed",
+      "title": "Perl for the People: A Modest Proposal for Increasing Perl Usage Using a Combination of Legal and Technological Means",
+      "date": "2001-08-02",
+      "end_date": "2001-08-04",
+      "date_precision": "event_range",
+      "time_local": "",
+      "duration_minutes": "",
+      "event": "YAPC Europe 2001",
+      "location": "Amsterdam, Netherlands",
+      "kind": "talk",
+      "evidence": "delivered_report",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://www.yapceurope.org/2001/talks.html#22"
+        }
+      ],
+      "media_urls": [
+        "http://www.dave.org.uk/talks/ppl/slide1.html"
+      ],
+      "notes": [
+        "Listed in official proceedings. The old slide URL is an archival lead and may no longer resolve.",
+        "Dave’s review, 24 October 2026: 95% sure T003, T004 and T006 are the same talk under slightly different names (group G001). Possible slide variations remain unverified. Together with the later confirmed revival T068, group G001 now proposes one talk with four separate deliveries; retain each advertised title. Delivery is confirmed by the completed checklist review; the original three-way grouping remains probable and qualified dates are unchanged.",
+        "Dave confirmed on 24 October 2026 that T068 (The Perl Community - A Modest Proposal, LPW 2011) is a lightly updated revival of this talk. Group G001 therefore includes T068 as a fourth delivery while retaining its later title and revision note."
+      ],
+      "talk_group_id": "G001",
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T007",
+      "review": "confirmed",
+      "title": "Why Perl Advocacy Is a Bad Idea",
+      "date": "2001-08-02",
+      "end_date": "2001-08-04",
+      "date_precision": "event_range",
+      "time_local": "",
+      "duration_minutes": 5,
+      "event": "YAPC Europe 2001",
+      "location": "Amsterdam, Netherlands",
+      "kind": "lightning",
+      "evidence": "delivered_report",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://www.yapceurope.org/2001/talks.html"
+        }
+      ],
+      "media_urls": [
+        "http://www.dave.org.uk/talks/advocacy.html"
+      ],
+      "notes": [
+        "Official proceedings list Dave in the lightning session. Exact date/slot not recovered."
+      ],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T008",
+      "review": "confirmed",
+      "title": "NMS",
+      "date": "2001-11-22",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "",
+      "duration_minutes": "",
+      "event": "London Perl Mongers technical meeting",
+      "location": "London, UK",
+      "kind": "talk",
+      "evidence": "delivered_report",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://web.archive.org/web/20060502010406/http://london.pm.org/tech_talks/index.html"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "Use the catalogue's title NMS; expansion to 'Not Matt's Scripts' is a topic description, not a verified original title."
+      ],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T009",
+      "review": "confirmed",
+      "title": "Idiotic Perl",
+      "date": "2002-01-24",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "",
+      "duration_minutes": "",
+      "event": "London Perl Mongers technical meeting",
+      "location": "London, UK",
+      "kind": "talk",
+      "evidence": "delivered_report",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://web.archive.org/web/20060502010406/http://london.pm.org/tech_talks/index.html"
+        }
+      ],
+      "media_urls": [],
+      "notes": [],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T105",
+      "review": "confirmed",
+      "title": "Idiotic Perl",
+      "date": "2002-02-14",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "14:00",
+      "duration_minutes": 40,
+      "event": "German Perl Workshop 4.0 (2002)",
+      "location": "Fachhochschule Bonn-Rhein-Sieg, Sankt Augustin, Germany",
+      "kind": "talk",
+      "evidence": "scheduled",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Archived official timetable",
+          "url": "https://web.archive.org/web/20020405194515/http://www.perlworkshop.de/2002/times.epl"
+        },
+        {
+          "label": "Archived official abstracts",
+          "url": "https://web.archive.org/web/20020105225714/http://www.perlworkshop.de/2002/contriblist.epl"
+        },
+        {
+          "label": "Dave’s London practice-run report",
+          "url": "https://www.mail-archive.com/london.pm%40london.pm.org/msg04789.html"
+        },
+        {
+          "label": "Dave’s post-event attendance reference",
+          "url": "https://www.mail-archive.com/london.pm%40london.pm.org/msg05602.html"
+        }
+      ],
+      "media_urls": [
+        "http://www.mag-sol.com/talks/idiotic/"
+      ],
+      "notes": [
+        "Dave remembered the year as possibly 2001 and correctly recalled both titles. The archived 2002 timetable explicitly places this talk on 14 February, 14:00–14:40.",
+        "Abstract contribution 100, LongTalk: helping inexperienced Perl/CGI users, reviewing beginner books, and rewriting Matt’s Script Archive. Do not confuse this with Michael Schwern’s similarly named 1999 talk.",
+        "The 25 January 2002 London.pm message identifies the previous night’s presentation as a practice run for this workshop. Dave’s 17 February message independently confirms the workshop visit, but neither message alone proves this particular slot was delivered.",
+        "Likely the same subject as London delivery T009; decide title grouping before import."
+      ],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T106",
+      "review": "confirmed",
+      "title": "Idiomatic Perl",
+      "date": "2002-02-15",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "09:00",
+      "duration_minutes": 180,
+      "event": "German Perl Workshop 4.0 (2002)",
+      "location": "Fachhochschule Bonn-Rhein-Sieg, Sankt Augustin, Germany",
+      "kind": "tutorial",
+      "evidence": "scheduled",
+      "archive_status": "missing_delivery",
+      "existing_talk_ids": [
+        21
+      ],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Archived official timetable",
+          "url": "https://web.archive.org/web/20020405194515/http://www.perlworkshop.de/2002/times.epl"
+        },
+        {
+          "label": "Archived official abstracts",
+          "url": "https://web.archive.org/web/20020105225714/http://www.perlworkshop.de/2002/contriblist.epl"
+        },
+        {
+          "label": "Dave’s post-event attendance reference",
+          "url": "https://www.mail-archive.com/london.pm%40london.pm.org/msg05602.html"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "Archived timetable gives two parts in room hs1: 09:00–10:30 and 11:00–12:30, separated by a 30-minute coffee break. Recorded here as one tutorial with 180 teaching minutes; confirm grouping before import.",
+        "Abstract contribution 82, Tutorial: Perl idioms for faster, more maintainable code. Existing talk 21 has this title; this is a proposed additional delivery, not a duplicate talk record.",
+        "Programme establishes 2002 rather than Dave’s tentative recollection of 2001. His 17 February 2002 mailing-list message also confirms attending the workshop that week.",
+        "Dave confirmed on 24 October 2026 that London presentations T010 and T011 are extracts from this Idiomatic Perl tutorial. They remain separate deliveries linked to existing talk 21; the extract relationship is recorded in the research catalogue pending data-model support."
+      ],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T010",
+      "review": "confirmed",
+      "title": "Idiomatic Perl",
+      "date": "2002-05-16",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "",
+      "duration_minutes": "",
+      "event": "London Perl Mongers technical meeting",
+      "location": "State51, London, UK",
+      "kind": "talk",
+      "evidence": "delivered_report",
+      "archive_status": "missing_delivery",
+      "existing_talk_ids": [
+        21
+      ],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://www.mail-archive.com/london.pm%40london.pm.org/msg07060.html"
+        },
+        {
+          "label": "Prior announcement",
+          "url": "https://www.mail-archive.com/london.pm%40london.pm.org/msg07017.html"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "The weekly summary explicitly identifies Dave's topic.",
+        "Dave confirmed on 24 October 2026 that T010 and T011 are extracts from T106 (Idiomatic Perl, German Perl Workshop 2002), correcting his initial reference to T006. The extract relationship is confirmed; dates and delivery review states are unchanged. Link to existing talk 21 during import, with the extract distinction retained."
+      ],
+      "extract_of_id": "T106",
+      "extract_relationship_review": "confirmed",
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T011",
+      "review": "confirmed",
+      "title": "Idiomatic Perl",
+      "date": "2002-07-18",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "",
+      "duration_minutes": "",
+      "event": "London Perl Mongers technical meeting",
+      "location": "London, UK",
+      "kind": "talk",
+      "evidence": "delivered_report",
+      "archive_status": "missing_delivery",
+      "existing_talk_ids": [
+        21
+      ],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://web.archive.org/web/20060502010406/http://london.pm.org/tech_talks/index.html"
+        },
+        {
+          "label": "Next-day slide announcement",
+          "url": "https://www.mail-archive.com/london.pm%40london.pm.org/msg07955.html"
+        }
+      ],
+      "media_urls": [
+        "http://dave.org.uk/talks/idiomatic/"
+      ],
+      "notes": [
+        "Catalogue calls this 'another extract'.",
+        "Dave confirmed on 24 October 2026 that T010 and T011 are extracts from T106 (Idiomatic Perl, German Perl Workshop 2002), correcting his initial reference to T006. The extract relationship is confirmed; dates and delivery review states are unchanged. Link to existing talk 21 during import, with the extract distinction retained."
+      ],
+      "extract_of_id": "T106",
+      "extract_relationship_review": "confirmed",
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T013",
+      "review": "confirmed",
+      "title": "Overload.pm",
+      "date": "2003-01-23",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "",
+      "duration_minutes": "",
+      "event": "London Perl Mongers technical meeting",
+      "location": "London, UK",
+      "kind": "talk",
+      "evidence": "delivered_report",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://web.archive.org/web/20060502010406/http://london.pm.org/tech_talks/index.html"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "Dave’s decision, 24 October 2026: T013 and T014 are the same talk with minor variations (group G002). Keep two deliveries under one separate Overloading talk, retaining their advertised titles; do not merge that talk with T019 (Tieing) or existing talk 22.",
+        "Dave suspects this is an extract of the material represented by T016 (Tieing and Overloading Objects in Perl / existing talk 22). Treat the derivation as probable; keep a separate talk record from the full tutorial, as Dave requested on 24 October 2026. This describes shared material, not a claim about which slides were written first."
+      ],
+      "extract_of_id": "T016",
+      "extract_relationship_review": "probable",
+      "import_as_separate_talk": true,
+      "talk_group_id": "G002",
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T014",
+      "review": "confirmed",
+      "title": "Overloading in Perl",
+      "date": "2003-02-26",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "",
+      "duration_minutes": "",
+      "event": "Birmingham Perl Mongers technical meeting",
+      "location": "QPC, Leonard House, Bradford Street, Birmingham, UK",
+      "kind": "talk",
+      "evidence": "scheduled",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://birmingham.grango.org/tech/73"
+        },
+        {
+          "label": "Archived meeting list",
+          "url": "https://web.archive.org/web/20060708042259/http://birmingham.pm.org/cgi-bin/brum.pl?act=tech-prev"
+        }
+      ],
+      "media_urls": [
+        "http://dave.org.uk/talks/overload/"
+      ],
+      "notes": [
+        "The event ran 19:00–21:30; individual start times are not given.",
+        "Dave’s decision, 24 October 2026: T013 and T014 are the same talk with minor variations (group G002). Keep two deliveries under one separate Overloading talk, retaining their advertised titles; do not merge that talk with T019 (Tieing) or existing talk 22.",
+        "Dave suspects this is an extract of the material represented by T016 (Tieing and Overloading Objects in Perl / existing talk 22). Treat the derivation as probable; keep a separate talk record from the full tutorial, as Dave requested on 24 October 2026. This describes shared material, not a claim about which slides were written first."
+      ],
+      "extract_of_id": "T016",
+      "extract_relationship_review": "probable",
+      "import_as_separate_talk": true,
+      "talk_group_id": "G002",
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T015",
+      "review": "confirmed",
+      "title": "Perl For The People",
+      "date": "2003-02-26",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "",
+      "duration_minutes": "",
+      "event": "Birmingham Perl Mongers technical meeting",
+      "location": "QPC, Leonard House, Bradford Street, Birmingham, UK",
+      "kind": "talk",
+      "evidence": "scheduled",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://birmingham.grango.org/tech/73"
+        },
+        {
+          "label": "Archived meeting list",
+          "url": "https://web.archive.org/web/20060708042259/http://birmingham.pm.org/cgi-bin/brum.pl?act=tech-prev"
+        }
+      ],
+      "media_urls": [
+        "http://dave.org.uk/talks/ppl/",
+        "http://dave.org.uk/paper.html"
+      ],
+      "notes": [
+        "Same one-off Birmingham visit as Overloading in Perl; record two presentations at one event, not two visits.",
+        "The event ran 19:00–21:30; individual start times are not given."
+      ],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T016",
+      "review": "confirmed",
+      "title": "Tieing and Overloading Objects in Perl",
+      "date": "2003-07-23",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "14:15",
+      "duration_minutes": 120,
+      "event": "YAPC Europe 2003",
+      "location": "Paris, France",
+      "kind": "tutorial",
+      "evidence": "scheduled",
+      "archive_status": "missing_delivery",
+      "existing_talk_ids": [
+        22
+      ],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "http://conferences.mongueurs.net/ye2003/talk/324"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "Dave suspects T013/T014 (Overloading) and T019 (Tieing) are extracts of this tutorial material. On 24 October 2026 he requested two separate talk records for those subjects: one shared by T013/T014 and one for T019. Keep the full tutorial attached to existing talk 22; do not merge all four entries into one talk. Derivation remains probable."
+      ],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T018",
+      "review": "confirmed",
+      "title": "Writing a Book Using The Template Toolkit",
+      "date": "2003-09-18",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "",
+      "duration_minutes": "",
+      "event": "London Perl Mongers technical meeting",
+      "location": "London, UK",
+      "kind": "talk",
+      "evidence": "delivered_report",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://web.archive.org/web/20060502010406/http://london.pm.org/tech_talks/index.html"
+        }
+      ],
+      "media_urls": [],
+      "notes": [],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T019",
+      "review": "confirmed",
+      "title": "Tieing",
+      "date": "2003-11-17",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "19:00",
+      "duration_minutes": "",
+      "event": "Belfast Perl Mongers technical meeting",
+      "location": "BT Customer Events Room, BT Tower, Belfast, UK",
+      "kind": "talk",
+      "evidence": "announcement",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://web.archive.org/web/20041207081455/http://belfast.pm.org/meetings/2003/"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "Archived organiser page advertises Dave speaking on Tieing. 19:00 is the meeting start.",
+        "Dave’s decision, 24 October 2026: keep T019 (Tieing) as its own talk, separate from the T013/T014 Overloading talk and existing talk 22.",
+        "Dave suspects this is an extract of the material represented by T016 (Tieing and Overloading Objects in Perl / existing talk 22). Treat the derivation as probable; keep a separate talk record from the full tutorial, as Dave requested on 24 October 2026. This describes shared material, not a claim about which slides were written first."
+      ],
+      "extract_of_id": "T016",
+      "extract_relationship_review": "probable",
+      "import_as_separate_talk": true,
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T020",
+      "review": "confirmed",
+      "title": "Perl",
+      "date": "2004-02-22",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "15:00",
+      "duration_minutes": 60,
+      "event": "FOSDEM 2004",
+      "location": "ULB, Brussels, Belgium",
+      "kind": "talk",
+      "evidence": "user_confirmation",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://archive.fosdem.org/2004/index/schedule.html"
+        },
+        {
+          "label": "Official speaker biography",
+          "url": "https://archive.fosdem.org/2004/index/speakers/speakers_cross.html"
+        },
+        {
+          "label": "Organiser interview, 26 January 2004",
+          "url": "https://archive.fosdem.org/2004/index/interviews/interviews_cross.html"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "Dave confirmed on 24 October 2026 that the talk was called simply Perl. Retain that exact title; no longer title needs to be recovered.",
+        "Official programme: Sunday 22 February 2004, 15:00–16:00, Lameere room. Date and time are programme metadata.",
+        "In the organiser’s January interview, Dave describes a survey of Perl’s current state and future, aimed at people outside the Perl community.",
+        "Tentative session context, recalled by Dave on 24 October 2026: three or four supposedly “dead” languages were given an opportunity to update the audience on their latest news. The session framing, number of languages and other speakers have not been independently verified."
+      ],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T021",
+      "review": "confirmed",
+      "title": "Introduction to the Template Toolkit",
+      "date": "2004-10-09",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "",
+      "duration_minutes": "",
+      "event": "Italian Code Jam 2004",
+      "location": "University of Ferrara, Ferrara, Italy",
+      "kind": "talk",
+      "evidence": "delivered_report",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://blog.dave.org.uk/2004/10/italian-code-ja.html"
+        },
+        {
+          "label": "Contemporary event announcement",
+          "url": "https://prodcs.lwn.net/Articles/101418/"
+        },
+        {
+          "label": "Fellow speaker's retrospective",
+          "url": "https://stonehenge.com/merlyn/life/event/italian-code-jam-2004-in-ferrara"
+        },
+        {
+          "label": "Following cruise itinerary",
+          "url": "https://www.insightcruises.com/top/pw4_top.htm"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "The same-day report says Dave gave a high-level introduction to Template Toolkit, second after Randal Schwartz. Descriptive title; original programme wording remains to be confirmed.",
+        "Dave recalled on 23 October 2026 that he went straight from this Code Jam to the Geek Cruises Mediterranean voyage. The organiser dates Perl Whirl ’04 to 10–17 October, immediately after the 9 October Code Jam. Its two tutorials already exist in the database; see T107–T108.",
+        "Dave confirmed on 24 October 2026 that T021 and T033 are the same talk under slightly different titles (group G003). Prepare one Template Toolkit introduction talk with two separate deliveries, retaining both recorded title variants. Dates and delivery review states are unchanged."
+      ],
+      "talk_group_id": "G003",
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T107",
+      "review": "confirmed",
+      "title": "Idiomatic Perl",
+      "date": "2004-10-10",
+      "end_date": "2004-10-17",
+      "date_precision": "event_range",
+      "time_local": "",
+      "duration_minutes": "",
+      "event": "Perl Whirl ’04 / Geek Cruises",
+      "location": "Eastern Mediterranean cruise from Venice, Italy",
+      "kind": "tutorial",
+      "evidence": "scheduled",
+      "archive_status": "already_present",
+      "existing_talk_ids": [
+        21
+      ],
+      "existing_presentation_ids": [
+        23
+      ],
+      "sources": [
+        {
+          "label": "Organiser seminar descriptions",
+          "url": "https://www.insightcruises.com/seminar/pw4_seminar.htm"
+        },
+        {
+          "label": "Organiser dates and itinerary",
+          "url": "https://www.insightcruises.com/top/pw4_top.htm"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "Already in the database. The organiser identifies Dave as speaker and describes this as a half-day tutorial; this source gives the cruise dates, not the individual teaching slot.",
+        "Existing presentation 23 is dated 13 October 2004, 13:00. That specific timestamp has not been independently verified by the recovered programme; do not replace it with the first date of the event range.",
+        "Dave recalled going straight from the Italian Code Jam on 9 October 2004 to this Mediterranean Geek Cruises voyage. The published itinerary starts in Venice on 10 October and returns on 17 October."
+      ],
+      "review_basis": "Dave reviewed existing-and-corrections.md, ticked this entry and said all 16 entries were good on 24 October 2026. Accept the existing-delivery match and recorded metadata review; retain source/date qualifications and avoid duplicate presentations."
+    },
+    {
+      "id": "T108",
+      "review": "confirmed",
+      "title": "Tieing and Overloading Objects in Perl",
+      "date": "2004-10-10",
+      "end_date": "2004-10-17",
+      "date_precision": "event_range",
+      "time_local": "",
+      "duration_minutes": "",
+      "event": "Perl Whirl ’04 / Geek Cruises",
+      "location": "Eastern Mediterranean cruise from Venice, Italy",
+      "kind": "tutorial",
+      "evidence": "scheduled",
+      "archive_status": "already_present",
+      "existing_talk_ids": [
+        22
+      ],
+      "existing_presentation_ids": [
+        24
+      ],
+      "sources": [
+        {
+          "label": "Organiser seminar descriptions",
+          "url": "https://www.insightcruises.com/seminar/pw4_seminar.htm"
+        },
+        {
+          "label": "Organiser dates and itinerary",
+          "url": "https://www.insightcruises.com/top/pw4_top.htm"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "Already in the database. The organiser identifies Dave as speaker and describes this as a half-day tutorial; this source gives the cruise dates, not the individual teaching slot.",
+        "Existing presentation 24 is dated 15 October 2004, 08:30. That specific timestamp has not been independently verified by the recovered programme; do not replace it with the first date of the event range.",
+        "Dave recalled going straight from the Italian Code Jam on 9 October 2004 to this Mediterranean Geek Cruises voyage. The published itinerary starts in Venice on 10 October and returns on 17 October."
+      ],
+      "review_basis": "Dave reviewed existing-and-corrections.md, ticked this entry and said all 16 entries were good on 24 October 2026. Accept the existing-delivery match and recorded metadata review; retain source/date qualifications and avoid duplicate presentations."
+    },
+    {
+      "id": "T022",
+      "review": "confirmed",
+      "title": "OO Perl",
+      "date": "2004-12-11",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "",
+      "duration_minutes": 20,
+      "event": "London Perl Workshop 2004",
+      "location": "Imperial College, London, UK",
+      "kind": "talk",
+      "evidence": "delivered_report",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://perlhacks.com/2011/11/a-brief-history-of-the-lpw/"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "Retrospective describes a 20-minute talk about OO Perl; this is a topic label until the original programme title is confirmed."
+      ],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T023",
+      "review": "confirmed",
+      "title": "Enterprise Perl",
+      "date": "2005-10-06",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "",
+      "duration_minutes": "",
+      "event": "LinuxWorld Expo 2005",
+      "location": "London, UK",
+      "kind": "talk",
+      "evidence": "user_confirmation",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://blog.dave.org.uk/2005/10/be-prepared-1.html"
+        },
+        {
+          "label": "Advance announcement",
+          "url": "https://blog.dave.org.uk/2005/08/enterprise-perl.html"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "Accepted date for import: 6 October 2005. On 24 October 2026, Dave reported that his October 2005 calendar marks 6 October as a day off and chose to assume that was the presentation date. This is Dave’s accepted inference from his calendar, not an independently inspected calendar entry.",
+        "The report dated 6 October says Today, agreeing with the accepted date. An earlier announcement advertised 5 October; retain that as conflicting advance publicity, with no outstanding date question for import.",
+        "This was a management-level overview of Perl in enterprise systems. Dave recognised the presentation on 24 October 2026 and recalled that it was “a disaster”; he did not specify what went wrong."
+      ],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T024",
+      "review": "confirmed",
+      "title": "The Perl Mongers Census",
+      "date": "2005-10-18",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "",
+      "duration_minutes": "",
+      "event": "OSCON Europe 2005",
+      "location": "NH Grand Hotel Krasnapolsky, Amsterdam, Netherlands",
+      "kind": "lightning",
+      "evidence": "user_confirmation",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://articles.mongueurs.net/comptes-rendus/oscon-eu-2005.html"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "Dave supplied the exact title, The Perl Mongers Census, on 24 October 2026. Delivery and title are confirmed.",
+        "Eyewitness report identifies Dave presenting worldwide Perl Mongers census results in the Day 1 section (Tuesday 18 October). The date is derived from that report; Dave’s title correction did not independently confirm the date."
+      ],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T025",
+      "review": "confirmed",
+      "title": "Databases and Perl",
+      "date": "2005-11-26",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "",
+      "duration_minutes": 20,
+      "event": "London Perl Workshop 2005",
+      "location": "City University, London, UK",
+      "kind": "talk",
+      "evidence": "delivered_report",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://perlhacks.com/2011/11/a-brief-history-of-the-lpw/"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "Retrospective wording: a 20-minute talk on Databases and Perl."
+      ],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T026",
+      "review": "confirmed",
+      "title": "Databases and Perl",
+      "date": "2006-03-14",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "",
+      "duration_minutes": "",
+      "event": "Milton Keynes Perl Mongers technical meeting",
+      "location": "SpiraHellic Multimedia, Milton Keynes, UK",
+      "kind": "talk",
+      "evidence": "delivered_report",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://web.archive.org/web/20101219100251/http://miltonkeynes.pm.org/"
+        }
+      ],
+      "media_urls": [
+        "http://miltonkeynes.pm.org/talks/2006/03/dave_cross_databases_and_perl/"
+      ],
+      "notes": [
+        "First MK.pm technical meeting; old slide URL is an archival lead."
+      ],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T027",
+      "review": "confirmed",
+      "title": "What's Wrong With ORM?",
+      "date": "2006-03-23",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "",
+      "duration_minutes": "",
+      "event": "London Perl Mongers technical meeting",
+      "location": "Fotango, London, UK",
+      "kind": "talk",
+      "evidence": "delivered_report",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://web.archive.org/web/20060502010406/http://london.pm.org/tech_talks/index.html"
+        }
+      ],
+      "media_urls": [],
+      "notes": [],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T028",
+      "review": "confirmed",
+      "title": "What's Wrong with ORM",
+      "date": "2006-06-24",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "",
+      "duration_minutes": "",
+      "event": "Greater London Linux User Group meeting",
+      "location": "University of Westminster, New Cavendish Street, London, UK",
+      "kind": "talk",
+      "evidence": "scheduled",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://web.archive.org/web/20060905104008/http://www.gllug.org.uk/index.php?/archives/17-GLLUG-Meeting-24th-June.html"
+        },
+        {
+          "label": "Author announcement",
+          "url": "https://blog.dave.org.uk/2006/06/talking-to-gllu.html"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "Accepted date for import: Saturday 24 June 2006. On 24 October 2026, Dave chose to trust the organisers’ event page over his advance blog post, which says July 24 but links to the June event. The date discrepancy is resolved in favour of the organiser date.",
+        "The meeting started at 13:00; the individual presentation start time is not established. The organiser’s date is accepted; Dave subsequently confirmed delivery in the completed checklist review."
+      ],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T029",
+      "review": "confirmed",
+      "title": "Advanced Databases for Beginners",
+      "date": "2006-08-30",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "14:00",
+      "duration_minutes": 180,
+      "event": "YAPC Europe 2006",
+      "location": "Birmingham, UK",
+      "kind": "tutorial",
+      "evidence": "scheduled",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://www.yapceurope.org/2006/talk/main.html"
+        },
+        {
+          "label": "Author's training retrospective",
+          "url": "https://perlhacks.com/2016/04/training-in-cluj/"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "Official programme: The Camel Room."
+      ],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T030",
+      "review": "confirmed",
+      "title": "What's Wrong With ORM",
+      "date": "2006-08-31",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "11:45",
+      "duration_minutes": 20,
+      "event": "YAPC Europe 2006",
+      "location": "Birmingham, UK",
+      "kind": "talk",
+      "evidence": "scheduled",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://www.yapceurope.org/2006/talk/main.html"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "Official programme: The Onion Room."
+      ],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T031",
+      "review": "confirmed",
+      "title": "Programming Languages and Perl",
+      "date": "2006-08-31",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "17:35",
+      "duration_minutes": 20,
+      "event": "YAPC Europe 2006",
+      "location": "Birmingham, UK",
+      "kind": "talk",
+      "evidence": "scheduled",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://www.yapceurope.org/2006/talk/main.html"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "Official programme: The Morgan Stanley Room. A later slide deck refers to this as 'Perl and Programming Languages'; retain the programme wording."
+      ],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T032",
+      "review": "confirmed",
+      "title": "Teach-In Extract - OO Perl",
+      "date": "2007-10-27",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "09:30",
+      "duration_minutes": 40,
+      "event": "Belgian Perl Workshop 2007",
+      "location": "Belgium",
+      "kind": "talk",
+      "evidence": "scheduled",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://web.archive.org/web/20110809192310/http://www.perlworkshop.be/bpw2007/talk/797"
+        }
+      ],
+      "media_urls": [
+        "http://mag-sol.com/train/teachin/"
+      ],
+      "notes": [
+        "Location needs the workshop venue page. The programme explicitly names Dave and describes an extract from session 3 of the Perl Teach-In."
+      ],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T033",
+      "review": "confirmed",
+      "title": "An Introduction to the Template Toolkit",
+      "date": "2007-11-15",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "",
+      "duration_minutes": "",
+      "event": "Milton Keynes Perl Mongers technical meeting",
+      "location": "Open University, Milton Keynes, UK",
+      "kind": "talk",
+      "evidence": "delivered_report",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://web.archive.org/web/20101219100251/http://miltonkeynes.pm.org/"
+        }
+      ],
+      "media_urls": [
+        "http://miltonkeynes.pm.org/talks/2007/11/dave_cross_tt_intro/"
+      ],
+      "notes": [
+        "Dave confirmed on 24 October 2026 that T021 and T033 are the same talk under slightly different titles (group G003). Prepare one Template Toolkit introduction talk with two separate deliveries, retaining both recorded title variants. Dates and delivery review states are unchanged."
+      ],
+      "talk_group_id": "G003",
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T034",
+      "review": "confirmed",
+      "title": "Beginners Perl Tutorial",
+      "date": "2007-12-01",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "10:30",
+      "duration_minutes": 150,
+      "event": "London Perl Workshop 2007",
+      "location": "London, UK",
+      "kind": "tutorial",
+      "evidence": "scheduled",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "http://conferences.yapceurope.org/lpw2007/talk/833"
+        }
+      ],
+      "media_urls": [
+        "http://www.slideshare.net/davorg/lpw-begin"
+      ],
+      "notes": [],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T035",
+      "review": "confirmed",
+      "title": "Perl Teach-In",
+      "date": "2008-03-31",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "10:30",
+      "duration_minutes": 330,
+      "event": "UKUUG Spring Conference 2008",
+      "location": "Birmingham Conservatoire, Birmingham, UK",
+      "kind": "tutorial",
+      "evidence": "user_confirmation",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Archived organiser abstract (supplied by Dave)",
+          "url": "https://web.archive.org/web/20221207023139/https://www.ukuug.org/events/spring2008/talk_abstracts.html#perl_tutorial"
+        },
+        {
+          "label": "Archived organiser timetable",
+          "url": "https://web.archive.org/web/20221004054926/https://www.ukuug.org/events/spring2008/timetable.html"
+        },
+        {
+          "label": "Archived conference dates and venue",
+          "url": "https://web.archive.org/web/20221005015010/https://www.ukuug.org/events/spring2008/"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "Dave confirmed on 24 October 2026 that he delivered a one-day version of the Perl Teach-In and supplied the archived abstract. Delivery and title are confirmed; the timetable supplies the exact date and start time.",
+        "Organiser lists Dave Cross (Magnum Solutions), Tutorial, Full day. Topics: CPAN tools, templating, ORM, testing, benchmarking and object-oriented Perl, for attendees with some Perl experience.",
+        "Provisional timetable: 10:30–13:00, 14:00–15:30 and 16:00–17:30, with lunch and a break. Recorded as one full-day tutorial, 330 scheduled teaching minutes; the overall day ends at 17:30.",
+        "Same title as T036 at YAPC Europe 2008; group approved deliveries under the appropriate talk record during import. No exact title match exists in the baseline database."
+      ],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T036",
+      "review": "confirmed",
+      "title": "Perl Teach-In",
+      "date": "2008-08-12",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "10:00",
+      "duration_minutes": 360,
+      "event": "YAPC Europe 2008",
+      "location": "Copenhagen, Denmark",
+      "kind": "tutorial",
+      "evidence": "scheduled",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://act.yapc.eu/ye2008/tutorials.html"
+        },
+        {
+          "label": "Author's training retrospective",
+          "url": "https://perlhacks.com/2016/04/training-in-cluj/"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "Official tutorial page says 10:00–16:00, including any breaks. This pre-conference course is absent from the Act profile's talk list."
+      ],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T037",
+      "review": "confirmed",
+      "title": "Proud to Use Perl",
+      "date": "2008-08-15",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "09:40",
+      "duration_minutes": 30,
+      "event": "YAPC Europe 2008",
+      "location": "Copenhagen, Denmark",
+      "kind": "talk",
+      "evidence": "scheduled",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://act.yapc.eu/ye2008/talk/1175"
+        },
+        {
+          "label": "Author confirms three talks and a training day",
+          "url": "https://blog.dave.org.uk/2008/08/breaking-radio-silence.html"
+        }
+      ],
+      "media_urls": [
+        "http://www.slideshare.net/davorg/proud-to-use-perl-presentation"
+      ],
+      "notes": [],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T038",
+      "review": "confirmed",
+      "title": "Perl in RPM-Land",
+      "date": "2008-08-15",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "11:20",
+      "duration_minutes": 30,
+      "event": "YAPC Europe 2008",
+      "location": "Copenhagen, Denmark",
+      "kind": "talk",
+      "evidence": "scheduled",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://act.yapc.eu/ye2008/talk/1314"
+        },
+        {
+          "label": "Author confirms three talks and a training day",
+          "url": "https://blog.dave.org.uk/2008/08/breaking-radio-silence.html"
+        }
+      ],
+      "media_urls": [
+        "http://www.slideshare.net/davorg/perl-in-rpmland-presentation"
+      ],
+      "notes": [],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T039",
+      "review": "confirmed",
+      "title": "Ye Compleat History of Ye Perle Mongers of Olde London Towne (Part 1)",
+      "date": "2008-08-15",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "13:30",
+      "duration_minutes": 30,
+      "event": "YAPC Europe 2008",
+      "location": "Copenhagen, Denmark",
+      "kind": "talk",
+      "evidence": "scheduled",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://act.yapc.eu/ye2008/talk/1176"
+        },
+        {
+          "label": "Author confirms three talks and a training day",
+          "url": "https://blog.dave.org.uk/2008/08/breaking-radio-silence.html"
+        }
+      ],
+      "media_urls": [
+        "http://www.slideshare.net/davorg/ye-complete-history-of-ye-perle-mongers-of-london-towne-parte-one-presentation"
+      ],
+      "notes": [
+        "Dave confirmed on 24 October 2026 that T039 and T041 are the same talk (group G004). Prepare one London Perl Mongers history talk with two separate deliveries, retaining both advertised titles and their distinct scheduled durations. Delivery review states and dates are unchanged."
+      ],
+      "talk_group_id": "G004",
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T040",
+      "review": "confirmed",
+      "title": "Perl in RPM Land",
+      "date": "2008-09-08",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "19:00",
+      "duration_minutes": "",
+      "event": "Milton Keynes Perl Mongers technical meeting",
+      "location": "Venables Building, Open University, Milton Keynes, UK",
+      "kind": "talk",
+      "evidence": "delivered_report",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://mail.pm.org/pipermail/miltonkeynes-pm/2008-September/000478.html"
+        },
+        {
+          "label": "Post-event message",
+          "url": "https://mail.pm.org/pipermail/miltonkeynes-pm/2008-September/000498.html"
+        },
+        {
+          "label": "Archived talk list",
+          "url": "https://web.archive.org/web/20150905054113/http://miltonkeynes.pm.org/techtalks2008.html"
+        }
+      ],
+      "media_urls": [
+        "http://miltonkeynes.pm.org/talks/2008/09/dave_cross_perl_in_rpm_land.pdf"
+      ],
+      "notes": [
+        "The site incorrectly prints Monday 8 October 2008. The contemporary September thread establishes Monday 8 September; 19:00 is the meeting start. Same subject as YAPC 2008 'Perl in RPM-Land'."
+      ],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T041",
+      "review": "confirmed",
+      "title": "The Complete History of the Perle Mongers of Olde London Towne (Parte One)",
+      "date": "2008-11-29",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "09:10",
+      "duration_minutes": 40,
+      "event": "London Perl Workshop 2008",
+      "location": "London, UK",
+      "kind": "talk",
+      "evidence": "scheduled",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "http://conferences.yapceurope.org/lpw2008/talk/1502"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "Dave confirmed on 24 October 2026 that T039 and T041 are the same talk (group G004). Prepare one London Perl Mongers history talk with two separate deliveries, retaining both advertised titles and their distinct scheduled durations. Delivery review states and dates are unchanged."
+      ],
+      "talk_group_id": "G004",
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T042",
+      "review": "confirmed",
+      "title": "Web Programming",
+      "date": "2008-11-29",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "",
+      "duration_minutes": "",
+      "event": "London Perl Workshop 2008",
+      "location": "University of Westminster, London, UK",
+      "kind": "tutorial",
+      "evidence": "delivered_report",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://perlhacks.com/2011/11/a-brief-history-of-the-lpw/"
+        }
+      ],
+      "media_urls": [
+        "http://www.slideshare.net/davorg/webintro-presentation"
+      ],
+      "notes": [
+        "Author retrospectively confirms this course, which is missing from his Act speaker-profile list. Confirm original advertised title and timing."
+      ],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T043",
+      "review": "confirmed",
+      "title": "Why do so many companies re-invent well-known CPAN modules badly and end up writing far too much code?",
+      "date": "2009-07-30",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "",
+      "duration_minutes": "",
+      "event": "London Perl Mongers technical meeting",
+      "location": "Richmond, London, UK",
+      "kind": "talk",
+      "evidence": "announcement",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://www.mail-archive.com/london.pm%40london.pm.org/msg17976.html"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "Dave's announcement says this is also to be given in Lisbon the following week, corroborating the shared-talk grouping.",
+        "Dave confirmed on 24 October 2026 that T043 and T046 are the same talk (group G005). Prepare one talk with two separate deliveries, retaining the full London title and abbreviated YAPC programme title. Dates and delivery review states are unchanged."
+      ],
+      "talk_group_id": "G005",
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T044",
+      "review": "confirmed",
+      "title": "Introduction to Perl (day 1)",
+      "date": "2009-08-01",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "09:30",
+      "duration_minutes": 360,
+      "event": "YAPC Europe 2009",
+      "location": "Lisbon, Portugal",
+      "kind": "tutorial",
+      "evidence": "scheduled",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://act.yapc.eu/ye2009/talk/2113"
+        },
+        {
+          "label": "Post-event report",
+          "url": "https://perlhacks.com/2009/08/yapceurope-2009/"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "One two-day course split into two programme entries; decide whether to retain two presentation rows or one course record."
+      ],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T045",
+      "review": "confirmed",
+      "title": "Introduction to Perl (day 2)",
+      "date": "2009-08-02",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "09:30",
+      "duration_minutes": 360,
+      "event": "YAPC Europe 2009",
+      "location": "Lisbon, Portugal",
+      "kind": "tutorial",
+      "evidence": "scheduled",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://act.yapc.eu/ye2009/talk/2118"
+        },
+        {
+          "label": "Post-event report",
+          "url": "https://perlhacks.com/2009/08/yapceurope-2009/"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "One two-day course split into two programme entries; decide whether to retain two presentation rows or one course record."
+      ],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T046",
+      "review": "confirmed",
+      "title": "Why do so many companies re-invent well-known CPAN modules badly ... ?",
+      "date": "2009-08-04",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "16:00",
+      "duration_minutes": 20,
+      "event": "YAPC Europe 2009",
+      "location": "Lisbon, Portugal",
+      "kind": "talk",
+      "evidence": "scheduled",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://act.yapc.eu/ye2009/talk/1939"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "Dave confirmed on 24 October 2026 that T043 and T046 are the same talk (group G005). Prepare one talk with two separate deliveries, retaining the full London title and abbreviated YAPC programme title. Dates and delivery review states are unchanged."
+      ],
+      "talk_group_id": "G005",
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T047",
+      "review": "confirmed",
+      "title": "The Planetarium",
+      "date": "2009-08-05",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "15:15",
+      "duration_minutes": 20,
+      "event": "YAPC Europe 2009",
+      "location": "Lisbon, Portugal",
+      "kind": "talk",
+      "evidence": "scheduled",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://act.yapc.eu/ye2009/talk/2069"
+        }
+      ],
+      "media_urls": [],
+      "notes": [],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T048",
+      "review": "confirmed",
+      "title": "How I Maintain my CPAN Modules",
+      "date": "2009-10-15",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "",
+      "duration_minutes": "",
+      "event": "Milton Keynes Perl Mongers technical meeting",
+      "location": "Open University, Milton Keynes, UK",
+      "kind": "talk",
+      "evidence": "delivered_report",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://perlhacks.com/2009/10/speaking-in-milton-keynes/"
+        },
+        {
+          "label": "Prior announcement",
+          "url": "https://perlhacks.com/2009/09/speaking-and-training-and-stuff/"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "Post-event title is Maintaining CPAN Modules; retained organiser/announcement wording as the candidate title."
+      ],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T049",
+      "review": "confirmed",
+      "title": "Teaching Perl - Experiences, Anecdotes and Vague Conclusions",
+      "date": "2009-10-15",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "",
+      "duration_minutes": "",
+      "event": "Milton Keynes Perl Mongers technical meeting",
+      "location": "Open University, Milton Keynes, UK",
+      "kind": "talk",
+      "evidence": "delivered_report",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://perlhacks.com/2009/10/speaking-in-milton-keynes/"
+        },
+        {
+          "label": "Prior announcement",
+          "url": "https://perlhacks.com/2009/09/speaking-and-training-and-stuff/"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "Post-event title is Perl Training; organiser listing/announcement uses Teaching Perl - Experiences, Anecdotes and Vague Conclusions. Likely related to YAPC 2011 'Perl Training'; confirm revisions."
+      ],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T050",
+      "review": "confirmed",
+      "title": "The \"M\" Word",
+      "date": "2009-12-05",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "09:30",
+      "duration_minutes": 20,
+      "event": "London Perl Workshop 2009",
+      "location": "London, UK",
+      "kind": "talk",
+      "evidence": "scheduled",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "http://conferences.yapceurope.org/lpw2009/talk/2451"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "Title cleaned on 24 October 2026 at Dave’s request: removed the organiser’s keynote prefix. Original programme wording: KEYNOTE: The \"M\" Word. The session type and delivery details are unchanged; this cleanup does not confirm delivery or group matching titles automatically."
+      ],
+      "programme_title": "KEYNOTE: The \"M\" Word",
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T051",
+      "review": "confirmed",
+      "title": "Skills in the Workplace",
+      "date": "2009-12-05",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "",
+      "duration_minutes": "",
+      "event": "London Perl Workshop 2009",
+      "location": "University of Westminster, London, UK",
+      "kind": "panel",
+      "evidence": "announcement",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://perlhacks.com/2009/11/london-perl-workshop/"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "Dave says he will appear with Matt Trout, Curtis Poe, and Ed Freyfogle. This is a panel appearance, not a solo talk."
+      ],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T052",
+      "review": "confirmed",
+      "title": "The Professional Programmer",
+      "date": "2009-12-05",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "",
+      "duration_minutes": 120,
+      "event": "London Perl Workshop 2009",
+      "location": "London, UK",
+      "kind": "tutorial",
+      "evidence": "accepted_listing",
+      "archive_status": "missing_delivery",
+      "existing_talk_ids": [
+        8
+      ],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "http://conferences.yapceurope.org/lpw2009/talk/2452"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "Individual talk has no scheduled datetime; date is the event date/range, not a recovered talk slot.",
+        "Title cleaned on 24 October 2026 at Dave’s request: removed the organiser’s event-navigation suffix. Original programme wording: The Professional Programmer (See Events). The session type and delivery details are unchanged; this cleanup does not confirm delivery or group matching titles automatically."
+      ],
+      "programme_title": "The Professional Programmer (See Events)",
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T053",
+      "review": "confirmed",
+      "title": "Battersea Election Candidates at the General Election",
+      "date": "2010-04-29",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "",
+      "duration_minutes": 5,
+      "event": "South London Geek Night 1",
+      "location": "The Bedford, Balham, London, UK",
+      "kind": "lightning",
+      "evidence": "delivered_report",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://blog.dave.org.uk/2010/04/speaking-tonight.html"
+        }
+      ],
+      "media_urls": [
+        "http://www.slideshare.net/davorg/battersea-election-candidates-on-the-internet",
+        "http://vimeo.com/11595179"
+      ],
+      "notes": [
+        "Initial announcement was updated with slides and a video. A technical/civic-web talk rather than a Perl-language talk."
+      ],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T054",
+      "review": "confirmed",
+      "title": "Introducing Modern Perl",
+      "date": "2010-08-02",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "09:00",
+      "duration_minutes": 360,
+      "event": "YAPC Europe 2010",
+      "location": "Pisa, Italy",
+      "kind": "tutorial",
+      "evidence": "scheduled",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "http://conferences.yapceurope.org/ye2010/talk/2960"
+        }
+      ],
+      "media_urls": [],
+      "notes": [],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T055",
+      "review": "confirmed",
+      "title": "Things I Learned From Having Users",
+      "date": "2010-08-04",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "11:00",
+      "duration_minutes": 20,
+      "event": "YAPC Europe 2010",
+      "location": "Pisa, Italy",
+      "kind": "talk",
+      "evidence": "scheduled",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "http://conferences.yapceurope.org/ye2010/talk/2866"
+        }
+      ],
+      "media_urls": [],
+      "notes": [],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T056",
+      "review": "confirmed",
+      "title": "Perl Vogue",
+      "date": "2010-08-04",
+      "end_date": "2010-08-06",
+      "date_precision": "event_range",
+      "time_local": "",
+      "duration_minutes": "",
+      "event": "YAPC Europe 2010",
+      "location": "Pisa, Italy",
+      "kind": "lightning",
+      "evidence": "accepted_listing",
+      "archive_status": "already_present",
+      "existing_talk_ids": [
+        20
+      ],
+      "existing_presentation_ids": [
+        22
+      ],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "http://conferences.yapceurope.org/ye2010/talk/2870"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "Individual talk has no scheduled datetime; date is the event date/range, not a recovered talk slot."
+      ],
+      "review_basis": "Dave reviewed existing-and-corrections.md, ticked this entry and said all 16 entries were good on 24 October 2026. Accept the existing-delivery match and recorded metadata review; retain source/date qualifications and avoid duplicate presentations."
+    },
+    {
+      "id": "T057",
+      "review": "confirmed",
+      "title": "The Perl Community",
+      "date": "2010-08-06",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "14:00",
+      "duration_minutes": 20,
+      "event": "YAPC Europe 2010",
+      "location": "Pisa, Italy",
+      "kind": "talk",
+      "evidence": "scheduled",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "http://conferences.yapceurope.org/ye2010/talk/2867"
+        }
+      ],
+      "media_urls": [],
+      "notes": [],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T058",
+      "review": "confirmed",
+      "title": "Modern Perl",
+      "date": "2010-09-11",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "",
+      "duration_minutes": 20,
+      "event": "OpenTech 2010",
+      "location": "ULU, London, UK",
+      "kind": "talk",
+      "evidence": "delivered_report",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://perlhacks.com/2010/09/modern-perl-at-opentech-1/"
+        },
+        {
+          "label": "Dated conference report",
+          "url": "https://blog.dave.org.uk/2010/09/opentech-2010.html"
+        }
+      ],
+      "media_urls": [
+        "http://www.slideshare.net/davorg/modern-perl-5182978"
+      ],
+      "notes": [
+        "Twenty-minute non-Perl-audience version of the longer YAPC course. Date comes from the Monday 13 September report saying the event was Saturday."
+      ],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T059",
+      "review": "confirmed",
+      "title": "Evolving Software with Moose",
+      "date": "2010-10-12",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "",
+      "duration_minutes": "",
+      "event": "Milton Keynes Perl Mongers technical meeting",
+      "location": "Milton Keynes, UK",
+      "kind": "talk",
+      "evidence": "delivered_report",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://perlhacks.com/2010/10/evolving-software-with-moose/"
+        }
+      ],
+      "media_urls": [
+        "http://www.slideshare.net/davorg/evolving-software-with-moose"
+      ],
+      "notes": [
+        "Author's next-day report says 'last night'; confirmed by archived MK homepage."
+      ],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T060",
+      "review": "confirmed",
+      "title": "Modern Web Programming in Perl - Part One",
+      "date": "2010-12-04",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "10:05",
+      "duration_minutes": 40,
+      "event": "London Perl Workshop 2010",
+      "location": "London, UK",
+      "kind": "tutorial",
+      "evidence": "scheduled",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "http://conferences.yapceurope.org/lpw2010/talk/3157"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "One course split into two programme slots; confirm desired grouping before database import."
+      ],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T061",
+      "review": "confirmed",
+      "title": "Modern Web Programming in Perl - Part Two",
+      "date": "2010-12-04",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "11:15",
+      "duration_minutes": 65,
+      "event": "London Perl Workshop 2010",
+      "location": "London, UK",
+      "kind": "tutorial",
+      "evidence": "scheduled",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "http://conferences.yapceurope.org/lpw2010/talk/3158"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "One course split into two programme slots; confirm desired grouping before database import."
+      ],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T062",
+      "review": "confirmed",
+      "title": "Evolving Software with Moose",
+      "date": "2010-12-04",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "12:50",
+      "duration_minutes": 20,
+      "event": "London Perl Workshop 2010",
+      "location": "London, UK",
+      "kind": "talk",
+      "evidence": "scheduled",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "http://conferences.yapceurope.org/lpw2010/talk/3088"
+        }
+      ],
+      "media_urls": [
+        "http://www.slideshare.net/davorg/evolving-software-with-moose"
+      ],
+      "notes": [],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T063",
+      "review": "confirmed",
+      "title": "Watching the Press",
+      "date": "2011-05-21",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "",
+      "duration_minutes": 20,
+      "event": "OpenTech 2011",
+      "location": "ULU, London, UK",
+      "kind": "talk",
+      "evidence": "delivered_report",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://blog.dave.org.uk/2011/05/opentech-approaches.html"
+        },
+        {
+          "label": "Talk notes",
+          "url": "https://blog.dave.org.uk/2011/05/watching-the-press-notes.html"
+        },
+        {
+          "label": "Later confirmation",
+          "url": "https://blog.dave.org.uk/2011/08/media-watchery-blogging-meet-up-thingy.html"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "Internet-enabled civic/media scrutiny rather than a Perl talk; include only if that fits the archive's scope. Main-room 16:00–17:00 session advertised; individual start unknown.",
+        "Talk-notes post is timestamped 20 May while the advance announcement says Saturday 21 May; date needs final confirmation."
+      ],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T064",
+      "review": "confirmed",
+      "title": "Introducing Modern Perl",
+      "date": "2011-08-14",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "10:00",
+      "duration_minutes": 480,
+      "event": "YAPC Europe 2011",
+      "location": "Riga, Latvia",
+      "kind": "tutorial",
+      "evidence": "scheduled",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "http://conferences.yapceurope.org/ye2011/talk/3285"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "Title cleaned on 24 October 2026 at Dave’s request: removed the organiser’s teaching-class prefix. Original programme wording: TEACHING CLASS | Introducing Modern Perl. The session type and delivery details are unchanged; this cleanup does not confirm delivery or group matching titles automatically."
+      ],
+      "programme_title": "TEACHING CLASS | Introducing Modern Perl",
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T065",
+      "review": "confirmed",
+      "title": "The Perl Community - A Modest Proposal",
+      "date": "2011-08-15",
+      "end_date": "2011-08-17",
+      "date_precision": "event_range",
+      "time_local": "",
+      "duration_minutes": "",
+      "event": "YAPC Europe 2011",
+      "location": "Riga, Latvia",
+      "kind": "lightning",
+      "evidence": "accepted_listing",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "http://conferences.yapceurope.org/ye2011/talk/3282"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "Individual talk has no scheduled datetime; date is the event date/range, not a recovered talk slot."
+      ],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T066",
+      "review": "confirmed",
+      "title": "Perl Training",
+      "date": "2011-08-17",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "12:05",
+      "duration_minutes": 20,
+      "event": "YAPC Europe 2011",
+      "location": "Riga, Latvia",
+      "kind": "talk",
+      "evidence": "scheduled",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "http://conferences.yapceurope.org/ye2011/talk/3389"
+        }
+      ],
+      "media_urls": [],
+      "notes": [],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T067",
+      "review": "confirmed",
+      "title": "Modern Core Perl",
+      "date": "2011-11-12",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "09:30",
+      "duration_minutes": 90,
+      "event": "London Perl Workshop 2011",
+      "location": "London, UK",
+      "kind": "tutorial",
+      "evidence": "scheduled",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "http://conferences.yapceurope.org/lpw2011/talk/3852"
+        }
+      ],
+      "media_urls": [
+        "http://www.slideshare.net/davorg/modern-core-perl"
+      ],
+      "notes": [
+        "Title cleaned on 24 October 2026 at Dave’s request: removed the organiser’s training-session prefix. Original programme wording: [[TRAINING SESSION]] Modern Core Perl. The session type and delivery details are unchanged; this cleanup does not confirm delivery or group matching titles automatically."
+      ],
+      "programme_title": "[[TRAINING SESSION]] Modern Core Perl",
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T068",
+      "review": "confirmed",
+      "title": "The Perl Community - A Modest Proposal",
+      "date": "2011-11-12",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "",
+      "duration_minutes": "",
+      "event": "London Perl Workshop 2011",
+      "location": "London, UK",
+      "kind": "lightning",
+      "evidence": "accepted_listing",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "http://conferences.yapceurope.org/lpw2011/talk/3851"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "Individual talk has no scheduled datetime; date is the event date/range, not a recovered talk slot.",
+        "Dave confirmed on 24 October 2026 that T068 is a lightly updated version of T006 (the earlier Perl For The People / A Modest Proposal talk), describing it as revisiting his “greatest hits”. Include T068 in group G001 as a later delivery, retaining the 2011 title and noting the light revision; dates and delivery review state are unchanged."
+      ],
+      "talk_group_id": "G001",
+      "revision_of_id": "T006",
+      "revision_relationship_review": "confirmed",
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T069",
+      "review": "confirmed",
+      "title": "Modern Perl for Non-Perl Programmers",
+      "date": "2012-08-04",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "",
+      "duration_minutes": 360,
+      "event": "Perl School public course",
+      "location": "Google Campus, London, UK",
+      "kind": "tutorial",
+      "evidence": "delivered_report",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://perlhacks.com/2012/08/perl-school/"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "Author's Monday 6 August report says the first course was on Saturday; recorded as a public course, not a conference appearance."
+      ],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T070",
+      "review": "confirmed",
+      "title": "Modern Perl for Non-Perl Programmers",
+      "date": "2012-10-06",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "",
+      "duration_minutes": "",
+      "event": "Perl School public course",
+      "location": "Google Campus, London, UK",
+      "kind": "tutorial",
+      "evidence": "delivered_report",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://perlhacks.com/2012/10/perl-school-2/"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "Author's Sunday 7 October report says the second course was yesterday."
+      ],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T071",
+      "review": "confirmed",
+      "title": "Introduction to OO Perl with Moose",
+      "date": "2012-11-24",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "09:50",
+      "duration_minutes": 120,
+      "event": "London Perl Workshop 2012",
+      "location": "London, UK",
+      "kind": "tutorial",
+      "evidence": "scheduled",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://act.yapc.eu/lpw2012/talk/4110"
+        }
+      ],
+      "media_urls": [],
+      "notes": [],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T072",
+      "review": "confirmed",
+      "title": "Twenty Five Years of Perl in Twenty Five (ish) Minutes",
+      "date": "2012-11-24",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "15:10",
+      "duration_minutes": 20,
+      "event": "London Perl Workshop 2012",
+      "location": "London, UK",
+      "kind": "talk",
+      "evidence": "scheduled",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://act.yapc.eu/lpw2012/talk/4111"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "Dave confirmed on 24 October 2026 that T072 and T075 are the same talk (group G006). Prepare one 25 Years of Perl talk with two separate deliveries, retaining both advertised title variants and the Kyiv recording. Delivery review states and dates are unchanged."
+      ],
+      "talk_group_id": "G006",
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T073",
+      "review": "confirmed",
+      "title": "Matt's PSGI Archive",
+      "date": "2012-11-24",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "",
+      "duration_minutes": "",
+      "event": "London Perl Workshop 2012",
+      "location": "London, UK",
+      "kind": "lightning",
+      "evidence": "accepted_listing",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://act.yapc.eu/lpw2012/talk/4239"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "Individual talk has no scheduled datetime; date is the event date/range, not a recovered talk slot."
+      ],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T074",
+      "review": "confirmed",
+      "title": "Matt's PSGI Archive",
+      "date": "2013-05-20",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "",
+      "duration_minutes": "",
+      "event": "Milton Keynes Perl Mongers technical meeting",
+      "location": "Systems Seminar Room, Venables Building, Open University, Milton Keynes, UK",
+      "kind": "talk",
+      "evidence": "announcement",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://mail.pm.org/pipermail/miltonkeynes-pm/2013-May/000996.html"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "Same title as LPW 2012 and YAPC 2013. Organiser reminder gives Monday 20 May and a meeting start around 19:15. An earlier May email says 20 June in error; individual talk time not given."
+      ],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T075",
+      "review": "confirmed",
+      "title": "25 Years of Perl in (about) 25 Minutes",
+      "date": "2013-08-12",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "11:50",
+      "duration_minutes": 20,
+      "event": "YAPC Europe 2013",
+      "location": "Kyiv, Ukraine",
+      "kind": "talk",
+      "evidence": "scheduled",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://act.yapc.eu/ye2013/talk/4505"
+        },
+        {
+          "label": "Author report and recordings",
+          "url": "https://perlhacks.com/2013/09/talks-kiev/"
+        }
+      ],
+      "media_urls": [
+        "https://www.youtube.com/watch?v=FHpORELEbYI"
+      ],
+      "notes": [
+        "Dave confirmed on 24 October 2026 that T072 and T075 are the same talk (group G006). Prepare one 25 Years of Perl talk with two separate deliveries, retaining both advertised title variants and the Kyiv recording. Delivery review states and dates are unchanged."
+      ],
+      "talk_group_id": "G006",
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T076",
+      "review": "confirmed",
+      "title": "The Kingdom of the Blind",
+      "date": "2013-08-12",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "",
+      "duration_minutes": "",
+      "event": "YAPC Europe 2013",
+      "location": "Kyiv, Ukraine",
+      "kind": "lightning",
+      "evidence": "accepted_listing",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://act.yapc.eu/ye2013/talk/4905"
+        },
+        {
+          "label": "Author report and recordings",
+          "url": "https://perlhacks.com/2013/09/talks-kiev/"
+        }
+      ],
+      "media_urls": [
+        "http://www.slideshare.net/davorg/the-kind",
+        "https://www.youtube.com/watch?v=qBV9O1JTgsI&t=3000s"
+      ],
+      "notes": [
+        "Author places his lightning talk on day 1, 12 August; his blog says it starts around 52 minutes into the session recording."
+      ],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T077",
+      "review": "confirmed",
+      "title": "Matt's PSGI Archive",
+      "date": "2013-08-13",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "12:50",
+      "duration_minutes": 20,
+      "event": "YAPC Europe 2013",
+      "location": "Kyiv, Ukraine",
+      "kind": "talk",
+      "evidence": "scheduled",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://act.yapc.eu/ye2013/talk/4506"
+        },
+        {
+          "label": "Author report and recordings",
+          "url": "https://perlhacks.com/2013/09/talks-kiev/"
+        }
+      ],
+      "media_urls": [
+        "http://www.slideshare.net/davorg/psgi-25200302",
+        "https://www.youtube.com/watch?v=aW9atIT6iFc"
+      ],
+      "notes": [],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T078",
+      "review": "confirmed",
+      "title": "Modern Perl for Non-Perl Programmers",
+      "date": "2013-11-30",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "14:00",
+      "duration_minutes": 120,
+      "event": "London Perl Workshop 2013",
+      "location": "London, UK",
+      "kind": "tutorial",
+      "evidence": "scheduled",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://act.yapc.eu/lpw2013/talk/4960"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "Title cleaned on 24 October 2026 at Dave’s request: removed the organiser’s schedule/breaks suffix. Original programme wording: Modern Perl for Non-Perl Programmers: See schedule for breaks. The session type and delivery details are unchanged; this cleanup does not confirm delivery or group matching titles automatically."
+      ],
+      "programme_title": "Modern Perl for Non-Perl Programmers: See schedule for breaks",
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T079",
+      "review": "confirmed",
+      "title": "The Kingdom of the Blind",
+      "date": "2013-11-30",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "",
+      "duration_minutes": "",
+      "event": "London Perl Workshop 2013",
+      "location": "London, UK",
+      "kind": "lightning",
+      "evidence": "accepted_listing",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://act.yapc.eu/lpw2013/talk/5194"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "Individual talk has no scheduled datetime; date is the event date/range, not a recovered talk slot."
+      ],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T080",
+      "review": "confirmed",
+      "title": "Github, Travis-CI and Perl",
+      "date": "2014-07-24",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "",
+      "duration_minutes": "",
+      "event": "London Perl Mongers technical meeting",
+      "location": "Conway Hall, London, UK",
+      "kind": "talk",
+      "evidence": "delivered_report",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://perlhacks.com/2014/07/github-travis-ci-perl/"
+        },
+        {
+          "label": "Event announcement with venue/date",
+          "url": "https://perlhacks.com/2014/07/london-perl-mongers-meeting/"
+        }
+      ],
+      "media_urls": [
+        "https://www.slideshare.net/slideshow/embed_code/37351718"
+      ],
+      "notes": [],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T081",
+      "review": "confirmed",
+      "title": "Perl in the Internet of Things (Part One)",
+      "date": "2014-11-08",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "09:10",
+      "duration_minutes": 110,
+      "event": "London Perl Workshop 2014",
+      "location": "London, UK",
+      "kind": "tutorial",
+      "evidence": "scheduled",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://act.yapc.eu/lpw2014/talk/5675"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "One tutorial split into two programme slots; confirm desired grouping before database import."
+      ],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T082",
+      "review": "confirmed",
+      "title": "Perl in the Internet of Things (Part Two)",
+      "date": "2014-11-08",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "11:30",
+      "duration_minutes": 20,
+      "event": "London Perl Workshop 2014",
+      "location": "London, UK",
+      "kind": "tutorial",
+      "evidence": "scheduled",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://act.yapc.eu/lpw2014/talk/5880"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "One tutorial split into two programme slots; confirm desired grouping before database import."
+      ],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T083",
+      "review": "confirmed",
+      "title": "Return to the Kingdom of the Blind",
+      "date": "2014-11-08",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "",
+      "duration_minutes": "",
+      "event": "London Perl Workshop 2014",
+      "location": "London, UK",
+      "kind": "lightning",
+      "evidence": "accepted_listing",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://act.yapc.eu/lpw2014/talk/5672"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "Individual talk has no scheduled datetime; date is the event date/range, not a recovered talk slot."
+      ],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T084",
+      "review": "confirmed",
+      "title": "TwittElection",
+      "date": "2015-06-13",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "",
+      "duration_minutes": "",
+      "event": "OpenTech 2015",
+      "location": "ULU, London, UK",
+      "kind": "talk",
+      "evidence": "delivered_report",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://blog.dave.org.uk/2015/06/twittelection-at-opentech.html"
+        },
+        {
+          "label": "Prior announcement",
+          "url": "https://perlhacks.com/2015/05/building-twittelection/"
+        }
+      ],
+      "media_urls": [],
+      "notes": [],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T085",
+      "review": "confirmed",
+      "title": "Writing Books — original talk title to confirm",
+      "date": "2015-08-13",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "",
+      "duration_minutes": "",
+      "event": "London Perl Mongers technical meeting",
+      "location": "London, UK",
+      "kind": "talk",
+      "evidence": "delivered_report",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://blog.dave.org.uk/2015/08/writing-books-the-easy-bit.html"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "Next-day article says this was part of the previous night's talk. Might be the same talk later titled Conference Driven Publishing; original title and venue not established."
+      ],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T086",
+      "review": "confirmed",
+      "title": "Database Development with Perl and DBIx::Class",
+      "date": "2015-09-01",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "",
+      "duration_minutes": "",
+      "event": "YAPC Europe 2015",
+      "location": "Edificio Mecenas, University of Granada, Granada, Spain",
+      "kind": "tutorial",
+      "evidence": "delivered_report",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://act.yapc.eu/ye2015/courses.html#course3"
+        },
+        {
+          "label": "Date confirmed by author",
+          "url": "https://perlhacks.com/2015/05/dbic-training-in-granada/"
+        },
+        {
+          "label": "Post-event report",
+          "url": "https://perlhacks.com/2015/09/yapc-europe-2015-a-community-is-a-home/"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "Course title from official page; author's blog also calls it Database Programming with DBIx::Class and Perl."
+      ],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T087",
+      "review": "confirmed",
+      "title": "Modern PERL",
+      "date": "2015-09-02",
+      "end_date": "2015-09-04",
+      "date_precision": "event_range",
+      "time_local": "",
+      "duration_minutes": "",
+      "event": "YAPC Europe 2015",
+      "location": "Granada, Spain",
+      "kind": "lightning",
+      "evidence": "accepted_listing",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://act.yapc.eu/ye2015/talk/6043"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "Individual talk has no scheduled datetime; date is the event date/range, not a recovered talk slot."
+      ],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T088",
+      "review": "confirmed",
+      "title": "Conference Driven Publishing",
+      "date": "2015-09-03",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "15:00",
+      "duration_minutes": 20,
+      "event": "YAPC Europe 2015",
+      "location": "Granada, Spain",
+      "kind": "talk",
+      "evidence": "scheduled",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://act.yapc.eu/ye2015/talk/5981"
+        }
+      ],
+      "media_urls": [],
+      "notes": [],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T089",
+      "review": "confirmed",
+      "title": "Modern Perl Web Development",
+      "date": "2015-12-12",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "09:10",
+      "duration_minutes": 110,
+      "event": "London Perl Workshop 2015",
+      "location": "London, UK",
+      "kind": "tutorial",
+      "evidence": "scheduled",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://act.yapc.eu/lpw2015/talk/6335"
+        },
+        {
+          "label": "Post-event slides for all three talks",
+          "url": "https://perlhacks.com/2015/12/lpw-slides/"
+        }
+      ],
+      "media_urls": [
+        "http://www.slideshare.net/davorg/modern-web-development-with-perl"
+      ],
+      "notes": [],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T090",
+      "review": "confirmed",
+      "title": "Conference Driven Publishing",
+      "date": "2015-12-12",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "15:00",
+      "duration_minutes": 20,
+      "event": "London Perl Workshop 2015",
+      "location": "London, UK",
+      "kind": "talk",
+      "evidence": "scheduled",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://act.yapc.eu/lpw2015/talk/6336"
+        },
+        {
+          "label": "Post-event slides for all three talks",
+          "url": "https://perlhacks.com/2015/12/lpw-slides/"
+        }
+      ],
+      "media_urls": [
+        "http://www.slideshare.net/davorg/conference-driven-publishing-56093858"
+      ],
+      "notes": [],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T091",
+      "review": "confirmed",
+      "title": "Improving Dev Assistant",
+      "date": "2015-12-12",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "",
+      "duration_minutes": "",
+      "event": "London Perl Workshop 2015",
+      "location": "London, UK",
+      "kind": "lightning",
+      "evidence": "accepted_listing",
+      "archive_status": "missing_talk",
+      "existing_talk_ids": [],
+      "existing_presentation_ids": [],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://act.yapc.eu/lpw2015/talk/6337"
+        },
+        {
+          "label": "Post-event slides for all three talks",
+          "url": "https://perlhacks.com/2015/12/lpw-slides/"
+        }
+      ],
+      "media_urls": [
+        "http://www.slideshare.net/davorg/improving-dev-assistant"
+      ],
+      "notes": [
+        "Individual talk has no scheduled datetime; date is the event date/range, not a recovered talk slot."
+      ],
+      "review_basis": "Dave confirmed all 90 presentations in review.md on 24 October 2026, with the recorded corrections and qualifications. This confirms delivery; unresolved metadata and probable groupings remain qualified."
+    },
+    {
+      "id": "T092",
+      "review": "confirmed",
+      "title": "Medium Perl",
+      "date": "2016-08-24",
+      "end_date": "2016-08-26",
+      "date_precision": "event_range",
+      "time_local": "",
+      "duration_minutes": "",
+      "event": "YAPC Europe 2016",
+      "location": "Cluj-Napoca, Romania",
+      "kind": "lightning",
+      "evidence": "accepted_listing",
+      "archive_status": "already_present",
+      "existing_talk_ids": [
+        17
+      ],
+      "existing_presentation_ids": [
+        19
+      ],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://act.yapc.eu/ye2016/talk/6759"
+        }
+      ],
+      "media_urls": [
+        "https://act.yapc.eu/ye2016/img2016/convinceyourbo$$.pdf",
+        "http://www.slideshare.net/davorg/medium-perl"
+      ],
+      "notes": [
+        "Individual talk has no scheduled datetime; date is the event date/range, not a recovered talk slot."
+      ],
+      "review_basis": "Dave reviewed existing-and-corrections.md, ticked this entry and said all 16 entries were good on 24 October 2026. Accept the existing-delivery match and recorded metadata review; retain source/date qualifications and avoid duplicate presentations."
+    },
+    {
+      "id": "T093",
+      "review": "confirmed",
+      "title": "Error(s) Free Programming",
+      "date": "2016-08-25",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "15:05",
+      "duration_minutes": 30,
+      "event": "YAPC Europe 2016",
+      "location": "Cluj-Napoca, Romania",
+      "kind": "talk",
+      "evidence": "scheduled",
+      "archive_status": "metadata_check",
+      "existing_talk_ids": [
+        16
+      ],
+      "existing_presentation_ids": [
+        18
+      ],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://act.yapc.eu/ye2016/talk/6757"
+        }
+      ],
+      "media_urls": [
+        "https://act.yapc.eu/ye2016/img2016/convinceyourbo$$.pdf",
+        "http://www.slideshare.net/davorg/errors-free-programming"
+      ],
+      "notes": [
+        "Accepted correction for import preparation: use the programme date/time, 25 August 2016 at 15:05, for existing presentation 18, which currently says 26 August. Dave accepted this entry when confirming all 16 existing matches/metadata checks on 24 October 2026. This is a correction to the existing delivery, not an additional presentation; the database has not yet been changed."
+      ],
+      "review_basis": "Dave reviewed existing-and-corrections.md, ticked this entry and said all 16 entries were good on 24 October 2026. Accept the existing-delivery match and recorded metadata review; retain source/date qualifications and avoid duplicate presentations."
+    },
+    {
+      "id": "T094",
+      "review": "confirmed",
+      "title": "Modern Perl Catch-Up",
+      "date": "2016-12-03",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "09:10",
+      "duration_minutes": 110,
+      "event": "London Perl Workshop 2016",
+      "location": "London, UK",
+      "kind": "tutorial",
+      "evidence": "scheduled",
+      "archive_status": "already_present",
+      "existing_talk_ids": [
+        15
+      ],
+      "existing_presentation_ids": [
+        16
+      ],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://act.yapc.eu/lpw2016/talk/6877"
+        }
+      ],
+      "media_urls": [],
+      "notes": [],
+      "review_basis": "Dave reviewed existing-and-corrections.md, ticked this entry and said all 16 entries were good on 24 October 2026. Accept the existing-delivery match and recorded metadata review; retain source/date qualifications and avoid duplicate presentations."
+    },
+    {
+      "id": "T095",
+      "review": "confirmed",
+      "title": "Error(s) Free Programming",
+      "date": "2016-12-03",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "17:15",
+      "duration_minutes": 20,
+      "event": "London Perl Workshop 2016",
+      "location": "London, UK",
+      "kind": "talk",
+      "evidence": "scheduled",
+      "archive_status": "already_present",
+      "existing_talk_ids": [
+        16
+      ],
+      "existing_presentation_ids": [
+        17
+      ],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://act.yapc.eu/lpw2016/talk/6876"
+        }
+      ],
+      "media_urls": [],
+      "notes": [],
+      "review_basis": "Dave reviewed existing-and-corrections.md, ticked this entry and said all 16 entries were good on 24 October 2026. Accept the existing-delivery match and recorded metadata review; retain source/date qualifications and avoid duplicate presentations."
+    },
+    {
+      "id": "T096",
+      "review": "confirmed",
+      "title": "Web Site Tune-Up - Improve Your Googlejuice",
+      "date": "2017-11-25",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "09:00",
+      "duration_minutes": 80,
+      "event": "London Perl Workshop 2017",
+      "location": "London, UK",
+      "kind": "tutorial",
+      "evidence": "scheduled",
+      "archive_status": "already_present",
+      "existing_talk_ids": [
+        7,
+        13
+      ],
+      "existing_presentation_ids": [
+        14
+      ],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://act.yapc.eu/lpw2017/talk/7136"
+        }
+      ],
+      "media_urls": [],
+      "notes": [],
+      "review_basis": "Dave reviewed existing-and-corrections.md, ticked this entry and said all 16 entries were good on 24 October 2026. Accept the existing-delivery match and recorded metadata review; retain source/date qualifications and avoid duplicate presentations."
+    },
+    {
+      "id": "T097",
+      "review": "confirmed",
+      "title": "Adventures Beyond the Echo Chamber",
+      "date": "2017-11-25",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "",
+      "duration_minutes": "",
+      "event": "London Perl Workshop 2017",
+      "location": "London, UK",
+      "kind": "lightning",
+      "evidence": "accepted_listing",
+      "archive_status": "already_present",
+      "existing_talk_ids": [
+        14
+      ],
+      "existing_presentation_ids": [
+        15
+      ],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://act.yapc.eu/lpw2017/talk/7226"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "Individual talk has no scheduled datetime; date is the event date/range, not a recovered talk slot."
+      ],
+      "review_basis": "Dave reviewed existing-and-corrections.md, ticked this entry and said all 16 entries were good on 24 October 2026. Accept the existing-delivery match and recorded metadata review; retain source/date qualifications and avoid duplicate presentations."
+    },
+    {
+      "id": "T098",
+      "review": "confirmed",
+      "title": "Web Site Tune-Up - Improve Your Googlejuice",
+      "date": "2018-08-14",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "09:30",
+      "duration_minutes": 210,
+      "event": "The Perl Conference Europe 2018",
+      "location": "Glasgow, UK",
+      "kind": "tutorial",
+      "evidence": "scheduled",
+      "archive_status": "already_present",
+      "existing_talk_ids": [
+        7,
+        13
+      ],
+      "existing_presentation_ids": [
+        8
+      ],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://act.perlconference.org/tpc-2018-glasgow/talk/7237"
+        }
+      ],
+      "media_urls": [],
+      "notes": [],
+      "review_basis": "Dave reviewed existing-and-corrections.md, ticked this entry and said all 16 entries were good on 24 October 2026. Accept the existing-delivery match and recorded metadata review; retain source/date qualifications and avoid duplicate presentations."
+    },
+    {
+      "id": "T099",
+      "review": "confirmed",
+      "title": "The Professional Programmer",
+      "date": "2018-08-14",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "14:00",
+      "duration_minutes": 210,
+      "event": "The Perl Conference Europe 2018",
+      "location": "Glasgow, UK",
+      "kind": "tutorial",
+      "evidence": "scheduled",
+      "archive_status": "already_present",
+      "existing_talk_ids": [
+        8
+      ],
+      "existing_presentation_ids": [
+        9
+      ],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://act.perlconference.org/tpc-2018-glasgow/talk/7241"
+        }
+      ],
+      "media_urls": [],
+      "notes": [],
+      "review_basis": "Dave reviewed existing-and-corrections.md, ticked this entry and said all 16 entries were good on 24 October 2026. Accept the existing-delivery match and recorded metadata review; retain source/date qualifications and avoid duplicate presentations."
+    },
+    {
+      "id": "T100",
+      "review": "confirmed",
+      "title": "Now We Are 20",
+      "date": "2018-08-15",
+      "end_date": "2018-08-17",
+      "date_precision": "event_range",
+      "time_local": "",
+      "duration_minutes": "",
+      "event": "The Perl Conference Europe 2018",
+      "location": "Glasgow, UK",
+      "kind": "lightning",
+      "evidence": "accepted_listing",
+      "archive_status": "already_present",
+      "existing_talk_ids": [
+        9
+      ],
+      "existing_presentation_ids": [
+        10
+      ],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://act.perlconference.org/tpc-2018-glasgow/talk/7303"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "Individual talk has no scheduled datetime; date is the event date/range, not a recovered talk slot."
+      ],
+      "review_basis": "Dave reviewed existing-and-corrections.md, ticked this entry and said all 16 entries were good on 24 October 2026. Accept the existing-delivery match and recorded metadata review; retain source/date qualifications and avoid duplicate presentations."
+    },
+    {
+      "id": "T101",
+      "review": "confirmed",
+      "title": "I'm a Republican, Honest!",
+      "date": "2018-08-16",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "16:20",
+      "duration_minutes": 20,
+      "event": "The Perl Conference Europe 2018",
+      "location": "Glasgow, UK",
+      "kind": "talk",
+      "evidence": "scheduled",
+      "archive_status": "already_present",
+      "existing_talk_ids": [
+        10
+      ],
+      "existing_presentation_ids": [
+        11
+      ],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://act.perlconference.org/tpc-2018-glasgow/talk/7465"
+        }
+      ],
+      "media_urls": [],
+      "notes": [],
+      "review_basis": "Dave reviewed existing-and-corrections.md, ticked this entry and said all 16 entries were good on 24 October 2026. Accept the existing-delivery match and recorded metadata review; retain source/date qualifications and avoid duplicate presentations."
+    },
+    {
+      "id": "T102",
+      "review": "confirmed",
+      "title": "Measuring the Quality of your Perl Code",
+      "date": "2019-10-19",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "10:10",
+      "duration_minutes": 50,
+      "event": "London Perl Workshop 2019",
+      "location": "London, UK",
+      "kind": "talk",
+      "evidence": "scheduled",
+      "archive_status": "already_present",
+      "existing_talk_ids": [
+        3
+      ],
+      "existing_presentation_ids": [
+        3
+      ],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://act.yapc.eu/lpw2019/talk/7651"
+        }
+      ],
+      "media_urls": [],
+      "notes": [],
+      "review_basis": "Dave reviewed existing-and-corrections.md, ticked this entry and said all 16 entries were good on 24 October 2026. Accept the existing-delivery match and recorded metadata review; retain source/date qualifications and avoid duplicate presentations."
+    },
+    {
+      "id": "T103",
+      "review": "confirmed",
+      "title": "Perl Diver",
+      "date": "2024-10-26",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "09:30",
+      "duration_minutes": 40,
+      "event": "London Perl Workshop 2024",
+      "location": "London, UK",
+      "kind": "talk",
+      "evidence": "scheduled",
+      "archive_status": "already_present",
+      "existing_talk_ids": [
+        11
+      ],
+      "existing_presentation_ids": [
+        12
+      ],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://act.yapc.eu/lpw2024/talk/7889"
+        }
+      ],
+      "media_urls": [],
+      "notes": [],
+      "review_basis": "Dave reviewed existing-and-corrections.md, ticked this entry and said all 16 entries were good on 24 October 2026. Accept the existing-delivery match and recorded metadata review; retain source/date qualifications and avoid duplicate presentations."
+    },
+    {
+      "id": "T104",
+      "review": "confirmed",
+      "title": "Perl School Catch-up",
+      "date": "2024-10-26",
+      "end_date": "",
+      "date_precision": "day",
+      "time_local": "",
+      "duration_minutes": "",
+      "event": "London Perl Workshop 2024",
+      "location": "London, UK",
+      "kind": "lightning",
+      "evidence": "accepted_listing",
+      "archive_status": "already_present",
+      "existing_talk_ids": [
+        12
+      ],
+      "existing_presentation_ids": [
+        13
+      ],
+      "sources": [
+        {
+          "label": "Source",
+          "url": "https://act.yapc.eu/lpw2024/talk/7890"
+        }
+      ],
+      "media_urls": [],
+      "notes": [
+        "Individual talk has no scheduled datetime; date is the event date/range, not a recovered talk slot.",
+        "Programme title differs from existing talk 12, Perl School Update; proposed same-delivery match, not a second talk."
+      ],
+      "review_basis": "Dave reviewed existing-and-corrections.md, ticked this entry and said all 16 entries were good on 24 October 2026. Accept the existing-delivery match and recorded metadata review; retain source/date qualifications and avoid duplicate presentations."
+    }
+  ],
+  "last_reviewed": "2026-10-24",
+  "talk_groups": [
+    {
+      "id": "G001",
+      "status": "probable",
+      "confidence": 0.95,
+      "proposed_title": "Perl For The People",
+      "presentation_ids": [
+        "T003",
+        "T004",
+        "T006",
+        "T068"
+      ],
+      "reviewed_by": "Dave Cross",
+      "reviewed_on": "2026-10-24",
+      "notes": [
+        "Dave is 95% sure these are the same talk under three slightly different names.",
+        "Slide decks may have slight variations; Dave may be able to find them. No slide variants have been verified.",
+        "Propose one talk with four separate deliveries, retaining each advertised title and any recovered slide variant. The common title is provisional.",
+        "This groups the material; individual delivery review states and uncertain dates are unchanged.",
+        "Dave confirmed on 24 October 2026 that T068, The Perl Community - A Modest Proposal (LPW 2011), is a lightly updated version of T006, describing it as revisiting his greatest hits. Retain it as a fourth delivery with its own title and version note.",
+        "The probable status and 95% confidence refer to the original T003/T004/T006 grouping. The specific T068-to-T006 revision relationship is confirmed; this does not upgrade the other original matches."
+      ]
+    },
+    {
+      "id": "G002",
+      "status": "confirmed",
+      "proposed_title": "Overloading in Perl",
+      "presentation_ids": [
+        "T013",
+        "T014"
+      ],
+      "reviewed_by": "Dave Cross",
+      "reviewed_on": "2026-10-24",
+      "notes": [
+        "Dave identifies T013 (Overload.pm) and T014 (Overloading in Perl) as the same talk with minor variations. The common title is provisional.",
+        "Keep this as a separate talk from T019 (Tieing) and the full tutorial T016 / existing talk 22.",
+        "Dave suspects both deliveries and T019 are extracts of the tutorial material represented by T016; that derivation is probable, not confirmed.",
+        "Grouping does not change delivery review states or establish exact dates or slide contents."
+      ]
+    },
+    {
+      "id": "G003",
+      "status": "confirmed",
+      "proposed_title": "Introduction to the Template Toolkit",
+      "presentation_ids": [
+        "T021",
+        "T033"
+      ],
+      "reviewed_by": "Dave Cross",
+      "reviewed_on": "2026-10-24",
+      "notes": [
+        "Dave confirmed T021 and T033 are the same talk with slightly differing titles.",
+        "Prepare one talk with two separate deliveries: Italian Code Jam, 9 October 2004, and Milton Keynes Perl Mongers, 15 November 2007.",
+        "The common title is provisional. Retain both recorded title variants and any delivery-specific slides; the original Code Jam programme wording remains unverified.",
+        "This confirms the grouping; dates and individual delivery review states are unchanged."
+      ]
+    },
+    {
+      "id": "G004",
+      "status": "confirmed",
+      "proposed_title": "The Complete History of the Perle Mongers of Olde London Towne (Parte One)",
+      "presentation_ids": [
+        "T039",
+        "T041"
+      ],
+      "reviewed_by": "Dave Cross",
+      "reviewed_on": "2026-10-24",
+      "notes": [
+        "Dave confirmed T039 and T041 are the same talk.",
+        "Prepare one talk with two deliveries: YAPC Europe 2008, 15 August, and London Perl Workshop 2008, 29 November.",
+        "Retain both advertised title variants and scheduled durations (30 and 40 minutes). The common title is provisional; no claim is made that the decks were identical.",
+        "This confirms the grouping; individual delivery review states, dates and media links are unchanged."
+      ]
+    },
+    {
+      "id": "G005",
+      "status": "confirmed",
+      "proposed_title": "Why do so many companies re-invent well-known CPAN modules badly and end up writing far too much code?",
+      "presentation_ids": [
+        "T043",
+        "T046"
+      ],
+      "reviewed_by": "Dave Cross",
+      "reviewed_on": "2026-10-24",
+      "notes": [
+        "Dave confirmed T043 and T046 are the same talk.",
+        "Prepare one talk with two deliveries: London Perl Mongers, 30 July 2009, and YAPC Europe in Lisbon, 4 August 2009.",
+        "Use the full London title as a provisional common title and preserve the abbreviated YAPC title on that delivery. The London announcement also links the two appearances.",
+        "This confirms the grouping; dates, scheduled times/durations and individual delivery review states are unchanged."
+      ]
+    },
+    {
+      "id": "G006",
+      "status": "confirmed",
+      "proposed_title": "25 Years of Perl in (about) 25 Minutes",
+      "presentation_ids": [
+        "T072",
+        "T075"
+      ],
+      "reviewed_by": "Dave Cross",
+      "reviewed_on": "2026-10-24",
+      "notes": [
+        "Dave confirmed T072 and T075 are the same talk.",
+        "Prepare one talk with two deliveries: London Perl Workshop, 24 November 2012, and YAPC Europe in Kyiv, 12 August 2013.",
+        "The YAPC title is a provisional common title. Preserve both advertised titles, their 20-minute scheduled durations and the recording attached to T075.",
+        "This confirms the grouping; dates, individual delivery review states and source evidence are unchanged."
+      ]
+    }
+  ],
+  "review_batches": [
+    {
+      "reviewed_on": "2026-10-24",
+      "reviewed_by": "Dave Cross",
+      "decision": "confirmed",
+      "presentation_ids": [
+        "T001",
+        "T002",
+        "T003",
+        "T004",
+        "T005",
+        "T006",
+        "T007",
+        "T008",
+        "T009",
+        "T105",
+        "T106",
+        "T010",
+        "T011",
+        "T013",
+        "T014",
+        "T015",
+        "T016",
+        "T018",
+        "T019",
+        "T020",
+        "T021",
+        "T022",
+        "T023",
+        "T024",
+        "T025",
+        "T026",
+        "T027",
+        "T028",
+        "T029",
+        "T030",
+        "T031",
+        "T032",
+        "T033",
+        "T034",
+        "T035",
+        "T036",
+        "T037",
+        "T038",
+        "T039",
+        "T040",
+        "T041",
+        "T042",
+        "T043",
+        "T044",
+        "T045",
+        "T046",
+        "T047",
+        "T048",
+        "T049",
+        "T050",
+        "T051",
+        "T052",
+        "T053",
+        "T054",
+        "T055",
+        "T057",
+        "T058",
+        "T059",
+        "T060",
+        "T061",
+        "T062",
+        "T063",
+        "T064",
+        "T065",
+        "T066",
+        "T067",
+        "T068",
+        "T069",
+        "T070",
+        "T071",
+        "T072",
+        "T073",
+        "T074",
+        "T075",
+        "T076",
+        "T077",
+        "T078",
+        "T079",
+        "T080",
+        "T081",
+        "T082",
+        "T083",
+        "T084",
+        "T085",
+        "T086",
+        "T087",
+        "T088",
+        "T089",
+        "T090",
+        "T091"
+      ],
+      "scope": "All 90 presentations in review.md",
+      "qualifications": "Apply all recorded corrections and qualifications. Delivery confirmation does not resolve uncertain exact dates, original title wording, provisional common titles or probable grouping/derivation relationships."
+    },
+    {
+      "reviewed_on": "2026-10-24",
+      "reviewed_by": "Dave Cross",
+      "decision": "confirmed",
+      "presentation_ids": [
+        "T107",
+        "T108",
+        "T056",
+        "T092",
+        "T093",
+        "T094",
+        "T095",
+        "T096",
+        "T097",
+        "T098",
+        "T099",
+        "T100",
+        "T101",
+        "T102",
+        "T103",
+        "T104"
+      ],
+      "scope": "All 16 ticked entries in existing-and-corrections.md",
+      "qualifications": "Accept existing-delivery matches and the recorded metadata review, including the programme-date correction for T093. Preserve source precision and other stated qualifications; do not create duplicate presentations."
+    }
+  ]
+}

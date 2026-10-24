@@ -1,0 +1,2234 @@
+{
+  "before": {
+    "talk": 23,
+    "presentation": 25,
+    "event": 13,
+    "venue": 10,
+    "city": 21,
+    "country": 15
+  },
+  "created_talks": [
+    {
+      "id": 24,
+      "title": "Data Munging with Perl",
+      "url": "/talk/data-munging-with-perl/"
+    },
+    {
+      "id": 25,
+      "title": "Symbol::Approx::Sub",
+      "url": "/talk/symbolapproxsub/"
+    },
+    {
+      "id": 26,
+      "title": "Perl For The People",
+      "url": "/talk/perl-for-the-people/"
+    },
+    {
+      "id": 27,
+      "title": "Why Perl Advocacy is a Bad Idea",
+      "url": "/talk/why-perl-advocacy-is-a-bad-idea/"
+    },
+    {
+      "id": 28,
+      "title": "NMS",
+      "url": "/talk/nms/"
+    },
+    {
+      "id": 29,
+      "title": "Idiotic Perl",
+      "url": "/talk/idiotic-perl/"
+    },
+    {
+      "id": 30,
+      "title": "Overloading in Perl",
+      "url": "/talk/overloading-in-perl/"
+    },
+    {
+      "id": 31,
+      "title": "Writing a Book Using The Template Toolkit",
+      "url": "/talk/writing-a-book-using-the-template-toolkit/"
+    },
+    {
+      "id": 32,
+      "title": "Tieing",
+      "url": "/talk/tieing/"
+    },
+    {
+      "id": 33,
+      "title": "Perl",
+      "url": "/talk/perl/"
+    },
+    {
+      "id": 34,
+      "title": "Introduction to the Template Toolkit",
+      "url": "/talk/introduction-to-the-template-toolkit/"
+    },
+    {
+      "id": 35,
+      "title": "OO Perl",
+      "url": "/talk/oo-perl/"
+    },
+    {
+      "id": 36,
+      "title": "Enterprise Perl",
+      "url": "/talk/enterprise-perl/"
+    },
+    {
+      "id": 37,
+      "title": "The Perl Mongers Census",
+      "url": "/talk/the-perl-mongers-census/"
+    },
+    {
+      "id": 38,
+      "title": "Databases and Perl",
+      "url": "/talk/databases-and-perl/"
+    },
+    {
+      "id": 39,
+      "title": "What's Wrong With ORM?",
+      "url": "/talk/whats-wrong-with-orm/"
+    },
+    {
+      "id": 40,
+      "title": "Advanced Databases for Beginners",
+      "url": "/talk/advanced-databases-for-beginners/"
+    },
+    {
+      "id": 41,
+      "title": "Programming Languages and Perl",
+      "url": "/talk/programming-languages-and-perl/"
+    },
+    {
+      "id": 42,
+      "title": "Teach-In Extract - OO Perl",
+      "url": "/talk/teach-in-extract-oo-perl/"
+    },
+    {
+      "id": 43,
+      "title": "Beginners Perl Tutorial",
+      "url": "/talk/beginners-perl-tutorial/"
+    },
+    {
+      "id": 44,
+      "title": "Perl Teach-In",
+      "url": "/talk/perl-teach-in/"
+    },
+    {
+      "id": 45,
+      "title": "Proud to Use Perl",
+      "url": "/talk/proud-to-use-perl/"
+    },
+    {
+      "id": 46,
+      "title": "Perl in RPM-Land",
+      "url": "/talk/perl-in-rpm-land/"
+    },
+    {
+      "id": 47,
+      "title": "The Complete History of the Perle Mongers of Olde London Towne (Parte One)",
+      "url": "/talk/the-complete-history-of-the-perle-mongers-of-olde-london-towne-parte-one/"
+    },
+    {
+      "id": 48,
+      "title": "Web Programming",
+      "url": "/talk/web-programming/"
+    },
+    {
+      "id": 49,
+      "title": "Why do so many companies re-invent well-known CPAN modules badly and end up writing far too much code?",
+      "url": "/talk/why-do-so-many-companies-re-invent-well-known-cpan-modules-badly-and-end-up-writing-far-too-much-code/"
+    },
+    {
+      "id": 50,
+      "title": "Introduction to Perl",
+      "url": "/talk/introduction-to-perl/"
+    },
+    {
+      "id": 51,
+      "title": "The Planetarium",
+      "url": "/talk/the-planetarium/"
+    },
+    {
+      "id": 52,
+      "title": "How I Maintain my CPAN Modules",
+      "url": "/talk/how-i-maintain-my-cpan-modules/"
+    },
+    {
+      "id": 53,
+      "title": "Teaching Perl - Experiences, Anecdotes and Vague Conclusions",
+      "url": "/talk/teaching-perl-experiences-anecdotes-and-vague-conclusions/"
+    },
+    {
+      "id": 54,
+      "title": "The \"M\" Word",
+      "url": "/talk/the-m-word/"
+    },
+    {
+      "id": 55,
+      "title": "Skills in the Workplace",
+      "url": "/talk/skills-in-the-workplace/"
+    },
+    {
+      "id": 56,
+      "title": "Battersea Election Candidates at the General Election",
+      "url": "/talk/battersea-election-candidates-at-the-general-election/"
+    },
+    {
+      "id": 57,
+      "title": "Introducing Modern Perl",
+      "url": "/talk/introducing-modern-perl/"
+    },
+    {
+      "id": 58,
+      "title": "Things I Learned From Having Users",
+      "url": "/talk/things-i-learned-from-having-users/"
+    },
+    {
+      "id": 59,
+      "title": "The Perl Community",
+      "url": "/talk/the-perl-community/"
+    },
+    {
+      "id": 60,
+      "title": "Modern Perl",
+      "url": "/talk/modern-perl/"
+    },
+    {
+      "id": 61,
+      "title": "Evolving Software with Moose",
+      "url": "/talk/evolving-software-with-moose/"
+    },
+    {
+      "id": 62,
+      "title": "Modern Web Programming in Perl",
+      "url": "/talk/modern-web-programming-in-perl/"
+    },
+    {
+      "id": 63,
+      "title": "Watching the Press",
+      "url": "/talk/watching-the-press/"
+    },
+    {
+      "id": 64,
+      "title": "Perl Training",
+      "url": "/talk/perl-training/"
+    },
+    {
+      "id": 65,
+      "title": "Modern Core Perl",
+      "url": "/talk/modern-core-perl/"
+    },
+    {
+      "id": 66,
+      "title": "Modern Perl for Non-Perl Programmers",
+      "url": "/talk/modern-perl-for-non-perl-programmers/"
+    },
+    {
+      "id": 67,
+      "title": "Introduction to OO Perl with Moose",
+      "url": "/talk/introduction-to-oo-perl-with-moose/"
+    },
+    {
+      "id": 68,
+      "title": "25 Years of Perl in (about) 25 Minutes",
+      "url": "/talk/25-years-of-perl-in-about-25-minutes/"
+    },
+    {
+      "id": 69,
+      "title": "Matt's PSGI Archive",
+      "url": "/talk/matts-psgi-archive/"
+    },
+    {
+      "id": 70,
+      "title": "The Kingdom of the Blind",
+      "url": "/talk/the-kingdom-of-the-blind/"
+    },
+    {
+      "id": 71,
+      "title": "Github, Travis-CI and Perl",
+      "url": "/talk/github-travis-ci-and-perl/"
+    },
+    {
+      "id": 72,
+      "title": "Perl in the Internet of Things",
+      "url": "/talk/perl-in-the-internet-of-things/"
+    },
+    {
+      "id": 73,
+      "title": "Return to the Kingdom of the Blind",
+      "url": "/talk/return-to-the-kingdom-of-the-blind/"
+    },
+    {
+      "id": 74,
+      "title": "TwittElection",
+      "url": "/talk/twittelection/"
+    },
+    {
+      "id": 75,
+      "title": "Writing Books",
+      "url": "/talk/writing-books/"
+    },
+    {
+      "id": 76,
+      "title": "Database Development with Perl and DBIx::Class",
+      "url": "/talk/database-development-with-perl-and-dbixclass/"
+    },
+    {
+      "id": 77,
+      "title": "Modern PERL",
+      "url": "/talk/modern-perl-2015/"
+    },
+    {
+      "id": 78,
+      "title": "Conference Driven Publishing",
+      "url": "/talk/conference-driven-publishing/"
+    },
+    {
+      "id": 79,
+      "title": "Modern Perl Web Development",
+      "url": "/talk/modern-perl-web-development/"
+    },
+    {
+      "id": 80,
+      "title": "Improving Dev Assistant",
+      "url": "/talk/improving-dev-assistant/"
+    }
+  ],
+  "created_events": [
+    {
+      "id": 14,
+      "name": "YAPC Europe",
+      "start_date": "2000-09-22",
+      "end_date": "2000-09-24",
+      "location": "London, UK"
+    },
+    {
+      "id": 15,
+      "name": "London Perl Mongers - 21 June",
+      "start_date": "2001-06-21",
+      "end_date": "2001-06-21",
+      "location": "State51, London, UK"
+    },
+    {
+      "id": 16,
+      "name": "London Perl Mongers - 22 November",
+      "start_date": "2001-11-22",
+      "end_date": "2001-11-22",
+      "location": "London, UK"
+    },
+    {
+      "id": 17,
+      "name": "OSCON",
+      "start_date": "2001-07-23",
+      "end_date": "2001-07-27",
+      "location": "San Diego, USA"
+    },
+    {
+      "id": 18,
+      "name": "YAPC Europe",
+      "start_date": "2001-08-02",
+      "end_date": "2001-08-04",
+      "location": "Amsterdam, Netherlands"
+    },
+    {
+      "id": 19,
+      "name": "London Perl Mongers - 24 January",
+      "start_date": "2002-01-24",
+      "end_date": "2002-01-24",
+      "location": "London, UK"
+    },
+    {
+      "id": 20,
+      "name": "London Perl Mongers - 16 May",
+      "start_date": "2002-05-16",
+      "end_date": "2002-05-16",
+      "location": "State51, London, UK"
+    },
+    {
+      "id": 21,
+      "name": "London Perl Mongers - 18 July",
+      "start_date": "2002-07-18",
+      "end_date": "2002-07-18",
+      "location": "London, UK"
+    },
+    {
+      "id": 22,
+      "name": "German Perl Workshop",
+      "start_date": "2002-02-13",
+      "end_date": "2002-02-15",
+      "location": "Fachhochschule Bonn-Rhein-Sieg, Sankt Augustin, Germany"
+    },
+    {
+      "id": 23,
+      "name": "London Perl Mongers - 23 January",
+      "start_date": "2003-01-23",
+      "end_date": "2003-01-23",
+      "location": "London, UK"
+    },
+    {
+      "id": 24,
+      "name": "London Perl Mongers - 18 September",
+      "start_date": "2003-09-18",
+      "end_date": "2003-09-18",
+      "location": "London, UK"
+    },
+    {
+      "id": 25,
+      "name": "Birmingham Perl Mongers - 26 February",
+      "start_date": "2003-02-26",
+      "end_date": "2003-02-26",
+      "location": "QPC, Leonard House, Bradford Street, Birmingham, UK"
+    },
+    {
+      "id": 26,
+      "name": "YAPC Europe",
+      "start_date": "2003-07-23",
+      "end_date": "2003-07-25",
+      "location": "Paris, France"
+    },
+    {
+      "id": 27,
+      "name": "Belfast Perl Mongers - 17 November",
+      "start_date": "2003-11-17",
+      "end_date": "2003-11-17",
+      "location": "BT Customer Events Room, BT Tower, Belfast, UK"
+    },
+    {
+      "id": 28,
+      "name": "FOSDEM",
+      "start_date": "2004-02-21",
+      "end_date": "2004-02-22",
+      "location": "ULB, Brussels, Belgium"
+    },
+    {
+      "id": 29,
+      "name": "Italian Code Jam",
+      "start_date": "2004-10-09",
+      "end_date": "2004-10-09",
+      "location": "University of Ferrara, Ferrara, Italy"
+    },
+    {
+      "id": 30,
+      "name": "London Perl Workshop",
+      "start_date": "2004-12-11",
+      "end_date": "2004-12-11",
+      "location": "Imperial College, London, UK"
+    },
+    {
+      "id": 31,
+      "name": "LinuxWorld Expo",
+      "start_date": "2005-10-06",
+      "end_date": "2005-10-06",
+      "location": "London, UK"
+    },
+    {
+      "id": 32,
+      "name": "OSCON Europe",
+      "start_date": "2005-10-18",
+      "end_date": "2005-10-18",
+      "location": "NH Grand Hotel Krasnapolsky, Amsterdam, Netherlands"
+    },
+    {
+      "id": 33,
+      "name": "London Perl Workshop",
+      "start_date": "2005-11-26",
+      "end_date": "2005-11-26",
+      "location": "City University, London, UK"
+    },
+    {
+      "id": 34,
+      "name": "Milton Keynes Perl Mongers - 14 March",
+      "start_date": "2006-03-14",
+      "end_date": "2006-03-14",
+      "location": "SpiraHellic Multimedia, Milton Keynes, UK"
+    },
+    {
+      "id": 35,
+      "name": "London Perl Mongers - 23 March",
+      "start_date": "2006-03-23",
+      "end_date": "2006-03-23",
+      "location": "Fotango, London, UK"
+    },
+    {
+      "id": 36,
+      "name": "Greater London Linux User Group",
+      "start_date": "2006-06-24",
+      "end_date": "2006-06-24",
+      "location": "University of Westminster, New Cavendish Street, London, UK"
+    },
+    {
+      "id": 37,
+      "name": "YAPC Europe",
+      "start_date": "2006-08-30",
+      "end_date": "2006-09-01",
+      "location": "Birmingham, UK"
+    },
+    {
+      "id": 38,
+      "name": "Belgian Perl Workshop",
+      "start_date": "2007-10-27",
+      "end_date": "2007-10-27",
+      "location": "Belgium"
+    },
+    {
+      "id": 39,
+      "name": "Milton Keynes Perl Mongers - 15 November",
+      "start_date": "2007-11-15",
+      "end_date": "2007-11-15",
+      "location": "Open University, Milton Keynes, UK"
+    },
+    {
+      "id": 40,
+      "name": "London Perl Workshop",
+      "start_date": "2007-12-01",
+      "end_date": "2007-12-01",
+      "location": "London, UK"
+    },
+    {
+      "id": 41,
+      "name": "UKUUG Spring Conference",
+      "start_date": "2008-03-31",
+      "end_date": "2008-04-02",
+      "location": "Birmingham Conservatoire, Birmingham, UK"
+    },
+    {
+      "id": 42,
+      "name": "YAPC Europe",
+      "start_date": "2008-08-12",
+      "end_date": "2008-08-15",
+      "location": "Copenhagen, Denmark"
+    },
+    {
+      "id": 43,
+      "name": "Milton Keynes Perl Mongers - 8 September",
+      "start_date": "2008-09-08",
+      "end_date": "2008-09-08",
+      "location": "Venables Building, Open University, Milton Keynes, UK"
+    },
+    {
+      "id": 44,
+      "name": "London Perl Workshop",
+      "start_date": "2008-11-29",
+      "end_date": "2008-11-29",
+      "location": "University of Westminster, London, UK"
+    },
+    {
+      "id": 45,
+      "name": "London Perl Mongers - 30 July",
+      "start_date": "2009-07-30",
+      "end_date": "2009-07-30",
+      "location": "Richmond, London, UK"
+    },
+    {
+      "id": 46,
+      "name": "YAPC Europe",
+      "start_date": "2009-08-01",
+      "end_date": "2009-08-05",
+      "location": "Lisbon, Portugal"
+    },
+    {
+      "id": 47,
+      "name": "Milton Keynes Perl Mongers - 15 October",
+      "start_date": "2009-10-15",
+      "end_date": "2009-10-15",
+      "location": "Open University, Milton Keynes, UK"
+    },
+    {
+      "id": 48,
+      "name": "London Perl Workshop",
+      "start_date": "2009-12-05",
+      "end_date": "2009-12-05",
+      "location": "University of Westminster, London, UK"
+    },
+    {
+      "id": 49,
+      "name": "South London Geek Night 1",
+      "start_date": "2010-04-29",
+      "end_date": "2010-04-29",
+      "location": "The Bedford, Balham, London, UK"
+    },
+    {
+      "id": 50,
+      "name": "OpenTech",
+      "start_date": "2010-09-11",
+      "end_date": "2010-09-11",
+      "location": "ULU, London, UK"
+    },
+    {
+      "id": 51,
+      "name": "Milton Keynes Perl Mongers - 12 October",
+      "start_date": "2010-10-12",
+      "end_date": "2010-10-12",
+      "location": "Milton Keynes, UK"
+    },
+    {
+      "id": 52,
+      "name": "London Perl Workshop",
+      "start_date": "2010-12-04",
+      "end_date": "2010-12-04",
+      "location": "London, UK"
+    },
+    {
+      "id": 53,
+      "name": "OpenTech",
+      "start_date": "2011-05-21",
+      "end_date": "2011-05-21",
+      "location": "ULU, London, UK"
+    },
+    {
+      "id": 54,
+      "name": "YAPC Europe",
+      "start_date": "2011-08-14",
+      "end_date": "2011-08-17",
+      "location": "Riga, Latvia"
+    },
+    {
+      "id": 55,
+      "name": "London Perl Workshop",
+      "start_date": "2011-11-12",
+      "end_date": "2011-11-12",
+      "location": "London, UK"
+    },
+    {
+      "id": 56,
+      "name": "Perl School - 4 August",
+      "start_date": "2012-08-04",
+      "end_date": "2012-08-04",
+      "location": "Google Campus, London, UK"
+    },
+    {
+      "id": 57,
+      "name": "Perl School - 6 October",
+      "start_date": "2012-10-06",
+      "end_date": "2012-10-06",
+      "location": "Google Campus, London, UK"
+    },
+    {
+      "id": 58,
+      "name": "London Perl Workshop",
+      "start_date": "2012-11-24",
+      "end_date": "2012-11-24",
+      "location": "London, UK"
+    },
+    {
+      "id": 59,
+      "name": "Milton Keynes Perl Mongers - 20 May",
+      "start_date": "2013-05-20",
+      "end_date": "2013-05-20",
+      "location": "Systems Seminar Room, Venables Building, Open University, Milton Keynes, UK"
+    },
+    {
+      "id": 60,
+      "name": "YAPC Europe",
+      "start_date": "2013-08-12",
+      "end_date": "2013-08-14",
+      "location": "Kyiv, Ukraine"
+    },
+    {
+      "id": 61,
+      "name": "London Perl Workshop",
+      "start_date": "2013-11-30",
+      "end_date": "2013-11-30",
+      "location": "London, UK"
+    },
+    {
+      "id": 62,
+      "name": "London Perl Mongers - 24 July",
+      "start_date": "2014-07-24",
+      "end_date": "2014-07-24",
+      "location": "Conway Hall, London, UK"
+    },
+    {
+      "id": 63,
+      "name": "London Perl Workshop",
+      "start_date": "2014-11-08",
+      "end_date": "2014-11-08",
+      "location": "London, UK"
+    },
+    {
+      "id": 64,
+      "name": "OpenTech",
+      "start_date": "2015-06-13",
+      "end_date": "2015-06-13",
+      "location": "ULU, London, UK"
+    },
+    {
+      "id": 65,
+      "name": "London Perl Mongers - 13 August",
+      "start_date": "2015-08-13",
+      "end_date": "2015-08-13",
+      "location": "London, UK"
+    },
+    {
+      "id": 66,
+      "name": "YAPC Europe",
+      "start_date": "2015-09-01",
+      "end_date": "2015-09-04",
+      "location": "Edificio Mecenas, University of Granada, Granada, Spain"
+    },
+    {
+      "id": 67,
+      "name": "London Perl Workshop",
+      "start_date": "2015-12-12",
+      "end_date": "2015-12-12",
+      "location": "London, UK"
+    }
+  ],
+  "created_presentations": [
+    {
+      "source_id": "T001",
+      "presentation_id": 26,
+      "talk_id": 24,
+      "event_id": 14,
+      "title": "Data Munging with Perl",
+      "datetime": null,
+      "date_label": "22 September 2000 – 24 September 2000 (exact day not recorded)"
+    },
+    {
+      "source_id": "T002",
+      "presentation_id": 27,
+      "talk_id": 25,
+      "event_id": 14,
+      "title": "Symbol::Approx::Sub",
+      "datetime": null,
+      "date_label": "22 September 2000 – 24 September 2000 (exact day not recorded)"
+    },
+    {
+      "source_id": "T003",
+      "presentation_id": 28,
+      "talk_id": 26,
+      "event_id": 15,
+      "title": "Perl For The People",
+      "datetime": "2001-06-21",
+      "date_label": "21 June 2001"
+    },
+    {
+      "source_id": "T004",
+      "presentation_id": 29,
+      "talk_id": 26,
+      "event_id": 17,
+      "title": "Increasing Perl Use",
+      "datetime": null,
+      "date_label": "July 2001 (exact day not recorded)"
+    },
+    {
+      "source_id": "T005",
+      "presentation_id": 30,
+      "talk_id": 27,
+      "event_id": 17,
+      "title": "Why Perl Advocacy is a Bad Idea",
+      "datetime": null,
+      "date_label": "July 2001 (exact day not recorded)"
+    },
+    {
+      "source_id": "T006",
+      "presentation_id": 31,
+      "talk_id": 26,
+      "event_id": 18,
+      "title": "Perl for the People: A Modest Proposal for Increasing Perl Usage Using a Combination of Legal and Technological Means",
+      "datetime": null,
+      "date_label": "2 August 2001 – 4 August 2001 (exact day not recorded)"
+    },
+    {
+      "source_id": "T007",
+      "presentation_id": 32,
+      "talk_id": 27,
+      "event_id": 18,
+      "title": "Why Perl Advocacy Is a Bad Idea",
+      "datetime": null,
+      "date_label": "2 August 2001 – 4 August 2001 (exact day not recorded)"
+    },
+    {
+      "source_id": "T008",
+      "presentation_id": 33,
+      "talk_id": 28,
+      "event_id": 16,
+      "title": "NMS",
+      "datetime": "2001-11-22",
+      "date_label": "22 November 2001"
+    },
+    {
+      "source_id": "T009",
+      "presentation_id": 34,
+      "talk_id": 29,
+      "event_id": 19,
+      "title": "Idiotic Perl",
+      "datetime": "2002-01-24",
+      "date_label": "24 January 2002"
+    },
+    {
+      "source_id": "T105",
+      "presentation_id": 35,
+      "talk_id": 29,
+      "event_id": 22,
+      "title": "Idiotic Perl",
+      "datetime": "2002-02-14 14:00:00",
+      "date_label": "14 February 2002, 14:00"
+    },
+    {
+      "source_id": "T106",
+      "presentation_id": 36,
+      "talk_id": 21,
+      "event_id": 22,
+      "title": "Idiomatic Perl",
+      "datetime": "2002-02-15 09:00:00",
+      "date_label": "15 February 2002, 09:00"
+    },
+    {
+      "source_id": "T010",
+      "presentation_id": 37,
+      "talk_id": 21,
+      "event_id": 20,
+      "title": "Idiomatic Perl (extract)",
+      "datetime": "2002-05-16",
+      "date_label": "16 May 2002"
+    },
+    {
+      "source_id": "T011",
+      "presentation_id": 38,
+      "talk_id": 21,
+      "event_id": 21,
+      "title": "Idiomatic Perl (extract)",
+      "datetime": "2002-07-18",
+      "date_label": "18 July 2002"
+    },
+    {
+      "source_id": "T013",
+      "presentation_id": 39,
+      "talk_id": 30,
+      "event_id": 23,
+      "title": "Overload.pm",
+      "datetime": "2003-01-23",
+      "date_label": "23 January 2003"
+    },
+    {
+      "source_id": "T014",
+      "presentation_id": 40,
+      "talk_id": 30,
+      "event_id": 25,
+      "title": "Overloading in Perl",
+      "datetime": "2003-02-26",
+      "date_label": "26 February 2003"
+    },
+    {
+      "source_id": "T015",
+      "presentation_id": 41,
+      "talk_id": 26,
+      "event_id": 25,
+      "title": "Perl For The People",
+      "datetime": "2003-02-26",
+      "date_label": "26 February 2003"
+    },
+    {
+      "source_id": "T016",
+      "presentation_id": 42,
+      "talk_id": 22,
+      "event_id": 26,
+      "title": "Tieing and Overloading Objects in Perl",
+      "datetime": "2003-07-23 14:15:00",
+      "date_label": "23 July 2003, 14:15"
+    },
+    {
+      "source_id": "T018",
+      "presentation_id": 43,
+      "talk_id": 31,
+      "event_id": 24,
+      "title": "Writing a Book Using The Template Toolkit",
+      "datetime": "2003-09-18",
+      "date_label": "18 September 2003"
+    },
+    {
+      "source_id": "T019",
+      "presentation_id": 44,
+      "talk_id": 32,
+      "event_id": 27,
+      "title": "Tieing",
+      "datetime": "2003-11-17",
+      "date_label": "17 November 2003"
+    },
+    {
+      "source_id": "T020",
+      "presentation_id": 45,
+      "talk_id": 33,
+      "event_id": 28,
+      "title": "Perl",
+      "datetime": "2004-02-22 15:00:00",
+      "date_label": "22 February 2004, 15:00"
+    },
+    {
+      "source_id": "T021",
+      "presentation_id": 46,
+      "talk_id": 34,
+      "event_id": 29,
+      "title": "Introduction to the Template Toolkit",
+      "datetime": "2004-10-09",
+      "date_label": "9 October 2004"
+    },
+    {
+      "source_id": "T022",
+      "presentation_id": 47,
+      "talk_id": 35,
+      "event_id": 30,
+      "title": "OO Perl",
+      "datetime": "2004-12-11",
+      "date_label": "11 December 2004"
+    },
+    {
+      "source_id": "T023",
+      "presentation_id": 48,
+      "talk_id": 36,
+      "event_id": 31,
+      "title": "Enterprise Perl",
+      "datetime": "2005-10-06",
+      "date_label": "6 October 2005"
+    },
+    {
+      "source_id": "T024",
+      "presentation_id": 49,
+      "talk_id": 37,
+      "event_id": 32,
+      "title": "The Perl Mongers Census",
+      "datetime": "2005-10-18",
+      "date_label": "18 October 2005"
+    },
+    {
+      "source_id": "T025",
+      "presentation_id": 50,
+      "talk_id": 38,
+      "event_id": 33,
+      "title": "Databases and Perl",
+      "datetime": "2005-11-26",
+      "date_label": "26 November 2005"
+    },
+    {
+      "source_id": "T026",
+      "presentation_id": 51,
+      "talk_id": 38,
+      "event_id": 34,
+      "title": "Databases and Perl",
+      "datetime": "2006-03-14",
+      "date_label": "14 March 2006"
+    },
+    {
+      "source_id": "T027",
+      "presentation_id": 52,
+      "talk_id": 39,
+      "event_id": 35,
+      "title": "What's Wrong With ORM?",
+      "datetime": "2006-03-23",
+      "date_label": "23 March 2006"
+    },
+    {
+      "source_id": "T028",
+      "presentation_id": 53,
+      "talk_id": 39,
+      "event_id": 36,
+      "title": "What's Wrong with ORM",
+      "datetime": "2006-06-24",
+      "date_label": "24 June 2006"
+    },
+    {
+      "source_id": "T029",
+      "presentation_id": 54,
+      "talk_id": 40,
+      "event_id": 37,
+      "title": "Advanced Databases for Beginners",
+      "datetime": "2006-08-30 14:00:00",
+      "date_label": "30 August 2006, 14:00"
+    },
+    {
+      "source_id": "T030",
+      "presentation_id": 55,
+      "talk_id": 39,
+      "event_id": 37,
+      "title": "What's Wrong With ORM",
+      "datetime": "2006-08-31 11:45:00",
+      "date_label": "31 August 2006, 11:45"
+    },
+    {
+      "source_id": "T031",
+      "presentation_id": 56,
+      "talk_id": 41,
+      "event_id": 37,
+      "title": "Programming Languages and Perl",
+      "datetime": "2006-08-31 17:35:00",
+      "date_label": "31 August 2006, 17:35"
+    },
+    {
+      "source_id": "T032",
+      "presentation_id": 57,
+      "talk_id": 42,
+      "event_id": 38,
+      "title": "Teach-In Extract - OO Perl",
+      "datetime": "2007-10-27 09:30:00",
+      "date_label": "27 October 2007, 09:30"
+    },
+    {
+      "source_id": "T033",
+      "presentation_id": 58,
+      "talk_id": 34,
+      "event_id": 39,
+      "title": "An Introduction to the Template Toolkit",
+      "datetime": "2007-11-15",
+      "date_label": "15 November 2007"
+    },
+    {
+      "source_id": "T034",
+      "presentation_id": 59,
+      "talk_id": 43,
+      "event_id": 40,
+      "title": "Beginners Perl Tutorial",
+      "datetime": "2007-12-01 10:30:00",
+      "date_label": "1 December 2007, 10:30"
+    },
+    {
+      "source_id": "T035",
+      "presentation_id": 60,
+      "talk_id": 44,
+      "event_id": 41,
+      "title": "Perl Teach-In",
+      "datetime": "2008-03-31 10:30:00",
+      "date_label": "31 March 2008, 10:30"
+    },
+    {
+      "source_id": "T036",
+      "presentation_id": 61,
+      "talk_id": 44,
+      "event_id": 42,
+      "title": "Perl Teach-In",
+      "datetime": "2008-08-12 10:00:00",
+      "date_label": "12 August 2008, 10:00"
+    },
+    {
+      "source_id": "T037",
+      "presentation_id": 62,
+      "talk_id": 45,
+      "event_id": 42,
+      "title": "Proud to Use Perl",
+      "datetime": "2008-08-15 09:40:00",
+      "date_label": "15 August 2008, 09:40"
+    },
+    {
+      "source_id": "T038",
+      "presentation_id": 63,
+      "talk_id": 46,
+      "event_id": 42,
+      "title": "Perl in RPM-Land",
+      "datetime": "2008-08-15 11:20:00",
+      "date_label": "15 August 2008, 11:20"
+    },
+    {
+      "source_id": "T039",
+      "presentation_id": 64,
+      "talk_id": 47,
+      "event_id": 42,
+      "title": "Ye Compleat History of Ye Perle Mongers of Olde London Towne (Part 1)",
+      "datetime": "2008-08-15 13:30:00",
+      "date_label": "15 August 2008, 13:30"
+    },
+    {
+      "source_id": "T040",
+      "presentation_id": 65,
+      "talk_id": 46,
+      "event_id": 43,
+      "title": "Perl in RPM Land",
+      "datetime": "2008-09-08",
+      "date_label": "8 September 2008"
+    },
+    {
+      "source_id": "T041",
+      "presentation_id": 66,
+      "talk_id": 47,
+      "event_id": 44,
+      "title": "The Complete History of the Perle Mongers of Olde London Towne (Parte One)",
+      "datetime": "2008-11-29 09:10:00",
+      "date_label": "29 November 2008, 09:10"
+    },
+    {
+      "source_id": "T042",
+      "presentation_id": 67,
+      "talk_id": 48,
+      "event_id": 44,
+      "title": "Web Programming",
+      "datetime": "2008-11-29",
+      "date_label": "29 November 2008"
+    },
+    {
+      "source_id": "T043",
+      "presentation_id": 68,
+      "talk_id": 49,
+      "event_id": 45,
+      "title": "Why do so many companies re-invent well-known CPAN modules badly and end up writing far too much code?",
+      "datetime": "2009-07-30",
+      "date_label": "30 July 2009"
+    },
+    {
+      "source_id": "T044",
+      "presentation_id": 69,
+      "talk_id": 50,
+      "event_id": 46,
+      "title": "Introduction to Perl (day 1)",
+      "datetime": "2009-08-01 09:30:00",
+      "date_label": "1 August 2009, 09:30"
+    },
+    {
+      "source_id": "T045",
+      "presentation_id": 70,
+      "talk_id": 50,
+      "event_id": 46,
+      "title": "Introduction to Perl (day 2)",
+      "datetime": "2009-08-02 09:30:00",
+      "date_label": "2 August 2009, 09:30"
+    },
+    {
+      "source_id": "T046",
+      "presentation_id": 71,
+      "talk_id": 49,
+      "event_id": 46,
+      "title": "Why do so many companies re-invent well-known CPAN modules badly ... ?",
+      "datetime": "2009-08-04 16:00:00",
+      "date_label": "4 August 2009, 16:00"
+    },
+    {
+      "source_id": "T047",
+      "presentation_id": 72,
+      "talk_id": 51,
+      "event_id": 46,
+      "title": "The Planetarium",
+      "datetime": "2009-08-05 15:15:00",
+      "date_label": "5 August 2009, 15:15"
+    },
+    {
+      "source_id": "T048",
+      "presentation_id": 73,
+      "talk_id": 52,
+      "event_id": 47,
+      "title": "How I Maintain my CPAN Modules",
+      "datetime": "2009-10-15",
+      "date_label": "15 October 2009"
+    },
+    {
+      "source_id": "T049",
+      "presentation_id": 74,
+      "talk_id": 53,
+      "event_id": 47,
+      "title": "Teaching Perl - Experiences, Anecdotes and Vague Conclusions",
+      "datetime": "2009-10-15",
+      "date_label": "15 October 2009"
+    },
+    {
+      "source_id": "T050",
+      "presentation_id": 75,
+      "talk_id": 54,
+      "event_id": 48,
+      "title": "The \"M\" Word",
+      "datetime": "2009-12-05 09:30:00",
+      "date_label": "5 December 2009, 09:30"
+    },
+    {
+      "source_id": "T051",
+      "presentation_id": 76,
+      "talk_id": 55,
+      "event_id": 48,
+      "title": "Skills in the Workplace",
+      "datetime": "2009-12-05",
+      "date_label": "5 December 2009"
+    },
+    {
+      "source_id": "T052",
+      "presentation_id": 77,
+      "talk_id": 8,
+      "event_id": 48,
+      "title": "The Professional Programmer",
+      "datetime": "2009-12-05",
+      "date_label": "5 December 2009"
+    },
+    {
+      "source_id": "T053",
+      "presentation_id": 78,
+      "talk_id": 56,
+      "event_id": 49,
+      "title": "Battersea Election Candidates at the General Election",
+      "datetime": "2010-04-29",
+      "date_label": "29 April 2010"
+    },
+    {
+      "source_id": "T054",
+      "presentation_id": 79,
+      "talk_id": 57,
+      "event_id": 11,
+      "title": "Introducing Modern Perl",
+      "datetime": "2010-08-02 09:00:00",
+      "date_label": "2 August 2010, 09:00"
+    },
+    {
+      "source_id": "T055",
+      "presentation_id": 80,
+      "talk_id": 58,
+      "event_id": 11,
+      "title": "Things I Learned From Having Users",
+      "datetime": "2010-08-04 11:00:00",
+      "date_label": "4 August 2010, 11:00"
+    },
+    {
+      "source_id": "T057",
+      "presentation_id": 81,
+      "talk_id": 59,
+      "event_id": 11,
+      "title": "The Perl Community",
+      "datetime": "2010-08-06 14:00:00",
+      "date_label": "6 August 2010, 14:00"
+    },
+    {
+      "source_id": "T058",
+      "presentation_id": 82,
+      "talk_id": 60,
+      "event_id": 50,
+      "title": "Modern Perl",
+      "datetime": "2010-09-11",
+      "date_label": "11 September 2010"
+    },
+    {
+      "source_id": "T059",
+      "presentation_id": 83,
+      "talk_id": 61,
+      "event_id": 51,
+      "title": "Evolving Software with Moose",
+      "datetime": "2010-10-12",
+      "date_label": "12 October 2010"
+    },
+    {
+      "source_id": "T060",
+      "presentation_id": 84,
+      "talk_id": 62,
+      "event_id": 52,
+      "title": "Modern Web Programming in Perl - Part One",
+      "datetime": "2010-12-04 10:05:00",
+      "date_label": "4 December 2010, 10:05"
+    },
+    {
+      "source_id": "T061",
+      "presentation_id": 85,
+      "talk_id": 62,
+      "event_id": 52,
+      "title": "Modern Web Programming in Perl - Part Two",
+      "datetime": "2010-12-04 11:15:00",
+      "date_label": "4 December 2010, 11:15"
+    },
+    {
+      "source_id": "T062",
+      "presentation_id": 86,
+      "talk_id": 61,
+      "event_id": 52,
+      "title": "Evolving Software with Moose",
+      "datetime": "2010-12-04 12:50:00",
+      "date_label": "4 December 2010, 12:50"
+    },
+    {
+      "source_id": "T063",
+      "presentation_id": 87,
+      "talk_id": 63,
+      "event_id": 53,
+      "title": "Watching the Press",
+      "datetime": "2011-05-21",
+      "date_label": "21 May 2011"
+    },
+    {
+      "source_id": "T064",
+      "presentation_id": 88,
+      "talk_id": 57,
+      "event_id": 54,
+      "title": "Introducing Modern Perl",
+      "datetime": "2011-08-14 10:00:00",
+      "date_label": "14 August 2011, 10:00"
+    },
+    {
+      "source_id": "T065",
+      "presentation_id": 89,
+      "talk_id": 26,
+      "event_id": 54,
+      "title": "The Perl Community - A Modest Proposal",
+      "datetime": null,
+      "date_label": "15 August 2011 – 17 August 2011 (exact day not recorded)"
+    },
+    {
+      "source_id": "T066",
+      "presentation_id": 90,
+      "talk_id": 64,
+      "event_id": 54,
+      "title": "Perl Training",
+      "datetime": "2011-08-17 12:05:00",
+      "date_label": "17 August 2011, 12:05"
+    },
+    {
+      "source_id": "T067",
+      "presentation_id": 91,
+      "talk_id": 65,
+      "event_id": 55,
+      "title": "Modern Core Perl",
+      "datetime": "2011-11-12 09:30:00",
+      "date_label": "12 November 2011, 09:30"
+    },
+    {
+      "source_id": "T068",
+      "presentation_id": 92,
+      "talk_id": 26,
+      "event_id": 55,
+      "title": "The Perl Community - A Modest Proposal",
+      "datetime": "2011-11-12",
+      "date_label": "12 November 2011"
+    },
+    {
+      "source_id": "T069",
+      "presentation_id": 93,
+      "talk_id": 66,
+      "event_id": 56,
+      "title": "Modern Perl for Non-Perl Programmers",
+      "datetime": "2012-08-04",
+      "date_label": "4 August 2012"
+    },
+    {
+      "source_id": "T070",
+      "presentation_id": 94,
+      "talk_id": 66,
+      "event_id": 57,
+      "title": "Modern Perl for Non-Perl Programmers",
+      "datetime": "2012-10-06",
+      "date_label": "6 October 2012"
+    },
+    {
+      "source_id": "T071",
+      "presentation_id": 95,
+      "talk_id": 67,
+      "event_id": 58,
+      "title": "Introduction to OO Perl with Moose",
+      "datetime": "2012-11-24 09:50:00",
+      "date_label": "24 November 2012, 09:50"
+    },
+    {
+      "source_id": "T072",
+      "presentation_id": 96,
+      "talk_id": 68,
+      "event_id": 58,
+      "title": "Twenty Five Years of Perl in Twenty Five (ish) Minutes",
+      "datetime": "2012-11-24 15:10:00",
+      "date_label": "24 November 2012, 15:10"
+    },
+    {
+      "source_id": "T073",
+      "presentation_id": 97,
+      "talk_id": 69,
+      "event_id": 58,
+      "title": "Matt's PSGI Archive",
+      "datetime": "2012-11-24",
+      "date_label": "24 November 2012"
+    },
+    {
+      "source_id": "T074",
+      "presentation_id": 98,
+      "talk_id": 69,
+      "event_id": 59,
+      "title": "Matt's PSGI Archive",
+      "datetime": "2013-05-20",
+      "date_label": "20 May 2013"
+    },
+    {
+      "source_id": "T075",
+      "presentation_id": 99,
+      "talk_id": 68,
+      "event_id": 60,
+      "title": "25 Years of Perl in (about) 25 Minutes",
+      "datetime": "2013-08-12 11:50:00",
+      "date_label": "12 August 2013, 11:50"
+    },
+    {
+      "source_id": "T076",
+      "presentation_id": 100,
+      "talk_id": 70,
+      "event_id": 60,
+      "title": "The Kingdom of the Blind",
+      "datetime": "2013-08-12",
+      "date_label": "12 August 2013"
+    },
+    {
+      "source_id": "T077",
+      "presentation_id": 101,
+      "talk_id": 69,
+      "event_id": 60,
+      "title": "Matt's PSGI Archive",
+      "datetime": "2013-08-13 12:50:00",
+      "date_label": "13 August 2013, 12:50"
+    },
+    {
+      "source_id": "T078",
+      "presentation_id": 102,
+      "talk_id": 66,
+      "event_id": 61,
+      "title": "Modern Perl for Non-Perl Programmers",
+      "datetime": "2013-11-30 14:00:00",
+      "date_label": "30 November 2013, 14:00"
+    },
+    {
+      "source_id": "T079",
+      "presentation_id": 103,
+      "talk_id": 70,
+      "event_id": 61,
+      "title": "The Kingdom of the Blind",
+      "datetime": "2013-11-30",
+      "date_label": "30 November 2013"
+    },
+    {
+      "source_id": "T080",
+      "presentation_id": 104,
+      "talk_id": 71,
+      "event_id": 62,
+      "title": "Github, Travis-CI and Perl",
+      "datetime": "2014-07-24",
+      "date_label": "24 July 2014"
+    },
+    {
+      "source_id": "T081",
+      "presentation_id": 105,
+      "talk_id": 72,
+      "event_id": 63,
+      "title": "Perl in the Internet of Things (Part One)",
+      "datetime": "2014-11-08 09:10:00",
+      "date_label": "8 November 2014, 09:10"
+    },
+    {
+      "source_id": "T082",
+      "presentation_id": 106,
+      "talk_id": 72,
+      "event_id": 63,
+      "title": "Perl in the Internet of Things (Part Two)",
+      "datetime": "2014-11-08 11:30:00",
+      "date_label": "8 November 2014, 11:30"
+    },
+    {
+      "source_id": "T083",
+      "presentation_id": 107,
+      "talk_id": 73,
+      "event_id": 63,
+      "title": "Return to the Kingdom of the Blind",
+      "datetime": "2014-11-08",
+      "date_label": "8 November 2014"
+    },
+    {
+      "source_id": "T084",
+      "presentation_id": 108,
+      "talk_id": 74,
+      "event_id": 64,
+      "title": "TwittElection",
+      "datetime": "2015-06-13",
+      "date_label": "13 June 2015"
+    },
+    {
+      "source_id": "T085",
+      "presentation_id": 109,
+      "talk_id": 75,
+      "event_id": 65,
+      "title": "Writing Books",
+      "datetime": "2015-08-13",
+      "date_label": "13 August 2015"
+    },
+    {
+      "source_id": "T086",
+      "presentation_id": 110,
+      "talk_id": 76,
+      "event_id": 66,
+      "title": "Database Development with Perl and DBIx::Class",
+      "datetime": "2015-09-01",
+      "date_label": "1 September 2015"
+    },
+    {
+      "source_id": "T087",
+      "presentation_id": 111,
+      "talk_id": 77,
+      "event_id": 66,
+      "title": "Modern PERL",
+      "datetime": null,
+      "date_label": "2 September 2015 – 4 September 2015 (exact day not recorded)"
+    },
+    {
+      "source_id": "T088",
+      "presentation_id": 112,
+      "talk_id": 78,
+      "event_id": 66,
+      "title": "Conference Driven Publishing",
+      "datetime": "2015-09-03 15:00:00",
+      "date_label": "3 September 2015, 15:00"
+    },
+    {
+      "source_id": "T089",
+      "presentation_id": 113,
+      "talk_id": 79,
+      "event_id": 67,
+      "title": "Modern Perl Web Development",
+      "datetime": "2015-12-12 09:10:00",
+      "date_label": "12 December 2015, 09:10"
+    },
+    {
+      "source_id": "T090",
+      "presentation_id": 114,
+      "talk_id": 78,
+      "event_id": 67,
+      "title": "Conference Driven Publishing",
+      "datetime": "2015-12-12 15:00:00",
+      "date_label": "12 December 2015, 15:00"
+    },
+    {
+      "source_id": "T091",
+      "presentation_id": 115,
+      "talk_id": 80,
+      "event_id": 67,
+      "title": "Improving Dev Assistant",
+      "datetime": "2015-12-12",
+      "date_label": "12 December 2015"
+    }
+  ],
+  "existing_matches": [
+    "T107",
+    "T108",
+    "T056",
+    "T092",
+    "T093",
+    "T094",
+    "T095",
+    "T096",
+    "T097",
+    "T098",
+    "T099",
+    "T100",
+    "T101",
+    "T102",
+    "T103",
+    "T104"
+  ],
+  "date_corrections": [
+    {
+      "source_id": "T093",
+      "presentation_id": 18,
+      "before": "2016-08-26 15:05",
+      "after": "2016-08-25 15:05:00"
+    }
+  ],
+  "url_overrides": [
+    {
+      "talk_id": 13,
+      "title": "Web Site Tune-Up - Improve Your Googlejuice",
+      "slug": "web-site-tune-up-improve-your-googlejuice-2017"
+    },
+    {
+      "talk_id": 77,
+      "title": "Modern PERL",
+      "slug": "modern-perl-2015"
+    }
+  ],
+  "mappings": [
+    {
+      "source_id": "T001",
+      "presentation_id": 26,
+      "talk_id": 24,
+      "event_id": 14
+    },
+    {
+      "source_id": "T002",
+      "presentation_id": 27,
+      "talk_id": 25,
+      "event_id": 14
+    },
+    {
+      "source_id": "T003",
+      "presentation_id": 28,
+      "talk_id": 26,
+      "event_id": 15
+    },
+    {
+      "source_id": "T004",
+      "presentation_id": 29,
+      "talk_id": 26,
+      "event_id": 17
+    },
+    {
+      "source_id": "T005",
+      "presentation_id": 30,
+      "talk_id": 27,
+      "event_id": 17
+    },
+    {
+      "source_id": "T006",
+      "presentation_id": 31,
+      "talk_id": 26,
+      "event_id": 18
+    },
+    {
+      "source_id": "T007",
+      "presentation_id": 32,
+      "talk_id": 27,
+      "event_id": 18
+    },
+    {
+      "source_id": "T008",
+      "presentation_id": 33,
+      "talk_id": 28,
+      "event_id": 16
+    },
+    {
+      "source_id": "T009",
+      "presentation_id": 34,
+      "talk_id": 29,
+      "event_id": 19
+    },
+    {
+      "source_id": "T105",
+      "presentation_id": 35,
+      "talk_id": 29,
+      "event_id": 22
+    },
+    {
+      "source_id": "T106",
+      "presentation_id": 36,
+      "talk_id": 21,
+      "event_id": 22
+    },
+    {
+      "source_id": "T010",
+      "presentation_id": 37,
+      "talk_id": 21,
+      "event_id": 20
+    },
+    {
+      "source_id": "T011",
+      "presentation_id": 38,
+      "talk_id": 21,
+      "event_id": 21
+    },
+    {
+      "source_id": "T013",
+      "presentation_id": 39,
+      "talk_id": 30,
+      "event_id": 23
+    },
+    {
+      "source_id": "T014",
+      "presentation_id": 40,
+      "talk_id": 30,
+      "event_id": 25
+    },
+    {
+      "source_id": "T015",
+      "presentation_id": 41,
+      "talk_id": 26,
+      "event_id": 25
+    },
+    {
+      "source_id": "T016",
+      "presentation_id": 42,
+      "talk_id": 22,
+      "event_id": 26
+    },
+    {
+      "source_id": "T018",
+      "presentation_id": 43,
+      "talk_id": 31,
+      "event_id": 24
+    },
+    {
+      "source_id": "T019",
+      "presentation_id": 44,
+      "talk_id": 32,
+      "event_id": 27
+    },
+    {
+      "source_id": "T020",
+      "presentation_id": 45,
+      "talk_id": 33,
+      "event_id": 28
+    },
+    {
+      "source_id": "T021",
+      "presentation_id": 46,
+      "talk_id": 34,
+      "event_id": 29
+    },
+    {
+      "source_id": "T107",
+      "presentation_id": 23,
+      "talk_id": 21,
+      "event_id": 12
+    },
+    {
+      "source_id": "T108",
+      "presentation_id": 24,
+      "talk_id": 22,
+      "event_id": 12
+    },
+    {
+      "source_id": "T022",
+      "presentation_id": 47,
+      "talk_id": 35,
+      "event_id": 30
+    },
+    {
+      "source_id": "T023",
+      "presentation_id": 48,
+      "talk_id": 36,
+      "event_id": 31
+    },
+    {
+      "source_id": "T024",
+      "presentation_id": 49,
+      "talk_id": 37,
+      "event_id": 32
+    },
+    {
+      "source_id": "T025",
+      "presentation_id": 50,
+      "talk_id": 38,
+      "event_id": 33
+    },
+    {
+      "source_id": "T026",
+      "presentation_id": 51,
+      "talk_id": 38,
+      "event_id": 34
+    },
+    {
+      "source_id": "T027",
+      "presentation_id": 52,
+      "talk_id": 39,
+      "event_id": 35
+    },
+    {
+      "source_id": "T028",
+      "presentation_id": 53,
+      "talk_id": 39,
+      "event_id": 36
+    },
+    {
+      "source_id": "T029",
+      "presentation_id": 54,
+      "talk_id": 40,
+      "event_id": 37
+    },
+    {
+      "source_id": "T030",
+      "presentation_id": 55,
+      "talk_id": 39,
+      "event_id": 37
+    },
+    {
+      "source_id": "T031",
+      "presentation_id": 56,
+      "talk_id": 41,
+      "event_id": 37
+    },
+    {
+      "source_id": "T032",
+      "presentation_id": 57,
+      "talk_id": 42,
+      "event_id": 38
+    },
+    {
+      "source_id": "T033",
+      "presentation_id": 58,
+      "talk_id": 34,
+      "event_id": 39
+    },
+    {
+      "source_id": "T034",
+      "presentation_id": 59,
+      "talk_id": 43,
+      "event_id": 40
+    },
+    {
+      "source_id": "T035",
+      "presentation_id": 60,
+      "talk_id": 44,
+      "event_id": 41
+    },
+    {
+      "source_id": "T036",
+      "presentation_id": 61,
+      "talk_id": 44,
+      "event_id": 42
+    },
+    {
+      "source_id": "T037",
+      "presentation_id": 62,
+      "talk_id": 45,
+      "event_id": 42
+    },
+    {
+      "source_id": "T038",
+      "presentation_id": 63,
+      "talk_id": 46,
+      "event_id": 42
+    },
+    {
+      "source_id": "T039",
+      "presentation_id": 64,
+      "talk_id": 47,
+      "event_id": 42
+    },
+    {
+      "source_id": "T040",
+      "presentation_id": 65,
+      "talk_id": 46,
+      "event_id": 43
+    },
+    {
+      "source_id": "T041",
+      "presentation_id": 66,
+      "talk_id": 47,
+      "event_id": 44
+    },
+    {
+      "source_id": "T042",
+      "presentation_id": 67,
+      "talk_id": 48,
+      "event_id": 44
+    },
+    {
+      "source_id": "T043",
+      "presentation_id": 68,
+      "talk_id": 49,
+      "event_id": 45
+    },
+    {
+      "source_id": "T044",
+      "presentation_id": 69,
+      "talk_id": 50,
+      "event_id": 46
+    },
+    {
+      "source_id": "T045",
+      "presentation_id": 70,
+      "talk_id": 50,
+      "event_id": 46
+    },
+    {
+      "source_id": "T046",
+      "presentation_id": 71,
+      "talk_id": 49,
+      "event_id": 46
+    },
+    {
+      "source_id": "T047",
+      "presentation_id": 72,
+      "talk_id": 51,
+      "event_id": 46
+    },
+    {
+      "source_id": "T048",
+      "presentation_id": 73,
+      "talk_id": 52,
+      "event_id": 47
+    },
+    {
+      "source_id": "T049",
+      "presentation_id": 74,
+      "talk_id": 53,
+      "event_id": 47
+    },
+    {
+      "source_id": "T050",
+      "presentation_id": 75,
+      "talk_id": 54,
+      "event_id": 48
+    },
+    {
+      "source_id": "T051",
+      "presentation_id": 76,
+      "talk_id": 55,
+      "event_id": 48
+    },
+    {
+      "source_id": "T052",
+      "presentation_id": 77,
+      "talk_id": 8,
+      "event_id": 48
+    },
+    {
+      "source_id": "T053",
+      "presentation_id": 78,
+      "talk_id": 56,
+      "event_id": 49
+    },
+    {
+      "source_id": "T054",
+      "presentation_id": 79,
+      "talk_id": 57,
+      "event_id": 11
+    },
+    {
+      "source_id": "T055",
+      "presentation_id": 80,
+      "talk_id": 58,
+      "event_id": 11
+    },
+    {
+      "source_id": "T056",
+      "presentation_id": 22,
+      "talk_id": 20,
+      "event_id": 11
+    },
+    {
+      "source_id": "T057",
+      "presentation_id": 81,
+      "talk_id": 59,
+      "event_id": 11
+    },
+    {
+      "source_id": "T058",
+      "presentation_id": 82,
+      "talk_id": 60,
+      "event_id": 50
+    },
+    {
+      "source_id": "T059",
+      "presentation_id": 83,
+      "talk_id": 61,
+      "event_id": 51
+    },
+    {
+      "source_id": "T060",
+      "presentation_id": 84,
+      "talk_id": 62,
+      "event_id": 52
+    },
+    {
+      "source_id": "T061",
+      "presentation_id": 85,
+      "talk_id": 62,
+      "event_id": 52
+    },
+    {
+      "source_id": "T062",
+      "presentation_id": 86,
+      "talk_id": 61,
+      "event_id": 52
+    },
+    {
+      "source_id": "T063",
+      "presentation_id": 87,
+      "talk_id": 63,
+      "event_id": 53
+    },
+    {
+      "source_id": "T064",
+      "presentation_id": 88,
+      "talk_id": 57,
+      "event_id": 54
+    },
+    {
+      "source_id": "T065",
+      "presentation_id": 89,
+      "talk_id": 26,
+      "event_id": 54
+    },
+    {
+      "source_id": "T066",
+      "presentation_id": 90,
+      "talk_id": 64,
+      "event_id": 54
+    },
+    {
+      "source_id": "T067",
+      "presentation_id": 91,
+      "talk_id": 65,
+      "event_id": 55
+    },
+    {
+      "source_id": "T068",
+      "presentation_id": 92,
+      "talk_id": 26,
+      "event_id": 55
+    },
+    {
+      "source_id": "T069",
+      "presentation_id": 93,
+      "talk_id": 66,
+      "event_id": 56
+    },
+    {
+      "source_id": "T070",
+      "presentation_id": 94,
+      "talk_id": 66,
+      "event_id": 57
+    },
+    {
+      "source_id": "T071",
+      "presentation_id": 95,
+      "talk_id": 67,
+      "event_id": 58
+    },
+    {
+      "source_id": "T072",
+      "presentation_id": 96,
+      "talk_id": 68,
+      "event_id": 58
+    },
+    {
+      "source_id": "T073",
+      "presentation_id": 97,
+      "talk_id": 69,
+      "event_id": 58
+    },
+    {
+      "source_id": "T074",
+      "presentation_id": 98,
+      "talk_id": 69,
+      "event_id": 59
+    },
+    {
+      "source_id": "T075",
+      "presentation_id": 99,
+      "talk_id": 68,
+      "event_id": 60
+    },
+    {
+      "source_id": "T076",
+      "presentation_id": 100,
+      "talk_id": 70,
+      "event_id": 60
+    },
+    {
+      "source_id": "T077",
+      "presentation_id": 101,
+      "talk_id": 69,
+      "event_id": 60
+    },
+    {
+      "source_id": "T078",
+      "presentation_id": 102,
+      "talk_id": 66,
+      "event_id": 61
+    },
+    {
+      "source_id": "T079",
+      "presentation_id": 103,
+      "talk_id": 70,
+      "event_id": 61
+    },
+    {
+      "source_id": "T080",
+      "presentation_id": 104,
+      "talk_id": 71,
+      "event_id": 62
+    },
+    {
+      "source_id": "T081",
+      "presentation_id": 105,
+      "talk_id": 72,
+      "event_id": 63
+    },
+    {
+      "source_id": "T082",
+      "presentation_id": 106,
+      "talk_id": 72,
+      "event_id": 63
+    },
+    {
+      "source_id": "T083",
+      "presentation_id": 107,
+      "talk_id": 73,
+      "event_id": 63
+    },
+    {
+      "source_id": "T084",
+      "presentation_id": 108,
+      "talk_id": 74,
+      "event_id": 64
+    },
+    {
+      "source_id": "T085",
+      "presentation_id": 109,
+      "talk_id": 75,
+      "event_id": 65
+    },
+    {
+      "source_id": "T086",
+      "presentation_id": 110,
+      "talk_id": 76,
+      "event_id": 66
+    },
+    {
+      "source_id": "T087",
+      "presentation_id": 111,
+      "talk_id": 77,
+      "event_id": 66
+    },
+    {
+      "source_id": "T088",
+      "presentation_id": 112,
+      "talk_id": 78,
+      "event_id": 66
+    },
+    {
+      "source_id": "T089",
+      "presentation_id": 113,
+      "talk_id": 79,
+      "event_id": 67
+    },
+    {
+      "source_id": "T090",
+      "presentation_id": 114,
+      "talk_id": 78,
+      "event_id": 67
+    },
+    {
+      "source_id": "T091",
+      "presentation_id": 115,
+      "talk_id": 80,
+      "event_id": 67
+    },
+    {
+      "source_id": "T092",
+      "presentation_id": 19,
+      "talk_id": 17,
+      "event_id": 9
+    },
+    {
+      "source_id": "T093",
+      "presentation_id": 18,
+      "talk_id": 16,
+      "event_id": 9
+    },
+    {
+      "source_id": "T094",
+      "presentation_id": 16,
+      "talk_id": 15,
+      "event_id": 8
+    },
+    {
+      "source_id": "T095",
+      "presentation_id": 17,
+      "talk_id": 16,
+      "event_id": 8
+    },
+    {
+      "source_id": "T096",
+      "presentation_id": 14,
+      "talk_id": 13,
+      "event_id": 7
+    },
+    {
+      "source_id": "T097",
+      "presentation_id": 15,
+      "talk_id": 14,
+      "event_id": 7
+    },
+    {
+      "source_id": "T098",
+      "presentation_id": 8,
+      "talk_id": 7,
+      "event_id": 5
+    },
+    {
+      "source_id": "T099",
+      "presentation_id": 9,
+      "talk_id": 8,
+      "event_id": 5
+    },
+    {
+      "source_id": "T100",
+      "presentation_id": 10,
+      "talk_id": 9,
+      "event_id": 5
+    },
+    {
+      "source_id": "T101",
+      "presentation_id": 11,
+      "talk_id": 10,
+      "event_id": 5
+    },
+    {
+      "source_id": "T102",
+      "presentation_id": 3,
+      "talk_id": 3,
+      "event_id": 2
+    },
+    {
+      "source_id": "T103",
+      "presentation_id": 12,
+      "talk_id": 11,
+      "event_id": 6
+    },
+    {
+      "source_id": "T104",
+      "presentation_id": 13,
+      "talk_id": 12,
+      "event_id": 6
+    }
+  ],
+  "already_imported": [],
+  "event_date_policy": {
+    "known_conference_bounds": {
+      "O'Reilly Perl Conference / OSCON 2001": [
+        "2001-07-23",
+        "2001-07-27"
+      ],
+      "YAPC Europe 2003": [
+        "2003-07-23",
+        "2003-07-25"
+      ],
+      "German Perl Workshop 4.0 (2002)": [
+        "2002-02-13",
+        "2002-02-15"
+      ],
+      "FOSDEM 2004": [
+        "2004-02-21",
+        "2004-02-22"
+      ],
+      "YAPC Europe 2006": [
+        "2006-08-30",
+        "2006-09-01"
+      ],
+      "YAPC Europe 2008": [
+        "2008-08-12",
+        "2008-08-15"
+      ],
+      "YAPC Europe 2009": [
+        "2009-08-01",
+        "2009-08-05"
+      ],
+      "YAPC Europe 2011": [
+        "2011-08-14",
+        "2011-08-17"
+      ],
+      "YAPC Europe 2013": [
+        "2013-08-12",
+        "2013-08-14"
+      ],
+      "YAPC Europe 2015": [
+        "2015-09-01",
+        "2015-09-04"
+      ],
+      "UKUUG Spring Conference 2008": [
+        "2008-03-31",
+        "2008-04-02"
+      ]
+    },
+    "other_events": "Use the recovered delivery dates as known event coverage; a single day is not a claim that a multi-day conference lasted only one day.",
+    "additional_oscon_2001_source": "https://yapc.org/old-events.html"
+  },
+  "decisions": [
+    "Keep all 90 reviewed delivery entries, including split tutorial slots.",
+    "Modern Perl and Modern PERL are different talks, as Dave confirmed.",
+    "Use approved groups and otherwise match full titles, ignoring trivial punctuation/case; preserve Modern PERL separately.",
+    "Keep different Teaching Perl/Perl Training and provisional Writing Books titles separate pending stronger identity evidence.",
+    "Retain all research notes, source URLs, precision and original titles in backfill_source.record_json.",
+    "Keep both legacy Googlejuice talk records; disambiguate their URLs without deleting either."
+  ],
+  "after": {
+    "talk": 80,
+    "presentation": 115,
+    "event": 67,
+    "venue": 31,
+    "city": 23,
+    "country": 15
+  },
+  "applied": true,
+  "backup": "db/talks.db.before-backfill-2026-10-24.bak"
+}

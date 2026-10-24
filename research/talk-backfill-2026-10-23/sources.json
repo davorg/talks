@@ -1,0 +1,1318 @@
+[
+  {
+    "url": "http://conferences.mongueurs.net/ye2003/talk/324",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T016"
+    ],
+    "title": "Tieing and Overloading Objects in Perl - Y::E 2003",
+    "http_status": 200,
+    "resolved_url": "http://conferences.mongueurs.net/ye2003/talk/324",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "http://conferences.yapceurope.org/lpw2007/talk/833",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T034"
+    ],
+    "title": "Beginners Perl Tutorial",
+    "http_status": 200,
+    "resolved_url": "http://conferences.yapceurope.org/lpw2007/talk/833",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "http://conferences.yapceurope.org/lpw2008/talk/1502",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T041"
+    ],
+    "title": "The Complete History of the Perle Mongers of Olde London Towne (Parte One)",
+    "http_status": 200,
+    "resolved_url": "http://conferences.yapceurope.org/lpw2008/talk/1502",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "http://conferences.yapceurope.org/lpw2009/talk/2451",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T050"
+    ],
+    "title": "KEYNOTE: The \"M\" Word",
+    "http_status": 200,
+    "resolved_url": "http://conferences.yapceurope.org/lpw2009/talk/2451",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "http://conferences.yapceurope.org/lpw2009/talk/2452",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T052"
+    ],
+    "title": "The Professional Programmer (See Events)",
+    "http_status": 200,
+    "resolved_url": "http://conferences.yapceurope.org/lpw2009/talk/2452",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "http://conferences.yapceurope.org/lpw2010/talk/3088",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T062"
+    ],
+    "title": "Evolving Software with Moose",
+    "http_status": 200,
+    "resolved_url": "http://conferences.yapceurope.org/lpw2010/talk/3088",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "http://conferences.yapceurope.org/lpw2010/talk/3157",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T060"
+    ],
+    "title": "Modern Web Programming in Perl - Part One",
+    "http_status": 200,
+    "resolved_url": "http://conferences.yapceurope.org/lpw2010/talk/3157",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "http://conferences.yapceurope.org/lpw2010/talk/3158",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T061"
+    ],
+    "title": "Modern Web Programming in Perl - Part Two",
+    "http_status": 200,
+    "resolved_url": "http://conferences.yapceurope.org/lpw2010/talk/3158",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "http://conferences.yapceurope.org/lpw2011/talk/3851",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T068"
+    ],
+    "title": "The Perl Community - A Modest Proposal",
+    "http_status": 200,
+    "resolved_url": "http://conferences.yapceurope.org/lpw2011/talk/3851",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "http://conferences.yapceurope.org/lpw2011/talk/3852",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T067"
+    ],
+    "title": "[[TRAINING SESSION]] Modern Core Perl",
+    "http_status": 200,
+    "resolved_url": "http://conferences.yapceurope.org/lpw2011/talk/3852",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "http://conferences.yapceurope.org/ye2010/talk/2866",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T055"
+    ],
+    "title": "YAPC::EU 2010 - The Renaissance of Perl - Things I Learned From Having Users",
+    "http_status": 200,
+    "resolved_url": "http://conferences.yapceurope.org/ye2010/talk/2866",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "http://conferences.yapceurope.org/ye2010/talk/2867",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T057"
+    ],
+    "title": "YAPC::EU 2010 - The Renaissance of Perl - The Perl Community",
+    "http_status": 200,
+    "resolved_url": "http://conferences.yapceurope.org/ye2010/talk/2867",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "http://conferences.yapceurope.org/ye2010/talk/2870",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T056"
+    ],
+    "title": "YAPC::EU 2010 - The Renaissance of Perl - Perl Vogue",
+    "http_status": 200,
+    "resolved_url": "http://conferences.yapceurope.org/ye2010/talk/2870",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "http://conferences.yapceurope.org/ye2010/talk/2960",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T054"
+    ],
+    "title": "YAPC::EU 2010 - The Renaissance of Perl - Introducing Modern Perl",
+    "http_status": 200,
+    "resolved_url": "http://conferences.yapceurope.org/ye2010/talk/2960",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "http://conferences.yapceurope.org/ye2011/talk/3282",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T065"
+    ],
+    "title": "The Perl Community - A Modest Proposal",
+    "http_status": 200,
+    "resolved_url": "http://conferences.yapceurope.org/ye2011/talk/3282",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "http://conferences.yapceurope.org/ye2011/talk/3285",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T064"
+    ],
+    "title": "TEACHING CLASS | Introducing Modern Perl",
+    "http_status": 200,
+    "resolved_url": "http://conferences.yapceurope.org/ye2011/talk/3285",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "http://conferences.yapceurope.org/ye2011/talk/3389",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T066"
+    ],
+    "title": "Perl Training",
+    "http_status": 200,
+    "resolved_url": "http://conferences.yapceurope.org/ye2011/talk/3389",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://act.perlconference.org/tpc-2018-glasgow/talk/7237",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T098"
+    ],
+    "title": "Web Site Tune-Up - Improve Your Googlejuice :: The Perl Conference in Glasgow :: Europe :: 2018",
+    "http_status": 200,
+    "resolved_url": "https://act.perlconference.org/tpc-2018-glasgow/talk/7237",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://act.perlconference.org/tpc-2018-glasgow/talk/7241",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T099"
+    ],
+    "title": "The Professional Programmer :: The Perl Conference in Glasgow :: Europe :: 2018",
+    "http_status": 200,
+    "resolved_url": "https://act.perlconference.org/tpc-2018-glasgow/talk/7241",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://act.perlconference.org/tpc-2018-glasgow/talk/7303",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T100"
+    ],
+    "title": "Now We Are 20 :: The Perl Conference in Glasgow :: Europe :: 2018",
+    "http_status": 200,
+    "resolved_url": "https://act.perlconference.org/tpc-2018-glasgow/talk/7303",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://act.perlconference.org/tpc-2018-glasgow/talk/7465",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T101"
+    ],
+    "title": "I'm a Republican, Honest! :: The Perl Conference in Glasgow :: Europe :: 2018",
+    "http_status": 200,
+    "resolved_url": "https://act.perlconference.org/tpc-2018-glasgow/talk/7465",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://act.yapc.eu/lpw2012/talk/4110",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T071"
+    ],
+    "title": "Introduction to OO Perl with Moose",
+    "http_status": 200,
+    "resolved_url": "https://act.yapc.eu/lpw2012/talk/4110",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://act.yapc.eu/lpw2012/talk/4111",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T072"
+    ],
+    "title": "Twenty Five Years of Perl in Twenty Five (ish) Minutes",
+    "http_status": 200,
+    "resolved_url": "https://act.yapc.eu/lpw2012/talk/4111",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://act.yapc.eu/lpw2012/talk/4239",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T073"
+    ],
+    "title": "Matt's PSGI Archive",
+    "http_status": 200,
+    "resolved_url": "https://act.yapc.eu/lpw2012/talk/4239",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://act.yapc.eu/lpw2013/talk/4960",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T078"
+    ],
+    "title": "Modern Perl for Non-Perl Programmers: See schedule for breaks",
+    "http_status": 200,
+    "resolved_url": "https://act.yapc.eu/lpw2013/talk/4960",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://act.yapc.eu/lpw2013/talk/5194",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T079"
+    ],
+    "title": "The Kingdom of the Blind",
+    "http_status": 200,
+    "resolved_url": "https://act.yapc.eu/lpw2013/talk/5194",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://act.yapc.eu/lpw2014/talk/5672",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T083"
+    ],
+    "title": "Return to the Kingdom of the Blind",
+    "http_status": 200,
+    "resolved_url": "https://act.yapc.eu/lpw2014/talk/5672",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://act.yapc.eu/lpw2014/talk/5675",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T081"
+    ],
+    "title": "Perl in the Internet of Things (Part One)",
+    "http_status": 200,
+    "resolved_url": "https://act.yapc.eu/lpw2014/talk/5675",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://act.yapc.eu/lpw2014/talk/5880",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T082"
+    ],
+    "title": "Perl in the Internet of Things (Part Two)",
+    "http_status": 200,
+    "resolved_url": "https://act.yapc.eu/lpw2014/talk/5880",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://act.yapc.eu/lpw2015/talk/6335",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T089"
+    ],
+    "title": "Modern Perl Web Development",
+    "http_status": 200,
+    "resolved_url": "https://act.yapc.eu/lpw2015/talk/6335",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://act.yapc.eu/lpw2015/talk/6336",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T090"
+    ],
+    "title": "Conference Driven Publishing",
+    "http_status": 200,
+    "resolved_url": "https://act.yapc.eu/lpw2015/talk/6336",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://act.yapc.eu/lpw2015/talk/6337",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T091"
+    ],
+    "title": "Improving Dev Assistant",
+    "http_status": 200,
+    "resolved_url": "https://act.yapc.eu/lpw2015/talk/6337",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://act.yapc.eu/lpw2016/talk/6876",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T095"
+    ],
+    "title": "Error(s) Free Programming",
+    "http_status": 200,
+    "resolved_url": "https://act.yapc.eu/lpw2016/talk/6876",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://act.yapc.eu/lpw2016/talk/6877",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T094"
+    ],
+    "title": "Modern Perl Catch-Up",
+    "http_status": 200,
+    "resolved_url": "https://act.yapc.eu/lpw2016/talk/6877",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://act.yapc.eu/lpw2017/talk/7136",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T096"
+    ],
+    "title": "London Perl Workshop 2017 | Web Site Tune-Up - Improve Your Googlejuice",
+    "http_status": 200,
+    "resolved_url": "https://act.yapc.eu/lpw2017/talk/7136",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://act.yapc.eu/lpw2017/talk/7226",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T097"
+    ],
+    "title": "London Perl Workshop 2017 | Adventures Beyond the Echo Chamber",
+    "http_status": 200,
+    "resolved_url": "https://act.yapc.eu/lpw2017/talk/7226",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://act.yapc.eu/lpw2019/talk/7651",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T102"
+    ],
+    "title": "London Perl Workshop 2019 | Measuring the Quality of your Perl Code",
+    "http_status": 200,
+    "resolved_url": "https://act.yapc.eu/lpw2019/talk/7651",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://act.yapc.eu/lpw2024/talk/7889",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T103"
+    ],
+    "title": "London Perl & Raku Workshop 2024 | Perl Diver",
+    "http_status": 200,
+    "resolved_url": "https://act.yapc.eu/lpw2024/talk/7889",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://act.yapc.eu/lpw2024/talk/7890",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T104"
+    ],
+    "title": "London Perl & Raku Workshop 2024 | Perl School Catch-up",
+    "http_status": 200,
+    "resolved_url": "https://act.yapc.eu/lpw2024/talk/7890",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://act.yapc.eu/ye2008/talk/1175",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T037"
+    ],
+    "title": "Proud to Use Perl",
+    "http_status": 200,
+    "resolved_url": "https://act.yapc.eu/ye2008/talk/1175",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://act.yapc.eu/ye2008/talk/1176",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T039"
+    ],
+    "title": "Ye Compleat History of Ye Perle Mongers of Olde London Towne (Part 1)",
+    "http_status": 200,
+    "resolved_url": "https://act.yapc.eu/ye2008/talk/1176",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://act.yapc.eu/ye2008/talk/1314",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T038"
+    ],
+    "title": "Perl in RPM-Land",
+    "http_status": 200,
+    "resolved_url": "https://act.yapc.eu/ye2008/talk/1314",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://act.yapc.eu/ye2008/tutorials.html",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T036"
+    ],
+    "title": "YAPC::Europe 2008 - Tutorials",
+    "http_status": 200,
+    "resolved_url": "https://act.yapc.eu/ye2008/tutorials.html",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://act.yapc.eu/ye2009/talk/1939",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T046"
+    ],
+    "title": "Why do so many companies re-invent well-known CPAN modules badly ... ?",
+    "http_status": 200,
+    "resolved_url": "https://act.yapc.eu/ye2009/talk/1939",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://act.yapc.eu/ye2009/talk/2069",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T047"
+    ],
+    "title": "The Planetarium",
+    "http_status": 200,
+    "resolved_url": "https://act.yapc.eu/ye2009/talk/2069",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://act.yapc.eu/ye2009/talk/2113",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T044"
+    ],
+    "title": "Introduction to Perl (day 1)",
+    "http_status": 200,
+    "resolved_url": "https://act.yapc.eu/ye2009/talk/2113",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://act.yapc.eu/ye2009/talk/2118",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T045"
+    ],
+    "title": "Introduction to Perl (day 2)",
+    "http_status": 200,
+    "resolved_url": "https://act.yapc.eu/ye2009/talk/2118",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://act.yapc.eu/ye2013/talk/4505",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T075"
+    ],
+    "title": "25 Years of Perl in (about) 25 Minutes",
+    "http_status": 200,
+    "resolved_url": "https://act.yapc.eu/ye2013/talk/4505",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://act.yapc.eu/ye2013/talk/4506",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T077"
+    ],
+    "title": "Matt's PSGI Archive",
+    "http_status": 200,
+    "resolved_url": "https://act.yapc.eu/ye2013/talk/4506",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://act.yapc.eu/ye2013/talk/4905",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T076"
+    ],
+    "title": "The Kingdom of the Blind",
+    "http_status": 200,
+    "resolved_url": "https://act.yapc.eu/ye2013/talk/4905",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://act.yapc.eu/ye2015/courses.html#course3",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T086"
+    ],
+    "title": "YAPC::Europe 2015 | Courses",
+    "http_status": 200,
+    "resolved_url": "https://act.yapc.eu/ye2015/courses.html",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://act.yapc.eu/ye2015/talk/5981",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T088"
+    ],
+    "title": "YAPC::Europe 2015 | Conference Driven Publishing",
+    "http_status": 200,
+    "resolved_url": "https://act.yapc.eu/ye2015/talk/5981",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://act.yapc.eu/ye2015/talk/6043",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T087"
+    ],
+    "title": "YAPC::Europe 2015 | Modern PERL",
+    "http_status": 200,
+    "resolved_url": "https://act.yapc.eu/ye2015/talk/6043",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://act.yapc.eu/ye2016/talk/6757",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T093"
+    ],
+    "title": "YAPC::Europe 2016 | Error(s) Free Programming",
+    "http_status": 200,
+    "resolved_url": "https://act.yapc.eu/ye2016/talk/6757",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://act.yapc.eu/ye2016/talk/6759",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T092"
+    ],
+    "title": "YAPC::Europe 2016 | Medium Perl",
+    "http_status": 200,
+    "resolved_url": "https://act.yapc.eu/ye2016/talk/6759",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://archive.fosdem.org/2004/index/interviews/interviews_cross.html",
+    "accessed": "2026-10-23",
+    "title": "Fosdem 2004",
+    "http_status": 200,
+    "resolved_url": "https://archive.fosdem.org/2004/index/interviews/interviews_cross.html",
+    "checked_via": "direct retrieval",
+    "catalogue_ids": [
+      "T020"
+    ]
+  },
+  {
+    "url": "https://archive.fosdem.org/2004/index/schedule.html",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T020"
+    ],
+    "title": "Fosdem 2004",
+    "http_status": 200,
+    "resolved_url": "https://archive.fosdem.org/2004/index/schedule.html",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://archive.fosdem.org/2004/index/speakers/speakers_cross.html",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T020"
+    ],
+    "checked_via": "web search/open result or corroborating archive pointer; see entry notes"
+  },
+  {
+    "url": "https://articles.mongueurs.net/comptes-rendus/oscon-eu-2005.html",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T024"
+    ],
+    "title": "OSCON Europe 2005",
+    "http_status": 200,
+    "resolved_url": "https://articles.mongueurs.net/comptes-rendus/oscon-eu-2005.html",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://birmingham.grango.org/tech/73",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T014",
+      "T015"
+    ],
+    "title": "Birmingham Perl Mongers • Technical Meetings",
+    "http_status": 200,
+    "resolved_url": "https://birmingham.grango.org/tech/73",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://blog.dave.org.uk/2004/10/italian-code-ja.html",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T021"
+    ],
+    "title": "Italian Code Jam",
+    "publication_date": "2004-10-09T23:23:49",
+    "checked_via": "public WordPress API"
+  },
+  {
+    "url": "https://blog.dave.org.uk/2005/08/enterprise-perl.html",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T023"
+    ],
+    "title": "Enterprise Perl",
+    "publication_date": "2005-08-08T10:16:56",
+    "checked_via": "public WordPress API"
+  },
+  {
+    "url": "https://blog.dave.org.uk/2005/10/be-prepared-1.html",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T023"
+    ],
+    "title": "Be Prepared",
+    "publication_date": "2005-10-06T18:21:18",
+    "checked_via": "public WordPress API"
+  },
+  {
+    "url": "https://blog.dave.org.uk/2006/06/talking-to-gllu.html",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T028"
+    ],
+    "title": "Talking to GLLUG",
+    "publication_date": "2006-06-06T09:24:55",
+    "checked_via": "public WordPress API"
+  },
+  {
+    "url": "https://blog.dave.org.uk/2008/08/breaking-radio-silence.html",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T037",
+      "T038",
+      "T039"
+    ],
+    "title": "Breaking Radio Silence",
+    "publication_date": "2008-08-18T10:14:09",
+    "checked_via": "public WordPress API"
+  },
+  {
+    "url": "https://blog.dave.org.uk/2010/04/speaking-tonight.html",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T053"
+    ],
+    "title": "Speaking Tonight",
+    "publication_date": "2010-04-29T12:57:59",
+    "checked_via": "public WordPress API"
+  },
+  {
+    "url": "https://blog.dave.org.uk/2010/09/opentech-2010.html",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T058"
+    ],
+    "title": "Opentech 2010",
+    "publication_date": "2010-09-13T13:12:56",
+    "checked_via": "public WordPress API"
+  },
+  {
+    "url": "https://blog.dave.org.uk/2011/05/opentech-approaches.html",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T063"
+    ],
+    "title": "Opentech Approaches",
+    "publication_date": "2011-05-18T20:42:29",
+    "checked_via": "public WordPress API"
+  },
+  {
+    "url": "https://blog.dave.org.uk/2011/05/watching-the-press-notes.html",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T063"
+    ],
+    "title": "Watching the Press – Notes",
+    "publication_date": "2011-05-20T19:03:00",
+    "checked_via": "public WordPress API"
+  },
+  {
+    "url": "https://blog.dave.org.uk/2011/08/media-watchery-blogging-meet-up-thingy.html",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T063"
+    ],
+    "title": "Media-Watchery Blogging Meet-Up Thingy",
+    "publication_date": "2011-08-01T12:20:00",
+    "checked_via": "public WordPress API"
+  },
+  {
+    "url": "https://blog.dave.org.uk/2015/06/twittelection-at-opentech.html",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T084"
+    ],
+    "title": "TwittElection at OpenTech",
+    "publication_date": "2015-06-16T09:15:24",
+    "checked_via": "public WordPress API"
+  },
+  {
+    "url": "https://blog.dave.org.uk/2015/08/writing-books-the-easy-bit.html",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T085"
+    ],
+    "title": "Writing Books (The Easy Bit)",
+    "publication_date": "2015-08-14T13:02:05",
+    "checked_via": "public WordPress API"
+  },
+  {
+    "url": "https://mail.pm.org/pipermail/miltonkeynes-pm/2008-September/000478.html",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T040"
+    ],
+    "title": "Technical Meeting: Monday 8th September 2008",
+    "http_status": 200,
+    "resolved_url": "https://mail.pm.org/pipermail/miltonkeynes-pm/2008-September/000478.html",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://mail.pm.org/pipermail/miltonkeynes-pm/2008-September/000498.html",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T040"
+    ],
+    "title": "Slides Online (Was: Technical Meeting: Monday 8th September 2008)",
+    "http_status": 200,
+    "resolved_url": "https://mail.pm.org/pipermail/miltonkeynes-pm/2008-September/000498.html",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://mail.pm.org/pipermail/miltonkeynes-pm/2013-May/000996.html",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T074"
+    ],
+    "title": "Technical Meeting next  Monday 20th May",
+    "http_status": 200,
+    "resolved_url": "https://mail.pm.org/pipermail/miltonkeynes-pm/2013-May/000996.html",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://perlhacks.com/2009/08/yapceurope-2009/",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T044",
+      "T045"
+    ],
+    "title": "YAPC::Europe 2009",
+    "publication_date": "2009-08-06T20:35:53",
+    "checked_via": "public WordPress API"
+  },
+  {
+    "url": "https://perlhacks.com/2009/09/speaking-and-training-and-stuff/",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T048",
+      "T049"
+    ],
+    "title": "Speaking and Training and Stuff",
+    "publication_date": "2009-09-22T08:52:06",
+    "checked_via": "public WordPress API"
+  },
+  {
+    "url": "https://perlhacks.com/2009/10/speaking-in-milton-keynes/",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T048",
+      "T049"
+    ],
+    "title": "Speaking in Milton Keynes",
+    "publication_date": "2009-10-19T08:58:06",
+    "checked_via": "public WordPress API"
+  },
+  {
+    "url": "https://perlhacks.com/2009/11/london-perl-workshop/",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T051"
+    ],
+    "title": "London Perl Workshop",
+    "publication_date": "2009-11-19T13:24:02",
+    "checked_via": "public WordPress API"
+  },
+  {
+    "url": "https://perlhacks.com/2010/09/modern-perl-at-opentech-1/",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T058"
+    ],
+    "title": "Modern Perl at OpenTech",
+    "publication_date": "2010-09-12T11:10:43",
+    "checked_via": "public WordPress API"
+  },
+  {
+    "url": "https://perlhacks.com/2010/10/evolving-software-with-moose/",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T059"
+    ],
+    "title": "Evolving Software with Moose",
+    "publication_date": "2010-10-13T07:43:21",
+    "checked_via": "public WordPress API"
+  },
+  {
+    "url": "https://perlhacks.com/2011/11/a-brief-history-of-the-lpw/",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T022",
+      "T025",
+      "T042"
+    ],
+    "title": "A Brief History of the LPW",
+    "publication_date": "2011-11-15T11:53:20",
+    "checked_via": "public WordPress API"
+  },
+  {
+    "url": "https://perlhacks.com/2012/08/perl-school/",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T069"
+    ],
+    "title": "Perl School",
+    "publication_date": "2012-08-06T20:48:26",
+    "checked_via": "public WordPress API"
+  },
+  {
+    "url": "https://perlhacks.com/2012/10/perl-school-2/",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T070"
+    ],
+    "title": "Perl School 2",
+    "publication_date": "2012-10-07T16:47:32",
+    "checked_via": "public WordPress API"
+  },
+  {
+    "url": "https://perlhacks.com/2013/09/talks-kiev/",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T075",
+      "T076",
+      "T077"
+    ],
+    "title": "Talks from Kiev",
+    "publication_date": "2013-09-21T13:24:52",
+    "checked_via": "public WordPress API"
+  },
+  {
+    "url": "https://perlhacks.com/2014/07/github-travis-ci-perl/",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T080"
+    ],
+    "title": "Github, Travis-CI and Perl",
+    "publication_date": "2014-07-25T16:14:39",
+    "checked_via": "public WordPress API"
+  },
+  {
+    "url": "https://perlhacks.com/2014/07/london-perl-mongers-meeting/",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T080"
+    ],
+    "title": "London Perl Mongers Meeting",
+    "publication_date": "2014-07-12T13:22:21",
+    "checked_via": "public WordPress API"
+  },
+  {
+    "url": "https://perlhacks.com/2015/05/building-twittelection/",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T084"
+    ],
+    "title": "Building TwittElection",
+    "publication_date": "2015-05-21T12:48:46",
+    "checked_via": "public WordPress API"
+  },
+  {
+    "url": "https://perlhacks.com/2015/05/dbic-training-in-granada/",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T086"
+    ],
+    "title": "DBIC Training in Granada",
+    "publication_date": "2015-05-15T12:19:48",
+    "checked_via": "public WordPress API"
+  },
+  {
+    "url": "https://perlhacks.com/2015/09/yapc-europe-2015-a-community-is-a-home/",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T086"
+    ],
+    "title": "YAPC Europe 2015: A Community is a Home",
+    "publication_date": "2015-09-04T20:01:13",
+    "checked_via": "public WordPress API"
+  },
+  {
+    "url": "https://perlhacks.com/2015/12/lpw-slides/",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T089",
+      "T090",
+      "T091"
+    ],
+    "title": "LPW Slides",
+    "publication_date": "2015-12-13T13:06:13",
+    "checked_via": "public WordPress API"
+  },
+  {
+    "url": "https://perlhacks.com/2016/04/training-in-cluj/",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T029",
+      "T036"
+    ],
+    "title": "Training in Cluj",
+    "publication_date": "2016-04-17T08:56:47",
+    "checked_via": "public WordPress API"
+  },
+  {
+    "url": "https://perlhacks.com/2024/04/collecting-talks/",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T001",
+      "T002"
+    ],
+    "title": "Collecting talks",
+    "publication_date": "2024-04-07T17:29:15",
+    "checked_via": "public WordPress API"
+  },
+  {
+    "url": "https://plover.com/~mjd/perl/lt/tpc2001.html",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T005"
+    ],
+    "title": "Lightning Talks",
+    "http_status": 200,
+    "resolved_url": "https://plover.com/~mjd/perl/lt/tpc2001.html",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://prodcs.lwn.net/Articles/101418/",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T021"
+    ],
+    "checked_via": "web search/open result or corroborating archive pointer; see entry notes"
+  },
+  {
+    "url": "https://stonehenge.com/merlyn/life/event/italian-code-jam-2004-in-ferrara",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T021"
+    ],
+    "checked_via": "web search/open result or corroborating archive pointer; see entry notes"
+  },
+  {
+    "url": "https://web.archive.org/web/20020105225714/http://www.perlworkshop.de/2002/contriblist.epl",
+    "accessed": "2026-10-23",
+    "title": "Perl Workshop Abstracts 2002",
+    "http_status": 200,
+    "resolved_url": "https://web.archive.org/web/20020105225714/http://www.perlworkshop.de/2002/contriblist.epl",
+    "checked_via": "direct retrieval",
+    "catalogue_ids": [
+      "T105",
+      "T106"
+    ]
+  },
+  {
+    "url": "https://web.archive.org/web/20020405194515/http://www.perlworkshop.de/2002/times.epl",
+    "accessed": "2026-10-23",
+    "title": "Perl Workshop Zeitplan 2002",
+    "http_status": 200,
+    "resolved_url": "https://web.archive.org/web/20020405194515/http://www.perlworkshop.de/2002/times.epl",
+    "checked_via": "direct retrieval",
+    "catalogue_ids": [
+      "T105",
+      "T106"
+    ]
+  },
+  {
+    "url": "https://web.archive.org/web/20041207081455/http://belfast.pm.org/meetings/2003/",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T019"
+    ],
+    "title": "Belfast Perl Mongers : Meetings in 2003",
+    "http_status": 200,
+    "resolved_url": "https://web.archive.org/web/20041207081455id_/http://belfast.pm.org/meetings/2003/",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://web.archive.org/web/20060502010406/http://london.pm.org/tech_talks/index.html",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T003",
+      "T008",
+      "T009",
+      "T011",
+      "T013",
+      "T018",
+      "T027"
+    ],
+    "title": "London.pm: London.pm - Technical Papers",
+    "http_status": 200,
+    "resolved_url": "https://web.archive.org/web/20060502010406id_/http://london.pm.org/tech_talks/index.html",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://web.archive.org/web/20060708042259/http://birmingham.pm.org/cgi-bin/brum.pl?act=tech-prev",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T014",
+      "T015"
+    ],
+    "title": "Birmingham Perl Mongers user group :: Technical Meetings",
+    "http_status": 200,
+    "resolved_url": "https://web.archive.org/web/20060708042259id_/http://birmingham.pm.org/cgi-bin/brum.pl?act=tech-prev",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://web.archive.org/web/20060905104008/http://www.gllug.org.uk/index.php?/archives/17-GLLUG-Meeting-24th-June.html",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T028"
+    ],
+    "title": "GLLUG Meeting: 24th June  - Greater London Linux User Group",
+    "http_status": 200,
+    "resolved_url": "https://web.archive.org/web/20060905104008id_/http://www.gllug.org.uk/index.php?/archives/17-GLLUG-Meeting-24th-June.html",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://web.archive.org/web/20101219100251/http://miltonkeynes.pm.org/",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T026",
+      "T033"
+    ],
+    "title": "Milton Keynes Perl Mongers",
+    "http_status": 200,
+    "resolved_url": "https://web.archive.org/web/20101219100251id_/http://miltonkeynes.pm.org/",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://web.archive.org/web/20110809192310/http://www.perlworkshop.be/bpw2007/talk/797",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T032"
+    ],
+    "title": "Teach-In Extract - OO Perl",
+    "http_status": 200,
+    "resolved_url": "https://web.archive.org/web/20110809192310id_/http://www.perlworkshop.be/bpw2007/talk/797",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://web.archive.org/web/20150905054113/http://miltonkeynes.pm.org/techtalks2008.html",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T040"
+    ],
+    "title": "Milton Keynes Perl Mongers",
+    "http_status": 200,
+    "resolved_url": "https://web.archive.org/web/20150905054113id_/http://miltonkeynes.pm.org/techtalks2008.html",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://web.archive.org/web/20221004054926/https://www.ukuug.org/events/spring2008/timetable.html",
+    "accessed": "2026-10-24",
+    "title": "Talk Timetable for Spring 2008 : UKUUG's Spring 2008 Conference",
+    "http_status": 200,
+    "resolved_url": "https://web.archive.org/web/20221004054926/https://www.ukuug.org/events/spring2008/timetable.html",
+    "checked_via": "direct retrieval",
+    "catalogue_ids": [
+      "T035"
+    ]
+  },
+  {
+    "url": "https://web.archive.org/web/20221005015010/https://www.ukuug.org/events/spring2008/",
+    "accessed": "2026-10-24",
+    "title": "Spring 2008 : UKUUG's Spring Conference",
+    "http_status": 200,
+    "resolved_url": "https://web.archive.org/web/20221005015010/https://www.ukuug.org/events/spring2008/",
+    "checked_via": "direct retrieval",
+    "catalogue_ids": [
+      "T035"
+    ]
+  },
+  {
+    "url": "https://web.archive.org/web/20221207023139/https://www.ukuug.org/events/spring2008/talk_abstracts.html#perl_tutorial",
+    "accessed": "2026-10-24",
+    "title": "Talk Abstracts for Spring 2008 : UKUUG's Spring 2008 Conference",
+    "http_status": 200,
+    "resolved_url": "https://web.archive.org/web/20221207023139/https://www.ukuug.org/events/spring2008/talk_abstracts.html",
+    "checked_via": "direct retrieval",
+    "catalogue_ids": [
+      "T035"
+    ]
+  },
+  {
+    "url": "https://www.insightcruises.com/seminar/pw4_seminar.htm",
+    "accessed": "2026-10-23",
+    "title": "Perl Whirl 04 Seminars",
+    "http_status": 200,
+    "resolved_url": "https://www.insightcruises.com/seminar/pw4_seminar.htm",
+    "checked_via": "direct retrieval",
+    "catalogue_ids": [
+      "T107",
+      "T108"
+    ]
+  },
+  {
+    "url": "https://www.insightcruises.com/top/pw4_top.htm",
+    "accessed": "2026-10-23",
+    "title": "Perl Whirl '04 Top",
+    "http_status": 200,
+    "resolved_url": "https://www.insightcruises.com/top/pw4_top.htm",
+    "checked_via": "direct retrieval",
+    "catalogue_ids": [
+      "T021",
+      "T107",
+      "T108"
+    ]
+  },
+  {
+    "url": "https://www.mail-archive.com/london-pm%40lists.dircon.co.uk/msg04715.html",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T004"
+    ],
+    "title": "London.pm List Weekly Summary 2001-04-23",
+    "http_status": 200,
+    "resolved_url": "https://www.mail-archive.com/london-pm%40lists.dircon.co.uk/msg04715.html",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://www.mail-archive.com/london.pm%40london.pm.org/msg04789.html",
+    "accessed": "2026-10-23",
+    "title": "Idiotic Perl",
+    "http_status": 200,
+    "resolved_url": "https://www.mail-archive.com/london.pm%40london.pm.org/msg04789.html",
+    "checked_via": "direct retrieval",
+    "catalogue_ids": [
+      "T105"
+    ]
+  },
+  {
+    "url": "https://www.mail-archive.com/london.pm%40london.pm.org/msg05602.html",
+    "accessed": "2026-10-23",
+    "title": "Re: Buffy... Wow",
+    "http_status": 200,
+    "resolved_url": "https://www.mail-archive.com/london.pm%40london.pm.org/msg05602.html",
+    "checked_via": "direct retrieval",
+    "catalogue_ids": [
+      "T105",
+      "T106"
+    ]
+  },
+  {
+    "url": "https://www.mail-archive.com/london.pm%40london.pm.org/msg07017.html",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T010"
+    ],
+    "title": "[ANNOUNCE] Reminder: tech meet, punting",
+    "http_status": 200,
+    "resolved_url": "https://www.mail-archive.com/london.pm%40london.pm.org/msg07017.html",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://www.mail-archive.com/london.pm%40london.pm.org/msg07060.html",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T010"
+    ],
+    "title": "London.pm List Weekly Summary 2002-05-13",
+    "http_status": 200,
+    "resolved_url": "https://www.mail-archive.com/london.pm%40london.pm.org/msg07060.html",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://www.mail-archive.com/london.pm%40london.pm.org/msg07955.html",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T011"
+    ],
+    "checked_via": "web search/open result or corroborating archive pointer; see entry notes"
+  },
+  {
+    "url": "https://www.mail-archive.com/london.pm%40london.pm.org/msg17976.html",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T043"
+    ],
+    "title": "Re: London.pm Technical Meeting 30th July 2009",
+    "http_status": 200,
+    "resolved_url": "https://www.mail-archive.com/london.pm%40london.pm.org/msg17976.html",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://www.perl.com/pub/2000/10/yapc-europe.html/",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T001"
+    ],
+    "checked_via": "web search/open result or corroborating archive pointer; see entry notes"
+  },
+  {
+    "url": "https://www.yapceurope.org/2001/talks.html",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T007"
+    ],
+    "title": "YAPC::Europe 2001: Yet Another Perl Conference",
+    "http_status": 200,
+    "resolved_url": "https://www.yapceurope.org/2001/talks.html",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://www.yapceurope.org/2001/talks.html#22",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T006"
+    ],
+    "title": "YAPC::Europe 2001: Yet Another Perl Conference",
+    "http_status": 200,
+    "resolved_url": "https://www.yapceurope.org/2001/talks.html",
+    "checked_via": "direct retrieval"
+  },
+  {
+    "url": "https://www.yapceurope.org/2006/talk/main.html",
+    "accessed": "2026-10-23",
+    "catalogue_ids": [
+      "T029",
+      "T030",
+      "T031"
+    ],
+    "title": "YAPC::Europe::2006 - Birmingham, UK - 30th August, 31st August & 1st September",
+    "http_status": 200,
+    "resolved_url": "https://www.yapceurope.org/2006/talk/main.html",
+    "checked_via": "direct retrieval"
+  }
+]
