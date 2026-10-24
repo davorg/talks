@@ -14,6 +14,11 @@ archive-status fields retain the pre-import classification for provenance.
 
 ## Start here
 
+- [Slides and video recovery checklist](media-recovery.md) — 32 discovered
+  media/material links, two further archival leads, and an appendix of 38
+  existing archive references. The [CSV tracker](media-recovery.csv) includes
+  status and recovered-file columns. Source/programme links can help with
+  descriptions too.
 - [Missing presentations: review checklist](review.md) — **90 candidate
   presentations**, with checkboxes, dates, event/location, evidence, media links,
   and questions. This is the main file to read and annotate.
