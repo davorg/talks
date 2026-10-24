@@ -41,6 +41,7 @@ class Talks {
   }
 
   method build() {
+    $tt->context->stash->set('archive_stats', $schema->archive_statistics);
     $self->copy_static;
     $self->build_index;
     $self->build_years;

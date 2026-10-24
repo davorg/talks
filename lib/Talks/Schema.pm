@@ -14,6 +14,28 @@ __PACKAGE__->load_namespaces;
 # Created by DBIx::Class::Schema::Loader v0.07051 @ 2024-01-25 20:33:55
 # DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:9ZCNqCJs5EaEwmTHbse7Jg
 
+sub archive_statistics {
+  my $self = shift;
+  my $totals = $self->resultset('Presentation')->search(undef, {
+    join => { event => 'year' },
+    select => [
+      { count => '*' },
+      { count => { distinct => 'me.talk_id' } },
+      { min => 'year.year' },
+      { max => 'year.year' },
+    ],
+    as => [qw(presentations talks first_year last_year)],
+  })->single;
+
+  my $first = $totals->get_column('first_year');
+  my $last = $totals->get_column('last_year');
+  return {
+    presentations => $totals->get_column('presentations'),
+    talks => $totals->get_column('talks'),
+    years => defined $first ? ($last - $first || 1) : 0,
+  };
+}
+
 sub get_schema {
   die "Please set TALKS_DB_FILE\n"           unless $ENV{TALKS_DB_FILE};
   die "$ENV{TALKS_DB_FILE} does not exist\n" unless -e $ENV{TALKS_DB_FILE};

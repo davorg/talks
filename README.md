@@ -133,6 +133,11 @@ indexes, renders event/type/talk detail pages, then writes `sitemap.xml`. There
 are no individual year detail pages. The homepage queries recent presentations
 and recently added talks; additions are ordered by descending database ID.
 
+The shared header refreshes its presentation count, distinct presented-talk
+count and year span from the database on every build. The span runs from the
+earliest to latest event year represented by a presentation, including entries
+whose exact day is unknown. A nonempty single-year archive displays one year.
+
 The archive has **80 talks and 115 presentations** after the confirmed
 historical backfill. See the [import result](research/talk-backfill-2026-10-23/import-result.md)
 for all research IDs and their database records.
