@@ -50,6 +50,7 @@ create table talk (
 create table presentation (
   id integer not null primary key,
   datetime datetime,
+  title text,
   video_url text,
   slide_url text,
   type_id integer not null references type(id),

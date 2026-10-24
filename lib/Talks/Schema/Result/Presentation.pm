@@ -92,6 +92,11 @@ __PACKAGE__->table("presentation");
   data_type: 'boolean'
   is_nullable: 1
 
+=head2 title
+
+  data_type: 'text'
+  is_nullable: 1
+
 =cut
 
 __PACKAGE__->add_columns(
@@ -115,6 +120,8 @@ __PACKAGE__->add_columns(
   { data_type => "text", is_nullable => 1 },
   "has_image",
   { data_type => "boolean", is_nullable => 1 },
+  "title",
+  { data_type => "text", is_nullable => 1 },
 );
 
 =head1 PRIMARY KEY
@@ -162,10 +169,17 @@ __PACKAGE__->belongs_to(
 );
 
 
-# Created by DBIx::Class::Schema::Loader v0.07053 @ 2025-04-28 15:33:22
-# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:fdvg94ih68JP/SzCoZ9CXw
+# Created by DBIx::Class::Schema::Loader v0.07053 @ 2026-10-24 10:49:42
+# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:OwjHFIGDrCmglngVcVXWJA
 
 
-# You can replace this text with custom code or comments, and it will be preserved on regeneration
+sub display_title {
+  my $self = shift;
+  my $title = $self->title;
+
+  return $title if defined $title && $title =~ /\S/;
+  return $self->talk->title;
+}
+
 __PACKAGE__->meta->make_immutable;
 1;

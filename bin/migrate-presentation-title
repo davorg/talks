@@ -1,0 +1,55 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+
+use DBI;
+use DBD::SQLite::Constants qw(SQLITE_OPEN_READWRITE);
+use FindBin;
+
+my $usage = "Usage: perl $0 [DATABASE]\nDefaults to the repository's db/talks.db.\n";
+if (@ARGV == 1 && $ARGV[0] eq '--help') {
+  print $usage;
+  exit 0;
+}
+die $usage if @ARGV > 1;
+
+my $database = @ARGV ? $ARGV[0] : "$FindBin::Bin/../db/talks.db";
+die "Database does not exist: $database\n" unless -f $database;
+
+my $migration = "$FindBin::Bin/../db/migrations/001-presentation-title.sql";
+open my $fh, '<', $migration or die "Cannot read $migration: $!\n";
+my $sql = do { local $/; <$fh> };
+close $fh or die "Cannot close $migration: $!\n";
+
+my $dbh = DBI->connect("dbi:SQLite:dbname=$database", '', '', {
+  RaiseError => 1,
+  PrintError => 0,
+  sqlite_open_flags => SQLITE_OPEN_READWRITE,
+});
+
+$dbh->begin_work;
+my $changed;
+eval {
+  my $columns = $dbh->selectall_arrayref('PRAGMA table_info(presentation)', { Slice => {} });
+  die "Database has no presentation table\n" unless @$columns;
+  my ($title) = grep { $_->{name} eq 'title' } @$columns;
+  if ($title) {
+    die "presentation.title must be nullable TEXT\n"
+      if uc($title->{type}) ne 'TEXT' || $title->{notnull};
+  } else {
+    $dbh->do($sql);
+    $changed = 1;
+  }
+  $dbh->commit;
+  1;
+} or do {
+  my $error = $@;
+  $dbh->rollback;
+  die $error;
+};
+$dbh->disconnect;
+
+print $changed
+  ? "Added presentation.title to $database\n"
+  : "presentation.title is already present in $database\n";
