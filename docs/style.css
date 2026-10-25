@@ -1,6 +1,7 @@
 
 /* ===== Design tokens ===== */
 :root {
+  color-scheme: light;
   --accent: #1a73e8;
   --card-radius: 14px;
   --shadow-sm: 0 2px 10px rgba(0,0,0,.06);
@@ -9,27 +10,6 @@
   --text: #333;
   --text-muted: #666;
   --footer-bg: #f8f9fa;
-}
-
-/* ===== Optional dark mode (auto, based on user pref) ===== */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --accent:#8ab4f8;
-    --shadow-sm: 0 2px 10px rgba(0,0,0,.4);
-    --shadow-md: 0 6px 22px rgba(0,0,0,.55);
-    --border-subtle: 1px solid rgba(255,255,255,.10);
-    --text: #e6e8ef;
-    --text-muted: #b5b9c6;
-    --footer-bg: #0f1115;
-  }
-
-  body {
-    background:#0f1115; color: var(--text);
-  }
-
-  .footer {
-    border-top-color: rgba(255,255,255,.12)!important;
-  }
 }
 
 /* ===== Global rhythm & typography ===== */
@@ -127,12 +107,10 @@ h1.display-4 {
 
 .nav-scroller .nav a {
   color: inherit;
-  opacity: .8;
-  transition: opacity .15s ease, color .15s ease, text-underline-offset .15s ease;
+  transition: color .15s ease, text-underline-offset .15s ease;
 }
 
 .nav-scroller .nav a:hover {
-  opacity: 1;
   color: var(--accent);
   text-decoration: underline;
   text-underline-offset: 6px;
