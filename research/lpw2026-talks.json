@@ -17,7 +17,9 @@
       "duration_minutes": 20,
       "description": "One of the things that makes Perl so useful is that there’s almost always more than one way to solve a problem. But those choices often exist at very different levels of abstraction.\n\nTake databases. At one end, we can construct SQL strings and send them directly to a database. We can move up to DBI, use a query builder, or let something like DBIx::Class represent our database as Perl objects.\n\nThe same thing happens in web development. We can deal directly with HTTP requests and responses, use PSGI/Plack as an abstraction over the web server, build applications with frameworks such as Dancer2 or Mojolicious, and then add further abstractions for routing, templates, configuration and data access.\n\nEvery abstraction hides complexity. That's its job. But every abstraction also introduces its own concepts, assumptions and constraints. Move too far down the stack and you spend your time reinventing solved problems. Move too far up it and you can find yourself fighting a framework — or struggling to understand what it is doing on your behalf.\n\nIn this talk, we'll explore some of the abstraction layers available to modern Perl programmers, concentrating on database and web programming. We'll look at what each layer gives us, what it hides from us, and what it costs us.\n\nThe aim isn't to identify the \"best\" abstraction. It's to get better at recognising the level of abstraction that's appropriate for the problem we're actually trying to solve — and to understand enough about the layers below it that we know what's happening when the abstraction leaks.",
       "talk_id": 81,
-      "presentation_id": 116
+      "presentation_id": 116,
+      "slide_url": "https://docs.google.com/presentation/d/e/2PACX-1vT246hmd-y3PSOpInHB6yJEUX2NWf5SIlnAgBsmAatdGpUJ7LsY1KuBj69ktQ71D4NoaVwcP_G8BwYQ/pub?start=false&loop=false&delayms=3000",
+      "google_docs_code": "2PACX-1vT246hmd-y3PSOpInHB6yJEUX2NWf5SIlnAgBsmAatdGpUJ7LsY1KuBj69ktQ71D4NoaVwcP_G8BwYQ"
     },
     {
       "source_id": 8058,
@@ -31,7 +33,9 @@
       "duration_minutes": 40,
       "description": "The Perl community needs people writing about Perl. The good news is that in 2026, setting up your own Perl blog can be surprisingly easy. GitHub Pages gives us free hosting, Jekyll gives us a simple static-site generator, and GitHub Actions can take care of publishing the site whenever we add a new post.\n\nThis will be a hands-on session. We'll start with a ready-made GitHub repository containing everything you need for a simple Perl blog. You'll make your own copy, configure it and publish it using GitHub Pages. Then we'll create a first post in Markdown and watch GitHub Actions turn it into a live website.\n\nAlong the way, we'll look at how the pieces fit together: Jekyll, themes, RSS feeds, GitHub Actions and, optionally, using your own domain name. We'll also spend some time on the other half of blogging: getting people to read what you've written, by sharing posts in places where Perl programmers — and programmers more generally — are likely to find them.\n\nIf you want to follow along, bring a laptop and a GitHub account. Or you're equally welcome just to watch and try it later.\n\nBy the end of the session, you should have everything you need to run your own Perl blog — and, if you've been following along, you may already have one.\n\nThe Perl community could always use more people writing about Perl. Maybe the next one should be you.",
       "talk_id": 82,
-      "presentation_id": 117
+      "presentation_id": 117,
+      "slide_url": "https://docs.google.com/presentation/d/e/2PACX-1vSffwFqDoIBNG7PsInkgR9npCEZFuii9OCF_lly_ncYQrJ__Gw9bvBYBHDzBsl_t_GL6KxhKts-74_Z/pub?start=false&loop=false&delayms=3000",
+      "google_docs_code": "2PACX-1vSffwFqDoIBNG7PsInkgR9npCEZFuii9OCF_lly_ncYQrJ__Gw9bvBYBHDzBsl_t_GL6KxhKts-74_Z"
     },
     {
       "source_id": 8079,
@@ -46,7 +50,9 @@
       "description": "Twice I promised the second edition of \"Data Munging with Perl\" was coming soon, and twice I was wrong. Five minutes on why it took so long, what’s changed in 25 years of Perl, CPAN and data, and how you can finally buy a copy.",
       "time_source": "Lightning session start time confirmed by Dave Cross",
       "talk_id": 83,
-      "presentation_id": 118
+      "presentation_id": 118,
+      "slide_url": "https://docs.google.com/presentation/d/e/2PACX-1vSgPXxbSsEWRk-9-HuoYIYqqbwDiISGm6K9KAzGym0t_LjjheSlnur5qzUjruYdt9l_8_c5FUanE7dh/pub?start=false&loop=false&delayms=3000",
+      "google_docs_code": "2PACX-1vSgPXxbSsEWRk-9-HuoYIYqqbwDiISGm6K9KAzGym0t_LjjheSlnur5qzUjruYdt9l_8_c5FUanE7dh"
     }
   ]
 }
